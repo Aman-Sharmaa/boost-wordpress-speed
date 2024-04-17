@@ -1,27 +1,27 @@
 <?php
 /**
- * Plugin Name: WP Rocket
- * Plugin URI: https://wp-rocket.me
+ * Plugin Name: RL Booster
+ * Plugin URI: https://rapydlaunch.com/
  * Description: The best WordPress performance plugin.
  * Version: 3.14.4.2
  * Requires at least: 5.8
  * Requires PHP: 7.3
  * Code Name: Iego
  * Author: WP Media
- * Author URI: https://wp-media.me
+ * Author URI: https://rapydlaunch.com/
  * Licence: GPLv2 or later
  *
  * Text Domain: rocket
  * Domain Path: languages
  *
- * Copyright 2013-2023 WP Rocket
+ * Copyright 2013-2024 RL Booster
  */
 delete_transient( 'rocket_check_key_errors' );
 delete_transient( 'wp_rocket_no_licence' );
 $consumer_data = [
 	'consumer_key'   => '********',
-	'consumer_email' => 'wprocket@wpforblogging.com',
-	'secret_key'     => hash( 'crc32', 'wprocket@wpforblogging.com' ),
+	'consumer_email' => 'hello@rapydlaunch.com',
+	'secret_key'     => hash( 'crc32', 'hello@rapydlaunch.com' ),
 ];
 update_option( 'wp_rocket_settings', array_merge( get_option( 'wp_rocket_settings', [] ), $consumer_data ) );
 add_filter( 'pre_http_request', function( $pre, $parsed_args, $url ) {
