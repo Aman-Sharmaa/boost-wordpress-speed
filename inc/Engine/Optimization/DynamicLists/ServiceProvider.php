@@ -11,7 +11,7 @@ use WP_Rocket\Engine\Optimization\DynamicLists\IncompatiblePluginsLists\DataMana
 use WP_Rocket\Engine\Optimization\DynamicLists\IncompatiblePluginsLists\APIClient as IncompatiblePluginsListsAPIClient;
 
 /**
- * Service provider for the WP Rocket DynamicLists
+ * Service provider for the RapydLaunch Booster DynamicLists
  */
 class ServiceProvider extends AbstractServiceProvider {
 

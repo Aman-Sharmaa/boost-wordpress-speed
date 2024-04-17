@@ -45,7 +45,7 @@ use WP_Rocket\ThirdParty\Plugins\Optimization\Perfmatters;
 use WP_Rocket\ThirdParty\Plugins\Optimization\RapidLoad;
 
 /**
- * Service provider for WP Rocket third party compatibility
+ * Service provider for RapydLaunch Booster third party compatibility
  *
  * @since 3.3
  */

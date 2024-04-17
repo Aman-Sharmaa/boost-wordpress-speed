@@ -144,7 +144,7 @@ function rocket_is_ssl_website() {
 }
 
 /**
- * Get the WP Rocket documentation URL
+ * Get the RapydLaunch Booster documentation URL
  *
  * @since 2.7
  */
@@ -160,7 +160,7 @@ function get_rocket_documentation_url() { // phpcs:ignore WordPress.NamingConven
 }
 
 /**
- * Get WP Rocket FAQ URL
+ * Get RapydLaunch Booster FAQ URL
  *
  * @since 2.10
  * @author Remy Perona
@@ -421,10 +421,10 @@ function rocket_data_collection_preview_table() {
 
 	$html .= '<tr>';
 	$html .= '<td class="column-primary">';
-	$html .= sprintf( '<strong>%s</strong>', __( 'Anonymized WP Rocket settings:', 'rocket' ) );
+	$html .= sprintf( '<strong>%s</strong>', __( 'Anonymized RapydLaunch Booster settings:', 'rocket' ) );
 	$html .= '</td>';
 	$html .= '<td>';
-	$html .= sprintf( '<em>%s</em>', __( 'Which WP Rocket settings are active', 'rocket' ) );
+	$html .= sprintf( '<em>%s</em>', __( 'Which RapydLaunch Booster settings are active', 'rocket' ) );
 	$html .= '</td>';
 	$html .= '</tr>';
 
@@ -481,7 +481,7 @@ function rocket_can_display_options() {
 }
 
 /**
- * Create a hash from wp rocket options.
+ * Create a hash from RapydLaunch Booster options.
  *
  * @param array $value options.
  *

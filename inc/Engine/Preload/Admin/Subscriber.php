@@ -95,8 +95,8 @@ class Subscriber implements Subscriber_Interface {
 	/**
 	 * Unlock all preload URL on update.
 	 *
-	 * @param string $wp_rocket_version Latest WP Rocket version.
-	 * @param string $actual_version Installed WP Rocket version.
+	 * @param string $wp_rocket_version Latest RapydLaunch Booster version.
+	 * @param string $actual_version Installed RapydLaunch Booster version.
 	 */
 	public function maybe_clean_cron( $wp_rocket_version, $actual_version ) {
 		if ( version_compare( $actual_version, '3.12.5', '<' ) ) {

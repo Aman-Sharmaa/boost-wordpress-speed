@@ -43,7 +43,7 @@ function rocket_plugin_row_meta( $plugin_meta, $plugin_file ) {
 
 		if ( false !== $update_plugins && isset( $update_plugins->response[ $plugin_file ] ) && empty( $update_plugins->response[ $plugin_file ]->package ) ) {
 
-			$link = '<span class="dashicons dashicons-update rocket-dashicons"></span> <span class="rocket-renew">Renew your licence of WP Rocket to receive access to automatic upgrades and support.</span> <a href="http://wp-rocket.me" target="_blank" class="rocket-purchase">Purchase now</a>.';
+			$link = '<span class="dashicons dashicons-update rocket-dashicons"></span> <span class="rocket-renew">Renew your licence of RapydLaunch Booster to receive access to automatic upgrades and support.</span> <a href="http://wp-rocket.me" target="_blank" class="rocket-purchase">Purchase now</a>.';
 
 			$plugin_meta = array_merge( (array) $link, $plugin_meta );
 		}
@@ -183,7 +183,7 @@ add_action( 'activated_plugin', 'rocket_dismiss_plugin_box' );
 add_action( 'deactivated_plugin', 'rocket_dismiss_plugin_box' );
 
 /**
- * Display a prevention message when enabling or disabling a plugin can be in conflict with WP Rocket
+ * Display a prevention message when enabling or disabling a plugin can be in conflict with RapydLaunch Booster
  *
  * @since 1.3.0
  */
@@ -271,7 +271,7 @@ function rocket_maybe_generate_config_files() {
  * @since 2.11
  * @author Remy Perona
  *
- * @return mixed An array of data, or false if WP Rocket options is not an array
+ * @return mixed An array of data, or false if RapydLaunch Booster options is not an array
  */
 function rocket_analytics_data() {
 	global $wp_version, $is_nginx, $is_apache, $is_iis7, $is_IIS;
@@ -381,7 +381,7 @@ function rocket_analytics_optin() {
 add_action( 'admin_post_rocket_analytics_optin', 'rocket_analytics_optin' );
 
 /**
- * Handle WP Rocket settings import.
+ * Handle RapydLaunch Booster settings import.
  *
  * @since 3.10 disable async_css if both async_css and remove_unused_css are enabled
  * @since 3.0 Hooked on admin_post now

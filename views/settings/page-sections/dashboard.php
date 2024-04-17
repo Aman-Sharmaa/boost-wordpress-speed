@@ -16,7 +16,7 @@
  *         @type string $url   Documentation item URL.
  *         @type string $title Documentation item title.
  *     }
- *     @type object $customer_data WP Rocket customer data.
+ *     @type object $customer_data RapydLaunch Booster customer data.
  * }
  */
 
@@ -37,11 +37,11 @@ defined( 'ABSPATH' ) || exit;
 		<div class="wpr-notice-container">
 			<div class="wpr-notice-supTitle"><?php esc_html_e( 'Congratulations!', 'rocket' ); ?></div>
 			<h2 class="wpr-notice-title">
-			<?php esc_html_e( 'WP Rocket is now activated and already working for you.', 'rocket' ); ?>
+			<?php esc_html_e( 'RapydLaunch Booster  is now activated and already working for you.', 'rocket' ); ?>
 			<br>
 			<?php esc_html_e( 'Your website should be loading faster now!', 'rocket' ); ?>
 			</h2>
-				<div class="wpr-notice-description"><?php esc_html_e( 'To guarantee fast websites, WP Rocket automatically applies 80% of web performance best practices.', 'rocket' ); ?><br> <?php esc_html_e( 'We also enable options that provide immediate benefits to your website.', 'rocket' ); ?></div>
+				<div class="wpr-notice-description"><?php esc_html_e( 'To guarantee fast websites, RapydLaunch Booster automatically applies 80% of web performance best practices.', 'rocket' ); ?><br> <?php esc_html_e( 'We also enable options that provide immediate benefits to your website.', 'rocket' ); ?></div>
 				<div class="wpr-notice-continue"><?php esc_html_e( 'Continue to the options to further optimize your site!', 'rocket' ); ?></div>
 				<a id="wpr-congratulations-notice" class="wpr-notice-close wpr-icon-close rocket-dismiss" href="<?php echo esc_url( wp_nonce_url( admin_url( 'admin-post.php?action=rocket_ignore&box=rocket_activation_notice' ), 'rocket_ignore_rocket_activation_notice' ) ); ?>"><span class="screen-reader-text"><?php esc_html_e( 'Dismiss this notice', 'rocket' ); ?></span></a>
 		</div>
@@ -121,7 +121,7 @@ defined( 'ABSPATH' ) || exit;
 			<?php endif; ?>
 			<?php
 			/**
-			 * Fires after the account data section on the WP Rocket settings dashboard
+			 * Fires after the account data section on the RapydLaunch Booster settings dashboard
 			 *
 			 * @since 3.5
 			 */

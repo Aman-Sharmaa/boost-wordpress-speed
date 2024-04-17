@@ -5,7 +5,7 @@ use WP_Rocket\Admin\Options;
 use WP_Rocket\Admin\Options_Data;
 
 /**
- * Manager for WP Rocket CDN options
+ * Manager for RapydLaunch Booster CDN options
  *
  * @since 3.5
  */
@@ -18,7 +18,7 @@ class CDNOptionsManager {
 	private $options_api;
 
 	/**
-	 * WP Rocket Options instance
+	 * RapydLaunch Booster Options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -28,7 +28,7 @@ class CDNOptionsManager {
 	 * Constructor
 	 *
 	 * @param Options      $options_api WP Options API instance.
-	 * @param Options_Data $options     WP Rocket Options instance.
+	 * @param Options_Data $options     RapydLaunch Booster Options instance.
 	 */
 	public function __construct( Options $options_api, Options_Data $options ) {
 		$this->options_api = $options_api;

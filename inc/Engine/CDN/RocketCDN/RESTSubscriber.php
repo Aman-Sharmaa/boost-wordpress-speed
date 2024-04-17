@@ -20,7 +20,7 @@ class RESTSubscriber implements Subscriber_Interface {
 	private $cdn_options;
 
 	/**
-	 * WP Rocket Options instance
+	 * RapydLaunch Booster Options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -30,7 +30,7 @@ class RESTSubscriber implements Subscriber_Interface {
 	 * Constructor
 	 *
 	 * @param CDNOptionsManager $cdn_options CDNOptionsManager instance.
-	 * @param Options_Data      $options     WP Rocket Options instance.
+	 * @param Options_Data      $options     RapydLaunch Booster Options instance.
 	 */
 	public function __construct( CDNOptionsManager $cdn_options, Options_Data $options ) {
 		$this->cdn_options = $cdn_options;
@@ -119,7 +119,7 @@ class RESTSubscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Enable CDN and add RocketCDN URL to WP Rocket options
+	 * Enable CDN and add RocketCDN URL to RapydLaunch Booster options
 	 *
 	 * @since 3.5
 	 *
@@ -144,7 +144,7 @@ class RESTSubscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Disable the CDN and remove the RocketCDN URL from WP Rocket options
+	 * Disable the CDN and remove the RocketCDN URL from RapydLaunch Booster options
 	 *
 	 * @since 3.5
 	 *

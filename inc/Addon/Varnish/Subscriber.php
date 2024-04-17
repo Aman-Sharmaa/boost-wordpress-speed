@@ -18,7 +18,7 @@ class Subscriber implements Subscriber_Interface {
 	private $varnish;
 
 	/**
-	 * WP Rocket options instance
+	 * RapydLaunch Booster options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -28,7 +28,7 @@ class Subscriber implements Subscriber_Interface {
 	 * Constructor
 	 *
 	 * @param Varnish      $varnish Varnish instance.
-	 * @param Options_Data $options WP Rocket options instance.
+	 * @param Options_Data $options RapydLaunch Booster options instance.
 	 */
 	public function __construct( Varnish $varnish, Options_Data $options ) {
 		$this->varnish = $varnish;

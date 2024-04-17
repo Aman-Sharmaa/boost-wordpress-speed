@@ -58,7 +58,7 @@ class Smush implements Subscriber_Interface {
 	 * @since 3.5.5
 	 *
 	 * @param Options      $options_api WP Options API instance.
-	 * @param Options_Data $options     WP Rocket Options instance.
+	 * @param Options_Data $options     RapydLaunch Booster Options instance.
 	 */
 	public function __construct( Options $options_api, Options_Data $options ) {
 		$this->options_api = $options_api;
@@ -66,7 +66,7 @@ class Smush implements Subscriber_Interface {
 	}
 
 	/**
-	 * Disable WP Rocket lazyload when activating WP Smush and values are already in the database.
+	 * Disable RapydLaunch Booster lazyload when activating WP Smush and values are already in the database.
 	 *
 	 * @since  3.4.2
 	 * @author Soponar Cristina

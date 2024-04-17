@@ -522,7 +522,7 @@ function rocket_set_real_ip_cloudflare() {
 
 	// Let people know that the CF WP plugin is turned on.
 	if ( ! headers_sent() ) {
-		header( 'X-CF-Powered-By: WP Rocket ' . WP_ROCKET_VERSION );
+		header( 'X-CF-Powered-By: RapydLaunch Booster ' . WP_ROCKET_VERSION );
 	}
 }
 
@@ -584,12 +584,12 @@ function do_admin_post_rocket_purge_cloudflare() {
 		$cf_purge_result = [
 			'result'  => 'error',
 			// translators: %s = CloudFare API return message.
-			'message' => sprintf( __( '<strong>WP Rocket:</strong> %s', 'rocket' ), $cf_purge->get_error_message() ),
+			'message' => sprintf( __( '<strong>RapydLaunch Booster:</strong> %s', 'rocket' ), $cf_purge->get_error_message() ),
 		];
 	} else {
 		$cf_purge_result = [
 			'result'  => 'success',
-			'message' => __( '<strong>WP Rocket:</strong> Cloudflare cache successfully purged.', 'rocket' ),
+			'message' => __( '<strong>RapydLaunch Booster:</strong> Cloudflare cache successfully purged.', 'rocket' ),
 		];
 	}
 
@@ -798,7 +798,7 @@ function rocket_varnish_http_purge( $url ) {
 }
 
 /**
- * Display a warning notice if WP Rocket scheduled events are not running properly
+ * Display a warning notice if RapydLaunch Booster scheduled events are not running properly
  *
  * @since 3.5.4 deprecated
  * @since 3.3.7
@@ -855,7 +855,7 @@ function rocket_warning_cron() {
 		return;
 	}
 
-	$message = '<p>' . _n( 'The following scheduled event failed to run. This may indicate the CRON system is not running properly, which can prevent some WP Rocket features from working as intended:', 'The following scheduled events failed to run. This may indicate the CRON system is not running properly, which can prevent some WP Rocket features from working as intended:', count( $events ), 'rocket' ) . '</p>';
+	$message = '<p>' . _n( 'The following scheduled event failed to run. This may indicate the CRON system is not running properly, which can prevent some RapydLaunch Booster features from working as intended:', 'The following scheduled events failed to run. This may indicate the CRON system is not running properly, which can prevent some RapydLaunch Booster features from working as intended:', count( $events ), 'rocket' ) . '</p>';
 
 	$message .= '<ul>';
 

@@ -6,7 +6,7 @@ use WP_Rocket\Admin\Options_Data;
 class Themify extends ThirdpartyTheme {
 
 	/**
-	 * WP Rocket options instance.
+	 * RapydLaunch Booster options instance.
 	 *
 	 * @var Options_Data
 	 */
@@ -22,7 +22,7 @@ class Themify extends ThirdpartyTheme {
 	/**
 	 * Instantiate the class.
 	 *
-	 * @param Options_Data $options WP Rocket options instance.
+	 * @param Options_Data $options RapydLaunch Booster options instance.
 	 */
 	public function __construct( Options_Data $options ) {
 		$this->options = $options;

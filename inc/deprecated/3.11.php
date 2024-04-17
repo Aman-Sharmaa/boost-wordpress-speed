@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Add Yoast SEO sitemap option to WP Rocket default options
+ * Add Yoast SEO sitemap option to RapydLaunch Booster default options
  *
  * @since 2.8
  * @since 3.11.1 deprecated
  *
  * @author Remy Perona
  *
- * @param array $options WP Rocket options array.
- * @return array Updated WP Rocket options array
+ * @param array $options RapydLaunch Booster options array.
+ * @return array Updated RapydLaunch Booster options array
  */
 function rocket_add_yoast_seo_sitemap_option( $options ) {
 	_deprecated_function( __FUNCTION__ . '()', '3.11.1' );
@@ -27,8 +27,8 @@ function rocket_add_yoast_seo_sitemap_option( $options ) {
  *
  * @author Remy Perona
  *
- * @param array $inputs WP Rocket inputs array.
- * @return array Sanitized WP Rocket inputs array
+ * @param array $inputs RapydLaunch Booster inputs array.
+ * @return array Sanitized RapydLaunch Booster inputs array
  */
 function rocket_yoast_seo_sitemap_option_sanitize( $inputs ) {
 	_deprecated_function( __FUNCTION__ . '()', '3.11.1' );
@@ -60,15 +60,15 @@ function rocket_add_yoast_seo_sitemap( $sitemaps ) {
 }
 
 /**
- * Add Yoast SEO option to WP Rocket settings
+ * Add Yoast SEO option to RapydLaunch Booster settings
  *
  * @since 2.8
  * @since 3.11.1 deprecated
  *
  * @author Remy Perona
  *
- * @param array $options WP Rocket settings array.
- * @return array Updated WP Rocket settings array
+ * @param array $options RapydLaunch Booster settings array.
+ * @return array Updated RapydLaunch Booster settings array
  */
 function rocket_sitemap_preload_yoast_seo_option( $options ) {
 	_deprecated_function( __FUNCTION__ . '()', '3.11.1' );
@@ -92,7 +92,7 @@ function rocket_sitemap_preload_yoast_seo_option( $options ) {
 }
 
 /**
- * Clear Kinsta cache when clearing WP Rocket cache
+ * Clear Kinsta cache when clearing RapydLaunch Booster cache
  *
  * @since 3.0
  * @author Remy Perona
@@ -109,7 +109,7 @@ function rocket_clean_kinsta_cache() {
 }
 
 /**
- * Partially clear Kinsta cache when partially clearing WP Rocket cache
+ * Partially clear Kinsta cache when partially clearing RapydLaunch Booster cache
  *
  * @since 3.0
  * @author Remy Perona
@@ -130,7 +130,7 @@ function rocket_clean_kinsta_post_cache( $post ) {
  * @since 3.0.4
  * @author Remy Perona
  *
- * @param string $root WP Rocket root cache path.
+ * @param string $root RapydLaunch Booster root cache path.
  * @param string $lang Current language.
  * @return void
  */
@@ -171,7 +171,7 @@ function rocket_clean_kinsta_cache_url( $url ) {
 }
 
 /**
- * Remove WP Rocket functions on WP core action hooks to prevent triggering a double cache clear.
+ * Remove RapydLaunch Booster functions on WP core action hooks to prevent triggering a double cache clear.
  *
  * @since 3.0
  * @author Remy Perona
@@ -256,7 +256,7 @@ function rocket_rollback() {
 }
 
 /**
- * After a rollback has been done, replace the "return to" link by a link pointing to WP Rocket's tools page.
+ * After a rollback has been done, replace the "return to" link by a link pointing to RapydLaunch Booster's tools page.
  * A link to the plugins page is kept in case the plugin is not reactivated correctly.
  *
  * @since 3.11.5 deprecated
@@ -276,7 +276,7 @@ function rocket_rollback_add_return_link( $update_actions ) {
 
 	$update_actions['plugins_page'] = sprintf(
 		/* translators: 1 and 3 are link openings, 2 is a link closing. */
-		__( '%1$sReturn to WP Rocket%2$s or %3$sgo to Plugins page%2$s', 'rocket' ),
+		__( '%1$sReturn to RapydLaunch Booster%2$s or %3$sgo to Plugins page%2$s', 'rocket' ),
 		'<a href="' . esc_url( admin_url( 'options-general.php?page=' . WP_ROCKET_PLUGIN_SLUG ) . '#tools' ) . '" target="_parent">',
 		'</a>',
 		'<a href="' . esc_url( admin_url( 'plugins.php' ) ) . '" target="_parent">'

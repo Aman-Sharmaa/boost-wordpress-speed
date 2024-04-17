@@ -7,7 +7,7 @@ use WP_Rocket\Engine\Deactivation\DeactivationInterface;
 
 class Manager implements ActivationInterface, DeactivationInterface {
 	/**
-	 * List of WP Rocket capabilities
+	 * List of RapydLaunch Booster capabilities
 	 *
 	 * @var array
 	 */
@@ -25,7 +25,7 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	];
 
 	/**
-	 * Gets the WP Rocket capabilities
+	 * Gets the RapydLaunch Booster capabilities
 	 *
 	 * @since 3.4
 	 *
@@ -54,7 +54,7 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	}
 
 	/**
-	 * Add WP Rocket capabilities to the administrator role
+	 * Add RapydLaunch Booster capabilities to the administrator role
 	 *
 	 * @since 3.4
 	 *
@@ -73,7 +73,7 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	}
 
 	/**
-	 * Remove WP Rocket capabilities from the administrator role
+	 * Remove RapydLaunch Booster capabilities from the administrator role
 	 *
 	 * @since 3.4
 	 *
@@ -104,7 +104,7 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	}
 
 	/**
-	 * Add WP Rocket capabilities to User Role Editor
+	 * Add RapydLaunch Booster capabilities to User Role Editor
 	 *
 	 * @since 3.4
 	 *
@@ -123,7 +123,7 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	}
 
 	/**
-	 * Add WP Rocket as a group in User Role Editor
+	 * Add RapydLaunch Booster as a group in User Role Editor
 	 *
 	 * @since 3.4
 	 *
@@ -132,7 +132,7 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	 */
 	public function add_group_to_ure( $groups ) {
 		$groups['wp_rocket'] = [
-			'caption' => esc_html( 'WP Rocket' ),
+			'caption' => esc_html( 'RapydLaunch Booster' ),
 			'parent'  => 'custom',
 			'level'   => 2,
 		];
@@ -141,13 +141,13 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	}
 
 	/**
-	 * Add WP Rocket as a cap group in Members
+	 * Add RapydLaunch Booster as a cap group in Members
 	 */
 	public function add_cap_group_to_members() {
 		\members_register_cap_group(
 			'wp_rocket',
 			[
-				'label'    => esc_html( 'WP Rocket' ),
+				'label'    => esc_html( 'RapydLaunch Booster' ),
 				'priority' => 42,
 				'caps'     => $this->get_capabilities(),
 			]
@@ -155,7 +155,7 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	}
 
 	/**
-	 * Add WP Rocket capabilities to Members
+	 * Add RapydLaunch Booster capabilities to Members
 	 */
 	public function add_caps_to_members() {
 		foreach ( $this->get_capabilities() as $cap ) {
@@ -164,12 +164,12 @@ class Manager implements ActivationInterface, DeactivationInterface {
 	}
 
 	/**
-	 * Adds WP Rocket capabilities on plugin upgrade
+	 * Adds RapydLaunch Booster capabilities on plugin upgrade
 	 *
 	 * @since 3.6.3
 	 *
-	 * @param string $wp_rocket_version Latest WP Rocket version.
-	 * @param string $actual_version Installed WP Rocket version.
+	 * @param string $wp_rocket_version Latest RapydLaunch Booster version.
+	 * @param string $actual_version Installed RapydLaunch Booster version.
 	 * @return void
 	 */
 	public function add_capabilities_on_upgrade( $wp_rocket_version, $actual_version ) {

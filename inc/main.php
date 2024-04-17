@@ -32,7 +32,7 @@ function rocket_init() {
 	require WP_ROCKET_FUNCTIONS_PATH . 'options.php';
 
 	// Last constants.
-	define( 'WP_ROCKET_PLUGIN_NAME', 'WP Rocket' );
+	define( 'WP_ROCKET_PLUGIN_NAME', 'RapydLaunch Booster' );
 	define( 'WP_ROCKET_PLUGIN_SLUG', sanitize_key( WP_ROCKET_PLUGIN_NAME ) );
 
 	$wp_rocket = new Plugin(
@@ -86,10 +86,10 @@ function rocket_init() {
 		require WP_ROCKET_FRONT_PATH . 'dns-prefetch.php';
 	}
 
-	// You can hook this to trigger any action when WP Rocket is correctly loaded, so, not in AUTOSAVE mode.
+	// You can hook this to trigger any action when RapydLaunch Booster is correctly loaded, so, not in AUTOSAVE mode.
 	if ( rocket_valid_key() ) {
 		/**
-		 * Fires when WP Rocket is correctly loaded
+		 * Fires when RapydLaunch Booster is correctly loaded
 		 *
 		 * @since 1.0
 		*/

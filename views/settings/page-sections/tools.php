@@ -60,7 +60,7 @@ if ( rocket_direct_filesystem()->exists( Logger::get_log_file_path() ) ) {
 			<div class="wpr-title3 wpr-tools-label wpr-icon-rollback"><?php esc_html_e( 'Rollback', 'rocket' ); ?></div>
 			<div class="wpr-field-description">
 				<?php
-				// translators: %s = WP Rocket version number.
+				// translators: %s = RapydLaunch Booster version number.
 				printf( esc_html__( 'Has version %s caused an issue on your website?', 'rocket' ), esc_html( WP_ROCKET_VERSION ) );
 				?>
 				<br><br>
@@ -76,7 +76,7 @@ if ( rocket_direct_filesystem()->exists( Logger::get_log_file_path() ) ) {
 				'link',
 				'rocket_rollback',
 				[
-					// translators: %s = WP Rocket previous version.
+					// translators: %s = RapydLaunch Booster previous version.
 					'label'      => sprintf( __( 'Reinstall version %s', 'rocket' ), WP_ROCKET_LASTVERSION ),
 					'attributes' => [
 						'class' => 'wpr-button wpr-button--icon wpr-button--small wpr-button--red wpr-icon-refresh',

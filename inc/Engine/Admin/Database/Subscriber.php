@@ -19,7 +19,7 @@ class Subscriber implements Subscriber_Interface {
 	private $optimize;
 
 	/**
-	 * WP Rocket Options instance.
+	 * RapydLaunch Booster Options instance.
 	 *
 	 * @since  3.4
 	 *
@@ -31,7 +31,7 @@ class Subscriber implements Subscriber_Interface {
 	 * Constructor
 	 *
 	 * @param Optimization $optimize Optimize instance.
-	 * @param Options_Data $options  WP Rocket options.
+	 * @param Options_Data $options  RapydLaunch Booster options.
 	 */
 	public function __construct( Optimization $optimize, Options_Data $options ) {
 		$this->optimize = $optimize;

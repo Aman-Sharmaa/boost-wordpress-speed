@@ -10,7 +10,7 @@ declare(strict_types=1);
 namespace WP_Rocket\Dependencies\RocketLazyload;
 
 /**
- * A class to provide the methods needed to lazyload images in WP Rocket and Lazyload by WP Rocket
+ * A class to provide the methods needed to lazyload images in RapydLaunch Booster and Lazyload by RapydLaunch Booster
  */
 class Image {
 

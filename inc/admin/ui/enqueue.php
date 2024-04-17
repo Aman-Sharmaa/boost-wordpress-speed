@@ -3,7 +3,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Add the CSS and JS files for WP Rocket options page
+ * Add the CSS and JS files for RapydLaunch Booster options page
  *
  * @since 1.0.0
  */
@@ -18,7 +18,7 @@ function rocket_add_admin_css_js() {
 		'wpr-admin',
 		'rocket_ajax_data',
 		/**
-		 * Filters the data passed to the localize script function for WP Rocket admin JS
+		 * Filters the data passed to the localize script function for RapydLaunch Booster admin JS
 		 *
 		 * @since 3.7.4
 		 *
@@ -41,7 +41,7 @@ function rocket_add_admin_css_js() {
 add_action( 'admin_print_styles-settings_page_' . WP_ROCKET_PLUGIN_SLUG, 'rocket_add_admin_css_js' );
 
 /**
- * Add the CSS and JS files needed by WP Rocket everywhere on admin pages
+ * Add the CSS and JS files needed by RapydLaunch Booster everywhere on admin pages
  *
  * @since 2.1
  */
@@ -67,7 +67,7 @@ for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElemen
 		'ip':false,
 		'property_blacklist': ['$initial_referrer', '$current_url', '$initial_referring_domain', '$referrer', '$referring_domain']
 	} );
-	mixpanel.track( 'WP Rocket', <?php echo wp_json_encode( rocket_analytics_data() ); ?> );
+	mixpanel.track( 'RapydLaunch Booster', <?php echo wp_json_encode( rocket_analytics_data() ); ?> );
 	mixpanel.track( 'Settings Sidebar Display', localStorage.getItem('wpr-show-sidebar') );
 	</script><!-- end Mixpanel -->
 		<?php

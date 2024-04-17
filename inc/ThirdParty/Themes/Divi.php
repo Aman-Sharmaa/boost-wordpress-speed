@@ -22,7 +22,7 @@ class Divi extends ThirdpartyTheme {
 	private $options_api;
 
 	/**
-	 * WP Rocket options instance.
+	 * RapydLaunch Booster options instance.
 	 *
 	 * @var Options_Data
 	 */
@@ -46,7 +46,7 @@ class Divi extends ThirdpartyTheme {
 	 * Instantiate the class
 	 *
 	 * @param Options      $options_api Options API instance.
-	 * @param Options_Data $options     WP Rocket options instance.
+	 * @param Options_Data $options     RapydLaunch Booster options instance.
 	 * @param HTML         $delayjs_html DelayJS HTML class.
 	 * @param UsedCSS      $used_css Used CSS controller instance.
 	 */
@@ -337,7 +337,7 @@ class Divi extends ThirdpartyTheme {
 				'dismiss_button' => 'rocket_divi_notice',
 				'action'         => 'clear_used_css',
 				'message'        =>
-					sprintf( '%1$sWP Rocket:%2$s ', '<strong>', '</strong>' ) . // Splitting it because I think the plugin name is not a translatable string.
+					sprintf( '%1$sRapydLaunch Booster:%2$s ', '<strong>', '</strong>' ) . // Splitting it because I think the plugin name is not a translatable string.
 					esc_html__( 'Your Divi template was updated. Clear the Used CSS if the layout, design or CSS styles were changed.', 'rocket' ),
 			]
 		);

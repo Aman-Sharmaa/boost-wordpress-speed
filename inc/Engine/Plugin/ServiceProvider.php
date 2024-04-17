@@ -4,7 +4,7 @@ namespace WP_Rocket\Engine\Plugin;
 use WP_Rocket\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 /**
- * Service provider for the WP Rocket updates.
+ * Service provider for the RapydLaunch Booster updates.
  */
 class ServiceProvider extends AbstractServiceProvider {
 

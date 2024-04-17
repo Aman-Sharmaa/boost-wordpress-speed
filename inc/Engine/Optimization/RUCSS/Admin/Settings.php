@@ -33,7 +33,7 @@ class Settings {
 	/**
 	 * Creates an instance of the class.
 	 *
-	 * @param Options_Data $options WP Rocket Options instance.
+	 * @param Options_Data $options RapydLaunch Booster Options instance.
 	 * @param Beacon       $beacon Beacon instance.
 	 * @param UsedCSS      $used_css Used CSS table.
 	 */
@@ -44,11 +44,11 @@ class Settings {
 	}
 
 	/**
-	 * Add the RUCSS options to the WP Rocket options array
+	 * Add the RUCSS options to the RapydLaunch Booster options array
 	 *
 	 * @since 3.9
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 *
 	 * @return array
 	 */
@@ -91,7 +91,7 @@ class Settings {
 	}
 
 	/**
-	 * Add Clean used CSS link to WP Rocket admin bar item
+	 * Add Clean used CSS link to RapydLaunch Booster admin bar item
 	 *
 	 * @since 3.9
 	 *
@@ -222,7 +222,7 @@ class Settings {
 		$message = sprintf(
 			// translators: %1$s = plugin name, %2$s = number of seconds.
 			__( '%1$s: Please wait %2$s seconds. The Remove Unused CSS service is processing your pages.', 'rocket' ),
-			'<strong>WP Rocket</strong>',
+			'<strong>RapydLaunch Booster</strong>',
 			'<span id="rocket-rucss-timer">' . $remaining . '</span>'
 		);
 
@@ -271,8 +271,8 @@ class Settings {
 
 		$message = sprintf(
 			// translators: %1$s = plugin name, %2$s = number of URLs, %3$s = number of seconds.
-			__( '%1$s: The Used CSS of your homepage has been processed. WP Rocket will continue to generate Used CSS for up to %2$s URLs per %3$s second(s).', 'rocket' ),
-			'<strong>WP Rocket</strong>',
+			__( '%1$s: The Used CSS of your homepage has been processed. RapydLaunch Booster will continue to generate Used CSS for up to %2$s URLs per %3$s second(s).', 'rocket' ),
+			'<strong>RapydLaunch Booster</strong>',
 			apply_filters( 'rocket_rucss_pending_jobs_cron_rows_count', 100 ),
 			apply_filters( 'rocket_rucss_pending_jobs_cron_interval', MINUTE_IN_SECONDS )
 		);
@@ -342,7 +342,7 @@ class Settings {
 	}
 
 	/**
-	 * Adds the notice end time to WP Rocket localize script data
+	 * Adds the notice end time to RapydLaunch Booster localize script data
 	 *
 	 * @since 3.11
 	 *
@@ -488,17 +488,17 @@ class Settings {
 			return;
 		}
 
-		$main_message = __( "We couldn't generate the used CSS because you're using a nulled version of WP Rocket. You need an active license to use the Remove Unused CSS feature and further improve your website's performance.", 'rocket' );
+		$main_message = __( "We couldn't generate the used CSS because you're using a nulled version of RapydLaunch Booster. You need an active license to use the Remove Unused CSS feature and further improve your website's performance.", 'rocket' );
 		$cta_message  = sprintf(
 			// translators: %1$s = promo percentage.
-			__( 'Click here to get a WP Rocket single license at %1$s off!', 'rocket' ),
+			__( 'Click here to get a RapydLaunch Booster single license at %1$s off!', 'rocket' ),
 			'10%%'
 		);
 
 		$message = sprintf(
 		// translators: %1$s = plugin name, %2$s = opening anchor tag, %3$s = closing anchor tag.
 			"%1\$s: <p>$main_message</p>%2\$s$cta_message%3\$s",
-			'<strong>WP Rocket</strong>',
+			'<strong>RapydLaunch Booster</strong>',
 			'<a href="https://wp-rocket.me/?add-to-cart=191&coupon_code=iamnotapirate10" class="button button-primary" rel="noopener noreferrer" target="_blank">',
 			'</a>'
 		);
@@ -544,7 +544,7 @@ class Settings {
 
 		$main_message = sprintf(
 			// translators: %1$s = <a> open tag, %2$s = </a> closing tag.
-			__( 'It seems a security plugin or the server\'s firewall prevents WP Rocket from accessing the Remove Unused CSS generator. IPs listed %1$shere in our documentation%2$s should be added to your allowlists:', 'rocket' ),
+			__( 'It seems a security plugin or the server\'s firewall prevents RapydLaunch Booster from accessing the Remove Unused CSS generator. IPs listed %1$shere in our documentation%2$s should be added to your allowlists:', 'rocket' ),
 			'<a href="' . esc_url( $firewall_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $firewall_beacon['id'] ) . '" rel="noopener noreferrer" target="_blank">',
 			'</a>'
 		);
@@ -552,7 +552,7 @@ class Settings {
 		$security_message = __( '- In the security plugin, if you are using one', 'rocket' );
 		$firewall_message = __( "- In the server's firewall. Your host can help you with this", 'rocket' );
 
-		$message = "<strong>WP Rocket</strong>: $main_message<ul><li>$security_message</li><li>$firewall_message</li></ul>";
+		$message = "<strong>RapydLaunch Booster</strong>: $main_message<ul><li>$security_message</li><li>$firewall_message</li></ul>";
 
 		rocket_notice_html(
 			[
@@ -595,7 +595,7 @@ class Settings {
 		$message = sprintf(
 		// translators: %1$s = plugin name, %2$s = table name, %3$s = <a> open tag, %4$s = </a> closing tag.
 			$main_message,
-			'<strong>WP Rocket</strong>',
+			'<strong>RapydLaunch Booster</strong>',
 			$this->used_css->get_name(),
 			'<a href="' . $this->get_support_url() . '" target="_blank" rel="noopener">',
 			'</a>'

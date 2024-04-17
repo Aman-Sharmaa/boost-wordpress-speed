@@ -15,7 +15,7 @@ function flush_rocket_htaccess( $remove_rules = false ) { // phpcs:ignore WordPr
 	global $is_apache;
 
 	/**
-	 * Filters disabling of WP Rocket htaccess rules
+	 * Filters disabling of RapydLaunch Booster htaccess rules
 	 *
 	 * @since 3.2.5
 	 *
@@ -47,8 +47,8 @@ function flush_rocket_htaccess( $remove_rules = false ) { // phpcs:ignore WordPr
 	// Check if the file contains the WP rules, before modifying anything.
 	$has_wp_rules = rocket_has_wp_htaccess_rules( $ftmp );
 
-	// Remove the WP Rocket marker.
-	$ftmp = preg_replace( '/\s*# BEGIN WP Rocket.*# END WP Rocket\s*?/isU', PHP_EOL . PHP_EOL, $ftmp );
+	// Remove the RapydLaunch Booster marker.
+	$ftmp = preg_replace( '/\s*# BEGIN RapydLaunch Booster.*# END RapydLaunch Booster\s*?/isU', PHP_EOL . PHP_EOL, $ftmp );
 	$ftmp = ltrim( $ftmp );
 
 	if ( ! $remove_rules ) {
@@ -112,11 +112,11 @@ function rocket_htaccess_rules_test( $rules_name ) {
  * @return string $marker Rules that will be printed
  */
 function get_rocket_htaccess_marker() { // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
-	// Recreate WP Rocket marker.
-	$marker = '# BEGIN WP Rocket v' . WP_ROCKET_VERSION . PHP_EOL;
+	// Recreate RapydLaunch Booster marker.
+	$marker = '# BEGIN RapydLaunch Booster v' . WP_ROCKET_VERSION . PHP_EOL;
 
 	/**
-	 * Add custom rules before rules added by WP Rocket
+	 * Add custom rules before rules added by RapydLaunch Booster
 	 *
 	 * @since 2.6
 	 *
@@ -136,7 +136,7 @@ function get_rocket_htaccess_marker() { // phpcs:ignore WordPress.NamingConventi
 	}
 
 	/**
-	 * Add custom rules after rules added by WP Rocket
+	 * Add custom rules after rules added by RapydLaunch Booster
 	 *
 	 * @since 2.6
 	 *
@@ -144,10 +144,10 @@ function get_rocket_htaccess_marker() { // phpcs:ignore WordPress.NamingConventi
 	*/
 	$marker .= apply_filters( 'after_rocket_htaccess_rules', '' ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 
-	$marker .= '# END WP Rocket' . PHP_EOL;
+	$marker .= '# END RapydLaunch Booster' . PHP_EOL;
 
 	/**
-	 * Filter rules added by WP Rocket in .htaccess
+	 * Filter rules added by RapydLaunch Booster in .htaccess
 	 *
 	 * @since 2.1
 	 *
@@ -540,7 +540,7 @@ function get_rocket_htaccess_files_match() { // phpcs:ignore WordPress.NamingCon
 	$rules = '<IfModule mod_alias.c>' . PHP_EOL;
 		$rules .= '<FilesMatch "\.(html|htm|rtf|rtx|txt|xsd|xsl|xml)$">' . PHP_EOL;
 			$rules .= '<IfModule mod_headers.c>' . PHP_EOL;
-				 $rules .= 'Header set X-Powered-By "WP Rocket/' . WP_ROCKET_VERSION . '"' . PHP_EOL;
+				 $rules .= 'Header set X-Powered-By "RapydLaunch Booster/' . WP_ROCKET_VERSION . '"' . PHP_EOL;
 				 $rules .= 'Header unset Pragma' . PHP_EOL;
 				 $rules .= 'Header append Cache-Control "public"' . PHP_EOL;
 				 $rules .= 'Header unset Last-Modified' . PHP_EOL;
@@ -665,7 +665,7 @@ function rocket_has_wp_htaccess_rules( $content ) {
 }
 
 /**
- * Check if WP Rocket htaccess rules are already present in the file
+ * Check if RapydLaunch Booster htaccess rules are already present in the file
  *
  * @since 3.3.5
  * @author Remy Perona
@@ -685,7 +685,7 @@ function rocket_check_htaccess_rules() {
 
 	$htaccess = rocket_direct_filesystem()->get_contents( $htaccess_file );
 
-	if ( preg_match( '/\s*# BEGIN WP Rocket.*# END WP Rocket\s*?/isU', $htaccess ) ) {
+	if ( preg_match( '/\s*# BEGIN RapydLaunch Booster.*# END RapydLaunch Booster\s*?/isU', $htaccess ) ) {
 		return true;
 	}
 

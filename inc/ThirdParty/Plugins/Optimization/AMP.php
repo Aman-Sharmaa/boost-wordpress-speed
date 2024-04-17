@@ -15,14 +15,14 @@ class AMP implements Subscriber_Interface {
 	const AMP_OPTIONS = 'amp-options';
 
 	/**
-	 * WP Rocket CDN Subscriber.
+	 * RapydLaunch Booster CDN Subscriber.
 	 *
 	 * @var Subscriber_Interface
 	 */
 	private $cdn_subscriber;
 
 	/**
-	 * WP Rocket Options instance
+	 * RapydLaunch Booster Options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -31,8 +31,8 @@ class AMP implements Subscriber_Interface {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data         $options        WP Rocket Options instance.
-	 * @param Subscriber_Interface $cdn_subscriber WP Rocket CDN Subscriber.
+	 * @param Options_Data         $options        RapydLaunch Booster Options instance.
+	 * @param Subscriber_Interface $cdn_subscriber RapydLaunch Booster CDN Subscriber.
 	 */
 	public function __construct( Options_Data $options, Subscriber_Interface $cdn_subscriber ) {
 		$this->options        = $options;
@@ -74,7 +74,7 @@ class AMP implements Subscriber_Interface {
 	 *
 	 * @since  3.5.2
 	 *
-	 * @param  array $value WP Rocket cache_query_strings value.
+	 * @param  array $value RapydLaunch Booster cache_query_strings value.
 	 * @return array
 	 */
 	public function is_amp_compatible_callback( $value ) {

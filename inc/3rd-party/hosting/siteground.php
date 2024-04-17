@@ -61,7 +61,7 @@ function rocket_clean_supercacher() {
 }
 
 /**
- * Clean WP Rocket cache when cleaning SG cache
+ * Clean RapydLaunch Booster cache when cleaning SG cache
  *
  * @return void
  */
@@ -89,7 +89,7 @@ if ( rocket_is_supercacher_active() ) {
 	add_filter( 'rocket_cache_mandatory_cookies', '__return_empty_array', PHP_INT_MAX );
 
 	/**
-	 * Force WP Rocket caching on SG Optimizer versions before 4.0.5.
+	 * Force RapydLaunch Booster caching on SG Optimizer versions before 4.0.5.
 	 *
 	 * @since  3.0.4
 	 * @author Arun Basil Lal

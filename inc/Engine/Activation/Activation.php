@@ -53,7 +53,7 @@ class Activation {
 		}
 
 		// Last constants.
-		define( 'WP_ROCKET_PLUGIN_NAME', 'WP Rocket' );
+		define( 'WP_ROCKET_PLUGIN_NAME', 'RapydLaunch Booster' );
 		define( 'WP_ROCKET_PLUGIN_SLUG', sanitize_key( WP_ROCKET_PLUGIN_NAME ) );
 
 		if ( defined( 'SUNRISE' ) && SUNRISE === 'on' && function_exists( 'domain_mapping_siteurl' ) ) {
@@ -66,14 +66,14 @@ class Activation {
 		require WP_ROCKET_FUNCTIONS_PATH . 'htaccess.php';
 
 		/**
-		 * WP Rocket activation.
+		 * RapydLaunch Booster activation.
 		 *
 		 * @since  3.1.5
 		 */
 		do_action( 'rocket_activation' );
 
 		if ( rocket_valid_key() ) {
-			// Add All WP Rocket rules of the .htaccess file.
+			// Add All RapydLaunch Booster rules of the .htaccess file.
 			flush_rocket_htaccess();
 		}
 
@@ -92,7 +92,7 @@ class Activation {
 		);
 
 		/**
-		 * Fires after WP Rocket is activated
+		 * Fires after RapydLaunch Booster is activated
 		 */
 		do_action( 'rocket_after_activation' );
 	}

@@ -82,7 +82,7 @@ abstract class AbstractWebp {
 	}
 
 	/**
-	 * Tell if WP Rocket uses a CDN for images.
+	 * Tell if RapydLaunch Booster uses a CDN for images.
 	 *
 	 * @since 3.12.6
 	 *
@@ -92,11 +92,11 @@ abstract class AbstractWebp {
 		// Don't use `$this->options_data->get( 'cdn' )` here, we need an up-to-date value when the CDN option changes.
 		$use = get_rocket_option( 'cdn', 0 ) && $this->cdn_subscriber->get_cdn_hosts( [], [ 'all', 'images' ] );
 		/**
-		 * Filter whether WP Rocket is using a CDN for webp images.
+		 * Filter whether RapydLaunch Booster is using a CDN for webp images.
 		 *
 		 * @since 3.4
 		 *
-		 * @param bool $use True if WP Rocket is using a CDN for webp images. False otherwise.
+		 * @param bool $use True if RapydLaunch Booster is using a CDN for webp images. False otherwise.
 		 */
 		return (bool) apply_filters( 'rocket_webp_is_using_cdn', $use );
 	}

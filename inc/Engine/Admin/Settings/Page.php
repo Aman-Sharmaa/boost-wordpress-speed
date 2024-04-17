@@ -9,7 +9,7 @@ use WP_Rocket\Interfaces\Render_Interface;
 use WP_Rocket\Engine\Optimization\DelayJS\Admin\Settings as DelayJSSettings;
 
 /**
- * Registers the admin page and WP Rocket settings.
+ * Registers the admin page and RapydLaunch Booster settings.
  *
  * @since 3.5.5 Moves into the new architecture.
  * @since 3.0
@@ -109,7 +109,7 @@ class Page {
 		$args = array_merge(
 			[
 				'slug'       => 'wprocket',
-				'title'      => 'WP Rocket',
+				'title'      => 'RapydLaunch Booster',
 				'capability' => 'rocket_manage_options',
 			],
 			$args
@@ -209,7 +209,7 @@ class Page {
 	}
 
 	/**
-	 * Enqueues WP Rocket scripts on the settings page
+	 * Enqueues RapydLaunch Booster scripts on the settings page
 	 *
 	 * @since 3.6.1
 	 *
@@ -429,7 +429,7 @@ class Page {
 					'type'              => 'sliding_checkbox',
 					'label'             => __( 'Rocket Analytics', 'rocket' ),
 					// translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
-					'description'       => sprintf( __( 'I agree to share anonymous data with the development team to help improve WP Rocket. %1$sWhat info will we collect?%2$s', 'rocket' ), '<button class="wpr-js-popin">', '</button>' ),
+					'description'       => sprintf( __( 'I agree to share anonymous data with the development team to help improve RapydLaunch Booster. %1$sWhat info will we collect?%2$s', 'rocket' ), '<button class="wpr-js-popin">', '</button>' ),
 					'section'           => 'status',
 					'page'              => 'dashboard',
 					'default'           => 0,
@@ -607,7 +607,7 @@ class Page {
 		$css_section_helper = [];
 
 		if ( rocket_maybe_disable_minify_css() ) {
-			// translators: %1$s = type of minification (HTML, CSS or JS), %2$s = “WP Rocket”.
+			// translators: %1$s = type of minification (HTML, CSS or JS), %2$s = “RapydLaunch Booster”.
 			$css_section_helper[] = sprintf( __( '%1$s Minification is currently activated in <strong>Autoptimize</strong>. If you want to use %2$s’s minification, disable those options in Autoptimize.', 'rocket' ), 'CSS', WP_ROCKET_PLUGIN_NAME );
 		}
 
@@ -633,7 +633,7 @@ class Page {
 						'url' => $files_beacon['url'],
 					],
 					'page'   => 'file_optimization',
-					// translators: %1$s = type of minification (HTML, CSS or JS), %2$s = “WP Rocket”.
+					// translators: %1$s = type of minification (HTML, CSS or JS), %2$s = “RapydLaunch Booster”.
 					'helper' => rocket_maybe_disable_minify_js() ? sprintf( __( '%1$s Minification is currently activated in <strong>Autoptimize</strong>. If you want to use %2$s’s minification, disable those options in Autoptimize.', 'rocket' ), 'JS', WP_ROCKET_PLUGIN_NAME ) : '',
 				],
 			]
@@ -789,7 +789,7 @@ class Page {
 							'label'       => __( 'Load CSS asynchronously', 'rocket' ),
 							'description' => is_plugin_active( 'wp-criticalcss/wp-criticalcss.php' ) ?
 								// translators: %1$s = plugin name.
-								sprintf( _x( 'Load CSS asynchronously is currently handled by the %1$s plugin. If you want to use WP Rocket’s load CSS asynchronously option, disable the %1$s plugin.', 'WP Critical CSS compatibility', 'rocket' ), 'WP Critical CSS' ) :
+								sprintf( _x( 'Load CSS asynchronously is currently handled by the %1$s plugin. If you want to use RapydLaunch Booster’s load CSS asynchronously option, disable the %1$s plugin.', 'WP Critical CSS compatibility', 'rocket' ), 'WP Critical CSS' ) :
 								// translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
 								sprintf( __( 'Generates critical path CSS and loads CSS asynchronously. %1$sMore info%2$s', 'rocket' ), '<a href="' . esc_url( $async_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $async_beacon['id'] ) . '" target="_blank">', '</a>' ),
 							'disabled'    => is_plugin_active( 'wp-criticalcss/wp-criticalcss.php' ) ? 'disabled' : '',
@@ -1054,8 +1054,8 @@ class Page {
 						'url' => $lazyload_beacon['url'],
 					],
 					'page'        => 'media',
-					// translators: %1$s = “WP Rocket”, %2$s = a list of plugin names.
-					'helper'      => ! empty( $disable_lazyload ) ? sprintf( __( 'LazyLoad is currently activated in %2$s. If you want to use WP Rocket’s LazyLoad, disable this option in %2$s.', 'rocket' ), WP_ROCKET_PLUGIN_NAME, $disable_lazyload ) : '',
+					// translators: %1$s = “RapydLaunch Booster”, %2$s = a list of plugin names.
+					'helper'      => ! empty( $disable_lazyload ) ? sprintf( __( 'LazyLoad is currently activated in %2$s. If you want to use RapydLaunch Booster’s LazyLoad, disable this option in %2$s.', 'rocket' ), WP_ROCKET_PLUGIN_NAME, $disable_lazyload ) : '',
 				],
 				'dimensions_section' => [
 					'title'       => __( 'Image Dimensions', 'rocket' ),
@@ -1091,7 +1091,7 @@ class Page {
 					'input_attr'        => [
 						'disabled' => ! empty( $disable_images_lazyload ) ? 1 : 0,
 					],
-					// translators: %1$s = “WP Rocket”, %2$s = a list of plugin names.
+					// translators: %1$s = “RapydLaunch Booster”, %2$s = a list of plugin names.
 					'description'       => ! empty( $disable_images_lazyload ) ? sprintf( __( 'LazyLoad for images is currently activated in %2$s. If you want to use %1$s’s LazyLoad, disable this option in %2$s.', 'rocket' ), WP_ROCKET_PLUGIN_NAME, $disable_images_lazyload ) : '',
 				],
 				'lazyload_iframes' => [
@@ -1116,7 +1116,7 @@ class Page {
 					],
 					'type'              => 'checkbox',
 					'label'             => __( 'Replace YouTube iframe with preview image', 'rocket' ),
-					// translators: %1$s = “WP Rocket”, %2$s = a list of plugin or themes names.
+					// translators: %1$s = “RapydLaunch Booster”, %2$s = a list of plugin or themes names.
 					'description'       => ! empty( $disable_youtube_lazyload ) ? sprintf( __( 'Replace YouTube iframe with preview image is not compatible with %2$s.', 'rocket' ), WP_ROCKET_PLUGIN_NAME, $disable_youtube_lazyload ) : __( 'This can significantly improve your loading time if you have a lot of YouTube videos on a page.', 'rocket' ),
 					'parent'            => 'lazyload_iframes',
 					'section'           => 'lazyload_section',
@@ -1177,7 +1177,7 @@ class Page {
 					'title'       => __( 'Preload Cache', 'rocket' ),
 					'type'        => 'fields_container',
 					// translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
-					'description' => __( 'When you enable preloading WP Rocket will automatically detect your sitemaps and save all URLs to the database. The plugin will make sure that your cache is always preloaded.', 'rocket' ),
+					'description' => __( 'When you enable preloading RapydLaunch Booster will automatically detect your sitemaps and save all URLs to the database. The plugin will make sure that your cache is always preloaded.', 'rocket' ),
 					'help'        => [
 						'id'  => $this->beacon->get_suggest( 'sitemap_preload' ),
 						'url' => $bot_beacon['url'],
@@ -1827,10 +1827,10 @@ class Page {
 					'height' => 51,
 				],
 				'title'             => __( 'Integrate your Cloudflare account with this add-on.', 'rocket' ),
-				'description'       => __( 'Provide your account email, global API key, and domain to use options such as clearing the Cloudflare cache and enabling optimal settings with WP Rocket.', 'rocket' ),
+				'description'       => __( 'Provide your account email, global API key, and domain to use options such as clearing the Cloudflare cache and enabling optimal settings with RapydLaunch Booster.', 'rocket' ),
 				'helper'            => sprintf(
 				// translators: %1$s = opening span tag, %2$s = closing span tag.
-				__( '%1$sPlanning on using Automatic Platform Optimization (APO)?%2$s Just activate the official Cloudflare plugin and configure it. WP Rocket will automatically enable compatibility.', 'rocket' ),
+				__( '%1$sPlanning on using Automatic Platform Optimization (APO)?%2$s Just activate the official Cloudflare plugin and configure it. RapydLaunch Booster will automatically enable compatibility.', 'rocket' ),
 					'<span class="wpr-helper-title">',
 					'</span>'
 				),
@@ -1886,7 +1886,7 @@ class Page {
 							],
 							'title'             => __( 'If Varnish runs on your server, you must activate this add-on.', 'rocket' ),
 							// translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
-							'description'       => sprintf( __( 'Varnish cache will be purged each time WP Rocket clears its cache to ensure content is always up-to-date.<br>%1$sLearn more%2$s', 'rocket' ), '<a href="' . esc_url( $varnish_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $varnish_beacon['id'] ) . '" target="_blank">', '</a>' ),
+							'description'       => sprintf( __( 'Varnish cache will be purged each time RapydLaunch Booster clears its cache to ensure content is always up-to-date.<br>%1$sLearn more%2$s', 'rocket' ), '<a href="' . esc_url( $varnish_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $varnish_beacon['id'] ) . '" target="_blank">', '</a>' ),
 							'section'           => 'one_click',
 							'page'              => 'addons',
 							'settings_page'     => 'varnish',
@@ -1931,7 +1931,7 @@ class Page {
 							// translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
 							'description'       => sprintf(
 							// translators: %1$s and %3$s = opening <a> tag, %2$s = closing </a> tag.
-								__( 'Enable this option if you would like WP Rocket to serve WebP images to compatible browsers. Please note that WP Rocket cannot create WebP images for you. To create WebP images we recommend %1$sImagify%2$s. %3$sMore info%2$s', 'rocket' ),
+								__( 'Enable this option if you would like RapydLaunch Booster to serve WebP images to compatible browsers. Please note that RapydLaunch Booster cannot create WebP images for you. To create WebP images we recommend %1$sImagify%2$s. %3$sMore info%2$s', 'rocket' ),
 								$imagify_link,
 								'</a>',
 								'<a href="' . esc_url( $webp_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $webp_beacon['id'] ) . '" target="_blank" rel="noopener noreferrer">'
@@ -1951,10 +1951,10 @@ class Page {
 
 		if ( defined( 'WP_ROCKET_SUCURI_API_KEY_HIDDEN' ) && WP_ROCKET_SUCURI_API_KEY_HIDDEN ) {
 			// No need to display the dedicated tab if there is nothing to display on it.
-			$description   = __( 'Clear the Sucuri cache when WP Rocket’s cache is cleared.', 'rocket' );
+			$description   = __( 'Clear the Sucuri cache when RapydLaunch Booster’s cache is cleared.', 'rocket' );
 			$settings_page = false;
 		} else {
-			$description   = __( 'Provide your API key to clear the Sucuri cache when WP Rocket’s cache is cleared.', 'rocket' );
+			$description   = __( 'Provide your API key to clear the Sucuri cache when RapydLaunch Booster’s cache is cleared.', 'rocket' );
 			$settings_page = 'sucuri';
 		}
 

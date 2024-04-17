@@ -308,7 +308,7 @@ class Tests {
 
 		if ( ! function_exists( 'rocket_mkdir_p' ) ) {
 			// Uh?
-			$this->set_error( 'WP Rocket not found - page cannot be cached.' );
+			$this->set_error( 'RapydLaunch Booster not found - page cannot be cached.' );
 			return false;
 		}
 
@@ -938,7 +938,7 @@ class Tests {
 			return self::memoize( __FUNCTION__, [], false );
 		}
 
-		$user_agent = preg_match( '#PingdomPageSpeed|DareBoost|Google|PTST|Chrome-Lighthouse|WP Rocket#i', $this->config->get_server_input( 'HTTP_USER_AGENT' ) );
+		$user_agent = preg_match( '#PingdomPageSpeed|DareBoost|Google|PTST|Chrome-Lighthouse|RapydLaunch Booster#i', $this->config->get_server_input( 'HTTP_USER_AGENT' ) );
 
 		return self::memoize( __FUNCTION__, [], (bool) $user_agent );
 	}

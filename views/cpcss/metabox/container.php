@@ -1,6 +1,6 @@
 <?php
 /**
- * Critical path CSS section in WP Rocket metabox.
+ * Critical path CSS section in RapydLaunch Booster metabox.
  *
  * @since 3.6
  *

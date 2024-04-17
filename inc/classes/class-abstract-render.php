@@ -4,7 +4,7 @@ namespace WP_Rocket;
 use WP_Rocket\Interfaces\Render_Interface;
 
 /**
- * Handle rendering of HTML content created by WP Rocket.
+ * Handle rendering of HTML content created by RapydLaunch Booster.
  *
  * @since 3.0
  * @author Remy Perona

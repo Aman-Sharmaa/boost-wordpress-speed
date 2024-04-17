@@ -3,7 +3,7 @@ namespace WP_Rocket\Traits;
 
 trait Config_Updater {
 	/**
-	 * Update htaccess and WP Rocket config file if the option was modified.
+	 * Update htaccess and RapydLaunch Booster config file if the option was modified.
 	 *
 	 * @since 3.1
 	 * @author Remy Perona
@@ -32,7 +32,7 @@ trait Config_Updater {
 	}
 
 	/**
-	 * Sets WP Rocket config file update request
+	 * Sets RapydLaunch Booster config file update request
 	 *
 	 * @since 3.1
 	 * @author Remy Perona

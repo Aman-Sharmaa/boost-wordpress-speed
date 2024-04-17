@@ -5,7 +5,7 @@
  * @since 3.0
  *
  * @param array $data {
- *      @type string $slug WP Rocket slug.
+ *      @type string $slug RapydLaunch Booster slug.
  * }
  */
 
@@ -13,13 +13,13 @@ defined( 'ABSPATH' ) || exit;
 
 settings_errors( $data['slug'] ); ?>
 <div class="wpr-wrap wrap">
-	<h1 class="screen-reader-text"><?php esc_html_e( 'WP Rocket Settings', 'rocket' ); ?></h1>
+	<h1 class="screen-reader-text"><?php esc_html_e( 'RapydLaunch Booster Settings', 'rocket' ); ?></h1>
 	<div class="wpr-body">
 
 		<header class="wpr-Header">
 			<div class="wpr-Header-logo">
 				<img src="https://rapydlaunch.com/static/media/fullLogo.32b6da81845b7b646c33585e60c13ff2.svg" width="163" height="44" alt="Logo RL Booster" class="wpr-Header-logo-desktop">
-				<img src="<?php echo esc_url( WP_ROCKET_ASSETS_IMG_URL . 'picto-wprocket-dark.svg' ); ?>" width="28" height="50" alt="Logo WP Rocket" class="wpr-Header-logo-mobile">
+				<img src="<?php echo esc_url( WP_ROCKET_ASSETS_IMG_URL . 'picto-wprocket-dark.svg' ); ?>" width="28" height="50" alt="Logo RapydLaunch Booster" class="wpr-Header-logo-mobile">
 			</div>
 			<div class="wpr-Header-nav">
 				<?php $this->render_navigation(); ?>
@@ -79,12 +79,12 @@ settings_errors( $data['slug'] ); ?>
 			<p>
 			<?php
 				// translators: %1$s = <strong>, %2$s = </strong>.
-				printf( esc_html__( 'Below is a detailed view of all data WP Rocket will collect %1$sif granted permission.%2$s', 'rocket' ), '<strong>', '</strong>' );
+				printf( esc_html__( 'Below is a detailed view of all data RapydLaunch Booster will collect %1$sif granted permission.%2$s', 'rocket' ), '<strong>', '</strong>' );
 			?>
 			</p>
 			<?php echo rocket_data_collection_preview_table(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Dynamic content is properly escaped in the view. ?>
 			<div class="wpr-Popin-flex">
-				<p><?php esc_html_e( 'WP Rocket will never transmit any domain names or email addresses (except for license validation), IP addresses, or third-party API keys.', 'rocket' ); ?></p>
+				<p><?php esc_html_e( 'RapydLaunch Booster will never transmit any domain names or email addresses (except for license validation), IP addresses, or third-party API keys.', 'rocket' ); ?></p>
 				<div>
 					<button class="wpr-button wpr-button--small wpr-button--icon wpr-icon-check wpr-button--blue"><?php esc_html_e( 'Activate Rocket analytics', 'rocket' ); ?></button>
 				</div>

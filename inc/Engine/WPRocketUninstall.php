@@ -5,7 +5,7 @@ use WP_Rocket\Engine\Optimization\RUCSS\Database\Tables\UsedCSS;
 use WP_Rocket\Engine\Preload\Database\Tables\Cache;
 
 /**
- * Manages the deletion of WP Rocket data and files on uninstall.
+ * Manages the deletion of RapydLaunch Booster data and files on uninstall.
  */
 class WPRocketUninstall {
 
@@ -24,7 +24,7 @@ class WPRocketUninstall {
 	private $config_path;
 
 	/**
-	 * WP Rocket options.
+	 * RapydLaunch Booster options.
 	 *
 	 * @var array
 	 */
@@ -40,7 +40,7 @@ class WPRocketUninstall {
 	];
 
 	/**
-	 * WP Rocket transients.
+	 * RapydLaunch Booster transients.
 	 *
 	 * @var array
 	 */
@@ -76,7 +76,7 @@ class WPRocketUninstall {
 	];
 
 	/**
-	 * WP Rocket scheduled events.
+	 * RapydLaunch Booster scheduled events.
 	 *
 	 * @var array
 	 */
@@ -89,7 +89,7 @@ class WPRocketUninstall {
 	];
 
 	/**
-	 * WP Rocket cache directories.
+	 * RapydLaunch Booster cache directories.
 	 *
 	 * @var array
 	 */
@@ -102,7 +102,7 @@ class WPRocketUninstall {
 	];
 
 	/**
-	 * WP Rocket Post MetaData Entries
+	 * RapydLaunch Booster Post MetaData Entries
 	 *
 	 * @var array
 	 */
@@ -196,7 +196,7 @@ class WPRocketUninstall {
 	}
 
 	/**
-	 * Deletes WP Rocket options, transients and events.
+	 * Deletes RapydLaunch Booster options, transients and events.
 	 *
 	 * @since 3.5.2
 	 * @author Remy Perona
@@ -206,10 +206,10 @@ class WPRocketUninstall {
 	private function delete_plugin_data() {
 		delete_site_transient( 'wp_rocket_update_data' );
 
-		// Delete all user meta related to WP Rocket.
+		// Delete all user meta related to RapydLaunch Booster.
 		delete_metadata( 'user', '', 'rocket_boxes', '', true );
 
-		// Delete all post meta related to WP Rocket.
+		// Delete all post meta related to RapydLaunch Booster.
 		foreach ( $this->post_meta as $post_meta ) {
 			delete_post_meta_by_key( "_rocket_exclude_{$post_meta}" );
 		}
@@ -223,7 +223,7 @@ class WPRocketUninstall {
 	}
 
 	/**
-	 * Deletes all WP Rocket cache files.
+	 * Deletes all RapydLaunch Booster cache files.
 	 *
 	 * @since 3.5.2
 	 * @author Remy Perona
@@ -237,7 +237,7 @@ class WPRocketUninstall {
 	}
 
 	/**
-	 * Deletes all WP Rocket config files.
+	 * Deletes all RapydLaunch Booster config files.
 	 *
 	 * @since 3.5.2
 	 * @author Remy Perona

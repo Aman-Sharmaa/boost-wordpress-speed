@@ -234,7 +234,7 @@ class Beacon extends Abstract_Render implements Subscriber_Interface {
 					[
 						'id'    => '54e6f7e5e4b034c37ea9095f',
 						'url'   => 'https://docs.wp-rocket.me/article/46-how-to-check-if-wp-rocket-is-caching-your-pages/?utm_source=wp_plugin&utm_medium=wp_rocket',
-						'title' => 'How to check if WP Rocket is caching your pages',
+						'title' => 'How to check if RapydLaunch Booster is caching your pages',
 					],
 				],
 				'fr' => [
@@ -261,7 +261,7 @@ class Beacon extends Abstract_Render implements Subscriber_Interface {
 					[
 						'id'    => '568fe9ebc69791436155cd32',
 						'url'   => 'https://fr.docs.wp-rocket.me/article/180-verifier-cache/?utm_source=wp_plugin&utm_medium=wp_rocket',
-						'title' => 'Comment vérifier si WP Rocket met bien en cache vos pages',
+						'title' => 'Comment vérifier si RapydLaunch Booster met bien en cache vos pages',
 					],
 				],
 			],

@@ -14,7 +14,7 @@ use WP_Rocket\Event_Management\Subscriber_Interface;
 class Fonts implements Subscriber_Interface {
 
 	/**
-	 * WP Rocket Options instance.
+	 * RapydLaunch Booster Options instance.
 	 *
 	 * @since 3.6
 	 *
@@ -23,7 +23,7 @@ class Fonts implements Subscriber_Interface {
 	private $options;
 
 	/**
-	 * WP Rocket CDN instance.
+	 * RapydLaunch Booster CDN instance.
 	 *
 	 * @since 3.6
 	 *
@@ -52,8 +52,8 @@ class Fonts implements Subscriber_Interface {
 	 *
 	 * @since  3.6
 	 *
-	 * @param Options_Data $options WP Rocket Options instance.
-	 * @param CDN          $cdn     WP Rocket CDN instance.
+	 * @param Options_Data $options RapydLaunch Booster Options instance.
+	 * @param CDN          $cdn     RapydLaunch Booster CDN instance.
 	 */
 	public function __construct( Options_Data $options, CDN $cdn ) {
 		$this->options = $options;

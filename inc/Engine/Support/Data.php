@@ -13,7 +13,7 @@ class Data {
 	private $options;
 
 	/**
-	 * Array of WP Rocket options to send
+	 * Array of RapydLaunch Booster options to send
 	 *
 	 * @var array
 	 */
@@ -66,10 +66,10 @@ class Data {
 		return [
 			'Website'                  => home_url(),
 			'WordPress Version'        => get_bloginfo( 'version' ),
-			'WP Rocket Version'        => rocket_get_constant( 'WP_ROCKET_VERSION' ),
+			'RapydLaunch Booster Version'        => rocket_get_constant( 'WP_ROCKET_VERSION' ),
 			'Theme'                    => wp_get_theme()->get( 'Name' ),
 			'Plugins Enabled'          => implode( ' - ', rocket_get_active_plugins() ),
-			'WP Rocket Active Options' => implode( ' - ', $active_options ),
+			'RapydLaunch Booster Active Options' => implode( ' - ', $active_options ),
 		];
 	}
 }

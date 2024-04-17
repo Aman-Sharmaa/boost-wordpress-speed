@@ -92,7 +92,7 @@ class Subscriber implements Subscriber_Interface {
 	/**
 	 * Add option on installation.
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 *
 	 * @return array
 	 */

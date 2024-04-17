@@ -239,11 +239,11 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Add the RUCSS options to the WP Rocket options array.
+	 * Add the RUCSS options to the RapydLaunch Booster options array.
 	 *
 	 * @since 3.9
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 *
 	 * @return array
 	 */
@@ -313,7 +313,7 @@ class Subscriber implements Subscriber_Interface {
 					'message' => sprintf(
 						// translators: %1$s = plugin name.
 						__( '%1$s: Used CSS option is not enabled!', 'rocket' ),
-						'<strong>WP Rocket</strong>'
+						'<strong>RapydLaunch Booster</strong>'
 					),
 				]
 			);
@@ -335,7 +335,7 @@ class Subscriber implements Subscriber_Interface {
 				'message' => sprintf(
 					// translators: %1$s = plugin name.
 					__( '%1$s: Used CSS cache cleared!', 'rocket' ),
-					'<strong>WP Rocket</strong>'
+					'<strong>RapydLaunch Booster</strong>'
 				),
 			]
 		);
@@ -373,7 +373,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Add Clean used CSS link to WP Rocket admin bar item
+	 * Add Clean used CSS link to RapydLaunch Booster admin bar item
 	 *
 	 * @since 3.9
 	 *
@@ -480,7 +480,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds the notice end time to WP Rocket localize script data
+	 * Adds the notice end time to RapydLaunch Booster localize script data
 	 *
 	 * @since 3.11
 	 *

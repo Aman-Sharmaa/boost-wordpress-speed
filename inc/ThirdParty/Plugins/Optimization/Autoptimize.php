@@ -9,7 +9,7 @@ use WP_Rocket\Event_Management\Subscriber_Interface;
 
 class Autoptimize implements Subscriber_Interface {
 	/**
-	 * WP Rocket Options instance
+	 * RapydLaunch Booster Options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -18,7 +18,7 @@ class Autoptimize implements Subscriber_Interface {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data $options WP Rocket Options instance.
+	 * @param Options_Data $options RapydLaunch Booster Options instance.
 	 */
 	public function __construct( Options_Data $options ) {
 		$this->options = $options;
@@ -73,7 +73,7 @@ class Autoptimize implements Subscriber_Interface {
 		$message = sprintf(
 		/* Translators: %1$s is an opening <strong> tag; %2$s is a closing </strong> tag */
 			__(
-				'%1$sWP Rocket: %2$sWe have detected that Autoptimize\'s JavaScript Aggregation feature is enabled. WP Rocket\'s Delay JavaScript Execution will not be applied to the file it creates. We suggest disabling %1$sJavaScript Aggregation%2$s to take full advantage of Delay JavaScript Execution.',
+				'%1$sRapydLaunch Booster: %2$sWe have detected that Autoptimize\'s JavaScript Aggregation feature is enabled. RapydLaunch Booster\'s Delay JavaScript Execution will not be applied to the file it creates. We suggest disabling %1$sJavaScript Aggregation%2$s to take full advantage of Delay JavaScript Execution.',
 				'rocket'
 			),
 			'<strong>',
@@ -128,7 +128,7 @@ class Autoptimize implements Subscriber_Interface {
 		$message = sprintf(
 		/* Translators: %1$s is an opening <strong> tag; %2$s is a closing </strong> tag */
 			__(
-				'%1$sWP Rocket: %2$sWe have detected that Autoptimize\'s Aggregate Inline CSS feature is enabled. WP Rocket\'s Load CSS Asynchronously will not work correctly. We suggest disabling %1$sAggregate Inline CSS%2$s to take full advantage of Load CSS Asynchronously Execution.',
+				'%1$sRapydLaunch Booster: %2$sWe have detected that Autoptimize\'s Aggregate Inline CSS feature is enabled. RapydLaunch Booster\'s Load CSS Asynchronously will not work correctly. We suggest disabling %1$sAggregate Inline CSS%2$s to take full advantage of Load CSS Asynchronously Execution.',
 				'rocket'
 			),
 			'<strong>',

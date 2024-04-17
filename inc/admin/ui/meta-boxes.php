@@ -64,7 +64,7 @@ function rocket_cache_options_meta_boxes() {
 
 		foreach ( $cpts as $cpt => $cpt_object ) {
 			$label = $cpt_object->labels->singular_name;
-			add_meta_box( 'rocket_post_exclude', sprintf( __( 'WP Rocket Options', 'rocket' ), $label ), 'rocket_display_cache_options_meta_boxes', $cpt, 'side', 'core' );
+			add_meta_box( 'rocket_post_exclude', sprintf( __( 'RapydLaunch Booster Options', 'rocket' ), $label ), 'rocket_display_cache_options_meta_boxes', $cpt, 'side', 'core' );
 		}
 	}
 }
@@ -137,7 +137,7 @@ function rocket_display_cache_options_meta_boxes() {
 
 		<?php
 		/**
-		 * Fires after WP Rocket’s metabox.
+		 * Fires after RapydLaunch Booster’s metabox.
 		 *
 		 * @since 3.6
 		 */

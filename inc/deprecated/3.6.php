@@ -531,7 +531,7 @@ function set_rocket_wp_cache_define( $turn_it_on ) { // phpcs:ignore WordPress.N
 	$turn_it_on = apply_filters( 'set_rocket_wp_cache_define', $turn_it_on ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 
 	// Get WP_CACHE constant define.
-	$constant = "define('WP_CACHE', $turn_it_on); // Added by WP Rocket";
+	$constant = "define('WP_CACHE', $turn_it_on); // Added by RapydLaunch Booster";
 
 	// Lets find out if the constant WP_CACHE is defined or not.
 	$wp_cache_found = preg_match( '/^define\(\s*\'WP_CACHE\',(.*)\)/m', $config_file_contents, $matches );
@@ -714,7 +714,7 @@ function rocket_stop_generate_caching_files_on_wpengine() {
 }
 
 /**
- * Run WP Rocket preload bot after purged the Varnish cache via WP Engine Hosting.
+ * Run RapydLaunch Booster preload bot after purged the Varnish cache via WP Engine Hosting.
  *
  * @deprecated 3.6.1
  * @since 2.6.4
@@ -787,14 +787,14 @@ function rocket_get_wp_engine_cdn_domain() {
 }
 
 /**
- * Add WP Rocket footprint on Buffer.
+ * Add RapydLaunch Booster footprint on Buffer.
  *
  * @deprecated 3.6.1
  * @since 3.3.2
  *
  * @param string $buffer HTML content.
  *
- * @return string HTML with WP Rocket footprint.
+ * @return string HTML with RapydLaunch Booster footprint.
  */
 function rocket_wpengine_add_footprint( $buffer ) {
 	_deprecated_function( __FUNCTION__ . '()', '3.6.1', '\WP_Rocket\ThirdParty\Hostings\WPEngine::add_footprint' );
@@ -852,7 +852,7 @@ function rocket_deactivation() {
 	rocket_delete_config_file();
 
 	if ( ! count( glob( WP_ROCKET_CONFIG_PATH . '*.php' ) ) ) {
-		// Delete All WP Rocket rules of the .htaccess file.
+		// Delete All RapydLaunch Booster rules of the .htaccess file.
 		flush_rocket_htaccess( true );
 
 		// Remove WP_CACHE constant in wp-config.php.
@@ -881,7 +881,7 @@ function rocket_deactivation() {
 	wp_clear_scheduled_hook( 'rocket_cache_dir_size_check' );
 
 	/**
-	 * WP Rocket deactivation.
+	 * RapydLaunch Booster deactivation.
 	 *
 	 * @since  3.1.5
 	 * @author Grégory Viguier
@@ -905,7 +905,7 @@ function rocket_activation() {
 	$wp_cache   = new WPCache( $filesystem );
 
 	// Last constants.
-	define( 'WP_ROCKET_PLUGIN_NAME', 'WP Rocket' );
+	define( 'WP_ROCKET_PLUGIN_NAME', 'RapydLaunch Booster' );
 	define( 'WP_ROCKET_PLUGIN_SLUG', sanitize_key( WP_ROCKET_PLUGIN_NAME ) );
 
 	if ( defined( 'SUNRISE' ) && SUNRISE === 'on' && function_exists( 'domain_mapping_siteurl' ) ) {
@@ -918,7 +918,7 @@ function rocket_activation() {
 	require WP_ROCKET_FUNCTIONS_PATH . 'htaccess.php';
 
 	if ( rocket_valid_key() ) {
-		// Add All WP Rocket rules of the .htaccess file.
+		// Add All RapydLaunch Booster rules of the .htaccess file.
 		flush_rocket_htaccess();
 
 		// Add WP_CACHE constant in wp-config.php.
@@ -935,7 +935,7 @@ function rocket_activation() {
 	rocket_generate_advanced_cache_file( new AdvancedCache( WP_ROCKET_PATH . 'views/cache/', $filesystem ) );
 
 	/**
-	 * WP Rocket activation.
+	 * RapydLaunch Booster activation.
 	 *
 	 * @since  3.1.5
 	 * @author Grégory Viguier
@@ -955,7 +955,7 @@ function rocket_activation() {
 		[
 			'timeout'    => 0.01,
 			'blocking'   => false,
-			'user-agent' => 'WP Rocket/Homepage Preload',
+			'user-agent' => 'RapydLaunch Booster/Homepage Preload',
 			'sslverify'  => apply_filters( 'https_local_ssl_verify', false ), // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 		]
 	);

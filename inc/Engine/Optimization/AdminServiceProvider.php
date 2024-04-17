@@ -4,7 +4,7 @@ namespace WP_Rocket\Engine\Optimization;
 use WP_Rocket\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 /**
- * Service provider for the WP Rocket optimizations
+ * Service provider for the RapydLaunch Booster optimizations
  *
  * @since 3.5.3
  */

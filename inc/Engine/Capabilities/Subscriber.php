@@ -4,7 +4,7 @@ namespace WP_Rocket\Engine\Capabilities;
 use WP_Rocket\Event_Management\Subscriber_Interface;
 
 /**
- * Manage WP Rocket custom capabilities
+ * Manage RapydLaunch Booster custom capabilities
  *
  * @since 3.4
  */
@@ -58,7 +58,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds WP Rocket capabilities to User Role Editor
+	 * Adds RapydLaunch Booster capabilities to User Role Editor
 	 *
 	 * @since 3.4
 	 *
@@ -70,7 +70,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds WP Rocket as a group in User Role Editor
+	 * Adds RapydLaunch Booster as a group in User Role Editor
 	 *
 	 * @since 3.4
 	 *
@@ -82,14 +82,14 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Add WP Rocket as a cap group in Members
+	 * Add RapydLaunch Booster as a cap group in Members
 	 */
 	public function add_cap_group_to_members() {
 		$this->capabilities->add_cap_group_to_members();
 	}
 
 	/**
-	 * Add WP Rocket capabilities to Members
+	 * Add RapydLaunch Booster capabilities to Members
 	 */
 	public function add_caps_to_members() {
 		$this->capabilities->add_caps_to_members();
@@ -97,12 +97,12 @@ class Subscriber implements Subscriber_Interface {
 
 
 	/**
-	 * Adds WP Rocket capabilities on plugin upgrade
+	 * Adds RapydLaunch Booster capabilities on plugin upgrade
 	 *
 	 * @since 3.6.3
 	 *
-	 * @param string $wp_rocket_version Latest WP Rocket version.
-	 * @param string $actual_version Installed WP Rocket version.
+	 * @param string $wp_rocket_version Latest RapydLaunch Booster version.
+	 * @param string $actual_version Installed RapydLaunch Booster version.
 	 * @return void
 	 */
 	public function add_capabilities_on_upgrade( $wp_rocket_version, $actual_version ) {

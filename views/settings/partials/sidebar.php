@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 	<a href="<?php echo esc_url( 'https://wp-rocket.me/blog/how-to-test-wordpress-site-performance-measure-speed-results/?utm_source=wp_plugin&utm_medium=wp_rocket' ); ?>" target="_blank" rel="noopener" class="wpr-Sidebar-notice-link"><?php esc_html_e( 'Read our guide', 'rocket' ); ?></a>
 </div>
 <div class="wpr-Sidebar-notice">
-	<p><?php esc_html_e( 'Learn about optimal WP Rocket settings for mobile.', 'rocket' ); ?></p>
+	<p><?php esc_html_e( 'Learn about optimal RapydLaunch Booster settings for mobile.', 'rocket' ); ?></p>
 	<?php
 	$rocket_mobile_doc_url = false !== strpos( get_locale(), 'fr' )
 			? 'https://fr.docs.wp-rocket.me/article/1432-comment-ameliorer-score-mobile-pagespeed/?utm_source=wp_plugin&utm_medium=wp_rocket'

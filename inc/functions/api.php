@@ -32,7 +32,7 @@ function rocket_cdn_url( $url, $zone = [ 'all' ] ) {
  * Get all CNAMES.
  *
  * @since 2.1
- * @since 3.0 Don't check for WP Rocket CDN option activated to be able to use the function on Hosting with CDN auto-enabled.
+ * @since 3.0 Don't check for RapydLaunch Booster CDN option activated to be able to use the function on Hosting with CDN auto-enabled.
  *
  * @param  string $zone List of zones. Default is 'all'.
  * @return array        List of CNAMES

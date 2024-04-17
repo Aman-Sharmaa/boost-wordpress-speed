@@ -219,7 +219,7 @@ class Admin {
 	}
 
 	/**
-	 * Add Regenerate Critical CSS link to WP Rocket admin bar item
+	 * Add Regenerate Critical CSS link to RapydLaunch Booster admin bar item
 	 *
 	 * @since 3.6
 	 *

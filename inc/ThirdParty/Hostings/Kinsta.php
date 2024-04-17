@@ -37,7 +37,7 @@ class Kinsta implements Subscriber_Interface {
 	}
 
 	/**
-	 * Clear Kinsta cache when clearing WP Rocket cache
+	 * Clear Kinsta cache when clearing RapydLaunch Booster cache
 	 *
 	 * @since 3.0
 	 *
@@ -52,7 +52,7 @@ class Kinsta implements Subscriber_Interface {
 	}
 
 	/**
-	 * Partially clear Kinsta cache when partially clearing WP Rocket cache
+	 * Partially clear Kinsta cache when partially clearing RapydLaunch Booster cache
 	 *
 	 * @since 3.0
 	 *
@@ -69,7 +69,7 @@ class Kinsta implements Subscriber_Interface {
 	 *
 	 * @since 3.0.4
 	 *
-	 * @param string $root WP Rocket root cache path.
+	 * @param string $root RapydLaunch Booster root cache path.
 	 * @param string $lang Current language.
 	 * @return void
 	 */
@@ -107,7 +107,7 @@ class Kinsta implements Subscriber_Interface {
 	}
 
 	/**
-	 * Remove WP Rocket functions on WP core action hooks to prevent triggering a double cache clear.
+	 * Remove RapydLaunch Booster functions on WP core action hooks to prevent triggering a double cache clear.
 	 *
 	 * @since 3.0
 	 *
@@ -155,7 +155,7 @@ class Kinsta implements Subscriber_Interface {
 				'status'      => 'error',
 				'dismissible' => '',
 				// translators: %1$s = opening link tag, %2$s = closing link tag.
-				'message'     => sprintf( __( 'Your installation seems to be missing core Kinsta files managing Cache clearing, which will prevent your Kinsta installation and WP Rocket from working correctly. Please get in touch with Kinsta support through your %1$sMyKinsta%2$s account to resolve this issue.', 'rocket' ), '<a href="https://my.kinsta.com/login/" target="_blank">', '</a>' ),
+				'message'     => sprintf( __( 'Your installation seems to be missing core Kinsta files managing Cache clearing, which will prevent your Kinsta installation and RapydLaunch Booster from working correctly. Please get in touch with Kinsta support through your %1$sMyKinsta%2$s account to resolve this issue.', 'rocket' ), '<a href="https://my.kinsta.com/login/" target="_blank">', '</a>' ),
 			]
 		);
 	}

@@ -573,7 +573,7 @@ function get_rocket_cdn_reject_files() {
 }
 
 /**
- * Conflict with Envira Gallery: changes the URL argument if using WP Rocket CDN and Envira
+ * Conflict with Envira Gallery: changes the URL argument if using RapydLaunch Booster CDN and Envira
  *
  * @since 2.6.5
  * @since 3.4
@@ -599,7 +599,7 @@ function rocket_cdn_resize_image_args_on_envira_gallery( $args ) {
 }
 
 /**
- * Conflict with Envira Gallery: changes the resized URL if using WP Rocket CDN and Envira
+ * Conflict with Envira Gallery: changes the resized URL if using RapydLaunch Booster CDN and Envira
  *
  * @since 2.6.5
  * @since 3.4
@@ -668,7 +668,7 @@ if ( class_exists( 'WR2X_Admin' ) ) :
 endif;
 
 /**
- * Conflict with Avada theme and WP Rocket CDN
+ * Conflict with Avada theme and RapydLaunch Booster CDN
  *
  * @since 2.6.1
  * @deprecated 3.4

@@ -58,9 +58,9 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Add the delay JS options to the WP Rocket options array
+	 * Add the delay JS options to the RapydLaunch Booster options array
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 *
 	 * @return array
 	 * @since 3.7
@@ -70,10 +70,10 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Add the delay JS  exclusions options to the WP Rocket options array
+	 * Add the delay JS  exclusions options to the RapydLaunch Booster options array
 	 * based on the default items in the list.
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 *
 	 * @return array
 	 * @since 3.13

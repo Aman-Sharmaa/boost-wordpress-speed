@@ -34,7 +34,7 @@ abstract class RESTWP implements RESTWPInterface {
 	private $cpcss_service;
 
 	/**
-	 * WP Rocket options instance.
+	 * RapydLaunch Booster options instance.
 	 *
 	 * @var Options_Data
 	 */

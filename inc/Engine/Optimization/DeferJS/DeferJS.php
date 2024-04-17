@@ -33,11 +33,11 @@ class DeferJS {
 	}
 
 	/**
-	 * Add the exclude defer JS option in WP Rocket options array
+	 * Add the exclude defer JS option in RapydLaunch Booster options array
 	 *
 	 * @since 3.8
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 * @return array
 	 */
 	public function add_option( array $options ) : array {

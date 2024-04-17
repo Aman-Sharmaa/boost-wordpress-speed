@@ -3,7 +3,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Add a message about Imagify on the "Upload New Media" screen and WP Rocket options page.
+ * Add a message about Imagify on the "Upload New Media" screen and RapydLaunch Booster options page.
  *
  * @since 2.7
  * @deprecated 3.2
@@ -12,7 +12,7 @@ function rocket_imagify_notice() {
 	_deprecated_function( __FUNCTION__, '3.2' );
 	$current_screen = get_current_screen();
 
-	// Add the notice only on the "WP Rocket" settings, "Media Library" & "Upload New Media" screens.
+	// Add the notice only on the "RapydLaunch Booster" settings, "Media Library" & "Upload New Media" screens.
 	if ( 'admin_notices' === current_filter() && ( isset( $current_screen ) && 'settings_page_wprocket' !== $current_screen->base ) ) {
 		return;
 	}
@@ -112,7 +112,7 @@ endif;
 
 if ( ! function_exists( 'do_rocket_bot_cache_json' ) ) :
 	/**
-	 * Run WP Rocket Bot when a post is added, updated or deleted
+	 * Run RapydLaunch Booster Bot when a post is added, updated or deleted
 	 *
 	 * @since 1.3.2
 	 * @deprecated 3.2
@@ -147,7 +147,7 @@ if ( ! function_exists( 'rocket_process_sitemap' ) ) {
 		 * @param array $args Arguments for the request.
 		 */
 		$args = apply_filters( 'rocket_preload_sitemap_request_args', array(
-			'user-agent' => 'WP Rocket/Sitemaps',
+			'user-agent' => 'RapydLaunch Booster/Sitemaps',
 			'sslverify'  => apply_filters( 'https_local_ssl_verify', true ),
 		) );
 
@@ -266,7 +266,7 @@ if ( ! function_exists( 'rocket_sitemap_preload_running' ) ) {
 if ( ! function_exists( 'run_rocket_bot_after_clean_post' ) ) {
 	/**
 	 * Actions to be done after the purge cache files of a post
-	 * By Default, this hook call the WP Rocket Bot (cache json)
+	 * By Default, this hook call the RapydLaunch Booster Bot (cache json)
 	 *
 	 * @deprecated 3.2
 	 * @since 1.3.0
@@ -298,7 +298,7 @@ if ( ! function_exists( 'run_rocket_bot_after_clean_post' ) ) {
 		// Remove dates archives page and author page to preload cache.
 		$purge_urls = array_diff( $purge_urls, $purge_dates, $purge_author );
 
-		// Create json file and run WP Rocket Bot.
+		// Create json file and run RapydLaunch Booster Bot.
 		$json_encode_urls = '["' . implode( '","', array_filter( $purge_urls ) ) . '"]';
 		if ( rocket_put_content( WP_ROCKET_PATH . 'cache.json', $json_encode_urls ) ) {
 			global $do_rocket_bot_cache_json;
@@ -310,7 +310,7 @@ if ( ! function_exists( 'run_rocket_bot_after_clean_post' ) ) {
 if ( ! function_exists( 'run_rocket_bot_after_clean_term' ) ) {
 	/**
 	 * Actions to be done after the purge cache files of a term
-	 * By Default, this hook call the WP Rocket Bot (cache json)
+	 * By Default, this hook call the RapydLaunch Booster Bot (cache json)
 	 *
 	 * @deprecated 3.2
 	 * @since 2.6.8
@@ -324,7 +324,7 @@ if ( ! function_exists( 'run_rocket_bot_after_clean_term' ) ) {
 		// Add Homepage URL to $purge_urls for bot crawl.
 		array_push( $purge_urls, get_rocket_i18n_home_url( $lang ) );
 
-		// Create json file and run WP Rocket Bot.
+		// Create json file and run RapydLaunch Booster Bot.
 		$json_encode_urls = '["' . implode( '","', array_filter( $purge_urls ) ) . '"]';
 		if ( rocket_put_content( WP_ROCKET_PATH . 'cache.json', $json_encode_urls ) ) {
 			global $do_rocket_bot_cache_json;

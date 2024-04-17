@@ -79,7 +79,7 @@ class IEConditionalSubscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Replaces WP Rocket placeholders with IE conditional tags.
+	 * Replaces RapydLaunch Booster placeholders with IE conditional tags.
 	 *
 	 * @since  3.1
 	 *

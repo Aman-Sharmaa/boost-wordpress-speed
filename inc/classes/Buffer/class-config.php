@@ -2,7 +2,7 @@
 namespace WP_Rocket\Buffer;
 
 /**
- * Configuration class for WP Rocket cache
+ * Configuration class for RapydLaunch Booster cache
  *
  * @since 3.3
  * @author Remy Perona
@@ -36,7 +36,7 @@ class Config {
 	 * @param array $args {
 	 *     An array of arguments.
 	 *
-	 *     @type string $config_dir_path WP Rocket config directory path.
+	 *     @type string $config_dir_path RapydLaunch Booster config directory path.
 	 *     @type array  $server          Values of $_SERVER to use for the tests. Default is $_SERVER.
 	 * }
 	 */

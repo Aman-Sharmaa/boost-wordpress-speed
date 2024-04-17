@@ -68,7 +68,7 @@ class AdvancedCache implements ActivationInterface, DeactivationInterface {
 	 *
 	 * @since 3.6.3
 	 *
-	 * @param int $sites_number Number of WP Rocket config files found.
+	 * @param int $sites_number Number of RapydLaunch Booster config files found.
 	 * @return void
 	 */
 	public function update_advanced_cache( $sites_number = 0 ) {

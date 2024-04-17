@@ -4,7 +4,7 @@ namespace WP_Rocket\Engine\CDN;
 use WP_Rocket\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 /**
- * Service provider for WP Rocket CDN
+ * Service provider for RapydLaunch Booster CDN
  *
  * @since 3.5.5
  */

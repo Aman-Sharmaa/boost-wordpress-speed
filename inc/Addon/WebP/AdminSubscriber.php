@@ -52,7 +52,7 @@ class AdminSubscriber extends AbstractWebp implements Subscriber_Interface {
 	}
 
 	/**
-	 * Modifies the WebP section description of WP Rocket settings.
+	 * Modifies the WebP section description of RapydLaunch Booster settings.
 	 *
 	 * @since 3.4
 	 *
@@ -90,7 +90,7 @@ class AdminSubscriber extends AbstractWebp implements Subscriber_Interface {
 			// 5, 8.
 			$cache_webp_field['description'] = sprintf(
 			// Translators: %1$s = plugin name(s), %2$s = opening <a> tag, %3$s = closing </a> tag.
-				esc_html( _n( 'You are using %1$s to serve WebP images so you do not need to enable this option. %2$sMore info%3$s %4$s If you prefer to have WP Rocket serve WebP for you instead, please disable WebP display in %1$s.', 'You are using %1$s to serve WebP images so you do not need to enable this option. %2$sMore info%3$s %4$s If you prefer to have WP Rocket serve WebP for you instead, please disable WebP display in %1$s.', count( $serving ), 'rocket' ) ),
+				esc_html( _n( 'You are using %1$s to serve WebP images so you do not need to enable this option. %2$sMore info%3$s %4$s If you prefer to have RapydLaunch Booster serve WebP for you instead, please disable WebP display in %1$s.', 'You are using %1$s to serve WebP images so you do not need to enable this option. %2$sMore info%3$s %4$s If you prefer to have RapydLaunch Booster serve WebP for you instead, please disable WebP display in %1$s.', count( $serving ), 'rocket' ) ),
 				esc_html( wp_sprintf_l( '%l', $serving ) ),
 				'<a href="' . esc_url( $webp_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $webp_beacon['id'] ) . '" target="_blank" rel="noopener noreferrer">',
 				'</a>',
@@ -112,7 +112,7 @@ class AdminSubscriber extends AbstractWebp implements Subscriber_Interface {
 				// 6.
 				$cache_webp_field['description'] = sprintf(
 				// Translators: %1$s = plugin name(s), %2$s = opening <a> tag, %3$s = closing </a> tag.
-					esc_html( _n( 'You are using %1$s to convert images to WebP. If you want WP Rocket to serve them for you, activate this option. %2$sMore info%3$s', 'You are using %1$s to convert images to WebP. If you want WP Rocket to serve them for you, activate this option. %2$sMore info%3$s', count( $serving_not_compatible ), 'rocket' ) ),
+					esc_html( _n( 'You are using %1$s to convert images to WebP. If you want RapydLaunch Booster to serve them for you, activate this option. %2$sMore info%3$s', 'You are using %1$s to convert images to WebP. If you want RapydLaunch Booster to serve them for you, activate this option. %2$sMore info%3$s', count( $serving_not_compatible ), 'rocket' ) ),
 					esc_html( wp_sprintf_l( '%l', $serving_not_compatible ) ),
 					'<a href="' . esc_url( $webp_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $webp_beacon['id'] ) . '" target="_blank" rel="noopener noreferrer">',
 					'</a>'
@@ -124,7 +124,7 @@ class AdminSubscriber extends AbstractWebp implements Subscriber_Interface {
 			// 7.
 			$cache_webp_field['description'] = sprintf(
 			// Translators: %1$s = plugin name(s), %2$s = opening <a> tag, %3$s = closing </a> tag.
-				esc_html( _n( 'You are using %1$s to convert images to WebP. WP Rocket will create separate cache files to serve your WebP images. %2$sMore info%3$s', 'You are using %1$s to convert images to WebP. WP Rocket will create separate cache files to serve your WebP images. %2$sMore info%3$s', count( $serving_not_compatible ), 'rocket' ) ),
+				esc_html( _n( 'You are using %1$s to convert images to WebP. RapydLaunch Booster will create separate cache files to serve your WebP images. %2$sMore info%3$s', 'You are using %1$s to convert images to WebP. RapydLaunch Booster will create separate cache files to serve your WebP images. %2$sMore info%3$s', count( $serving_not_compatible ), 'rocket' ) ),
 				esc_html( wp_sprintf_l( '%l', $serving_not_compatible ) ),
 				'<a href="' . esc_url( $webp_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $webp_beacon['id'] ) . '" target="_blank" rel="noopener noreferrer">',
 				'</a>'
@@ -138,7 +138,7 @@ class AdminSubscriber extends AbstractWebp implements Subscriber_Interface {
 				// 3.
 				$cache_webp_field['description'] = sprintf(
 				// Translators: %1$s = plugin name(s), %2$s = opening <a> tag, %3$s = closing </a> tag.
-					esc_html( _n( 'You are using %1$s to convert images to WebP. If you want WP Rocket to serve them for you, activate this option. %2$sMore info%3$s', 'You are using %1$s to convert images to WebP. If you want WP Rocket to serve them for you, activate this option. %2$sMore info%3$s', count( $creating ), 'rocket' ) ),
+					esc_html( _n( 'You are using %1$s to convert images to WebP. If you want RapydLaunch Booster to serve them for you, activate this option. %2$sMore info%3$s', 'You are using %1$s to convert images to WebP. If you want RapydLaunch Booster to serve them for you, activate this option. %2$sMore info%3$s', count( $creating ), 'rocket' ) ),
 					esc_html( wp_sprintf_l( '%l', $creating ) ),
 					'<a href="' . esc_url( $webp_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $webp_beacon['id'] ) . '" target="_blank" rel="noopener noreferrer">',
 					'</a>'
@@ -150,7 +150,7 @@ class AdminSubscriber extends AbstractWebp implements Subscriber_Interface {
 			// 4.
 			$cache_webp_field['description'] = sprintf(
 			// Translators: %1$s = plugin name(s), %2$s = opening <a> tag, %3$s = closing </a> tag.
-				esc_html( _n( 'You are using %1$s to convert images to WebP. WP Rocket will create separate cache files to serve your WebP images. %2$sMore info%3$s', 'You are using %1$s to convert images to WebP. WP Rocket will create separate cache files to serve your WebP images. %2$sMore info%3$s', count( $creating ), 'rocket' ) ),
+				esc_html( _n( 'You are using %1$s to convert images to WebP. RapydLaunch Booster will create separate cache files to serve your WebP images. %2$sMore info%3$s', 'You are using %1$s to convert images to WebP. RapydLaunch Booster will create separate cache files to serve your WebP images. %2$sMore info%3$s', count( $creating ), 'rocket' ) ),
 				esc_html( wp_sprintf_l( '%l', $creating ) ),
 				'<a href="' . esc_url( $webp_beacon['url'] ) . '" data-beacon-article="' . esc_attr( $webp_beacon['id'] ) . '" target="_blank" rel="noopener noreferrer">',
 				'</a>'
@@ -182,7 +182,7 @@ class AdminSubscriber extends AbstractWebp implements Subscriber_Interface {
 		}
 
 		// 2.
-		$cache_webp_field['description'] = esc_html__( 'WP Rocket will create separate cache files to serve your WebP images.', 'rocket' );
+		$cache_webp_field['description'] = esc_html__( 'RapydLaunch Booster will create separate cache files to serve your WebP images.', 'rocket' );
 
 		return $cache_webp_field;
 	}

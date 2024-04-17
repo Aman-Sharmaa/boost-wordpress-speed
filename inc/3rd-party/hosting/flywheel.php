@@ -50,7 +50,7 @@ function rocket_varnish_ip_on_flywheel( $varnish_ip ) {
 add_filter( 'rocket_varnish_ip', 'rocket_varnish_ip_on_flywheel' );
 
 /**
- * Remove WP Rocket functions on WP core action hooks to prevent triggering a double cache clear.
+ * Remove RapydLaunch Booster functions on WP core action hooks to prevent triggering a double cache clear.
  *
  * @since  3.3.1
  * @author Remy Perona

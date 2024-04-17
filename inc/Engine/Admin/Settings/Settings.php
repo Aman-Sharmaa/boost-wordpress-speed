@@ -482,7 +482,7 @@ class Settings {
 	 *
 	 * @since 3.5.1
 	 *
-	 * @param array $input Array of values for the WP Rocket settings option.
+	 * @param array $input Array of values for the RapydLaunch Booster settings option.
 	 * @return array Sanitized array for the DNS Prefetch sub-option
 	 */
 	private function sanitize_dns_prefetch( array $input ) {

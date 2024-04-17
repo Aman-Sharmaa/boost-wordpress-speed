@@ -93,7 +93,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Add data attribute to WP Rocket deactivation link for the modal
+	 * Add data attribute to RapydLaunch Booster deactivation link for the modal
 	 *
 	 * @since 3.11.1
 	 *

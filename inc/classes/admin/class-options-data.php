@@ -49,7 +49,7 @@ class Options_Data {
 	 */
 	public function get( $key, $default = '' ) {
 		/**
-		 * Pre-filter any WP Rocket option before read
+		 * Pre-filter any RapydLaunch Booster option before read
 		 *
 		 * @since 2.5
 		 *
@@ -72,7 +72,7 @@ class Options_Data {
 		}
 
 		/**
-		 * Filter any WP Rocket option after read
+		 * Filter any RapydLaunch Booster option after read
 		 *
 		 * @since 2.5
 		 *

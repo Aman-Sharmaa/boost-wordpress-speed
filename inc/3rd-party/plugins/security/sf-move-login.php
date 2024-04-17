@@ -58,7 +58,7 @@ function rocket_activate_sfml() {
 	if ( defined( 'SFML_VERSION' ) ) {
 		add_filter( 'rocket_cache_reject_uri', 'rocket_add_sfml_exclude_pages', 2, 2 );
 
-		// Update the WP Rocket rules on the .htaccess.
+		// Update the RapydLaunch Booster rules on the .htaccess.
 		flush_rocket_htaccess();
 
 		// Regenerate the config file.
@@ -76,7 +76,7 @@ function rocket_deactivate_sfml() {
 	if ( defined( 'SFML_VERSION' ) ) {
 		remove_filter( 'rocket_cache_reject_uri', 'rocket_add_sfml_exclude_pages' );
 
-		// Update the WP Rocket rules on the .htaccess.
+		// Update the RapydLaunch Booster rules on the .htaccess.
 		flush_rocket_htaccess();
 
 		// Regenerate the config file.

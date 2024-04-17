@@ -3,14 +3,14 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Add All in One SEO Sitemap option to WP Rocket options
+ * Add All in One SEO Sitemap option to RapydLaunch Booster options
  *
  * @since 3.12 deprecated
  * @since 2.8
  * @author Remy Perona
  *
- * @param Array $options Array of WP Rocket options.
- * @return Array Updated array of WP Rocket options
+ * @param Array $options Array of RapydLaunch Booster options.
+ * @return Array Updated array of RapydLaunch Booster options
  */
 function rocket_add_all_in_one_seo_sitemap_option( $options ) {
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -37,14 +37,14 @@ function rocket_all_in_one_seo_sitemap_option_sanitize( $inputs ) {
 }
 
 /**
- * Add All in One SEO Sitemap sub-option on WP Rocket settings page
+ * Add All in One SEO Sitemap sub-option on RapydLaunch Booster settings page
  *
  * @since 3.12 deprecated
  * @since 2.8
  * @author Remy Perona
  *
- * @param Array $options Array of WP Rocket options.
- * @return Array Updated array of WP Rocket options
+ * @param Array $options Array of RapydLaunch Booster options.
+ * @return Array Updated array of RapydLaunch Booster options
  */
 function rocket_sitemap_preload_all_in_one_seo_option( $options ) {
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -67,13 +67,13 @@ function rocket_sitemap_preload_all_in_one_seo_option( $options ) {
 }
 
 /**
- * Add sitemap option to WP Rocket settings
+ * Add sitemap option to RapydLaunch Booster settings
  *
  * @since 3.12 deprecated
  * @since 3.2.3
  *
- * @param array $options WP Rocket settings array.
- * @return array Updated WP Rocket settings array
+ * @param array $options RapydLaunch Booster settings array.
+ * @return array Updated RapydLaunch Booster settings array
  */
 function rank_math_rocket_sitemap_preload_option( $options ) { // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -96,13 +96,13 @@ function rank_math_rocket_sitemap_preload_option( $options ) { // phpcs:ignore W
 }
 
 /**
- * Add sitemap option to WP Rocket default options
+ * Add sitemap option to RapydLaunch Booster default options
  *
  * @since 3.12 deprecated
  * @since 3.2.3
  *
- * @param array $options WP Rocket options array.
- * @return array Updated WP Rocket options array
+ * @param array $options RapydLaunch Booster options array.
+ * @return array Updated RapydLaunch Booster options array
  */
 function rank_math_rocket_add_sitemap_option( $options ) { // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -117,8 +117,8 @@ function rank_math_rocket_add_sitemap_option( $options ) { // phpcs:ignore WordP
  * @since 3.12 deprecated
  * @since 3.2.3
  *
- * @param array $inputs WP Rocket inputs array.
- * @return array Sanitized WP Rocket inputs array
+ * @param array $inputs RapydLaunch Booster inputs array.
+ * @return array Sanitized RapydLaunch Booster inputs array
  */
 function rank_math_rocket_sitemap_option_sanitize( $inputs ) { // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -128,15 +128,15 @@ function rank_math_rocket_sitemap_option_sanitize( $inputs ) { // phpcs:ignore W
 }
 
 /**
- * Add SEOPress sitemap option to WP Rocket default options
+ * Add SEOPress sitemap option to RapydLaunch Booster default options
  *
  * @since 3.12 deprecated
  * @since 3.3.6
  * @author Benjamin Denis
  * @source ./yoast-seo.php (Remy Perona)
  *
- * @param array $options WP Rocket options array.
- * @return array Updated WP Rocket options array
+ * @param array $options RapydLaunch Booster options array.
+ * @return array Updated RapydLaunch Booster options array
  */
 function rocket_add_seopress_sitemap_option( $options ) {
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -153,8 +153,8 @@ function rocket_add_seopress_sitemap_option( $options ) {
  * @author Benjamin Denis
  * @source ./yoast-seo.php (Remy Perona)
  *
- * @param array $inputs WP Rocket inputs array.
- * @return array Sanitized WP Rocket inputs array
+ * @param array $inputs RapydLaunch Booster inputs array.
+ * @return array Sanitized RapydLaunch Booster inputs array
  */
 function rocket_seopress_sitemap_option_sanitize( $inputs ) {
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -164,15 +164,15 @@ function rocket_seopress_sitemap_option_sanitize( $inputs ) {
 }
 
 /**
- * Add SEOPress option to WP Rocket settings
+ * Add SEOPress option to RapydLaunch Booster settings
  *
  * @since 3.12 deprecated
  * @since 3.3.6
  * @author Benjamin Denis
  * @source ./yoast-seo.php (Remy Perona)
  *
- * @param array $options WP Rocket settings array.
- * @return array Updated WP Rocket settings array
+ * @param array $options RapydLaunch Booster settings array.
+ * @return array Updated RapydLaunch Booster settings array
  */
 function rocket_sitemap_preload_seopress_option( $options ) {
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -195,15 +195,15 @@ function rocket_sitemap_preload_seopress_option( $options ) {
 }
 
 /**
- * Adds a sitemap option in WP Rocket for The SEO Framework.
+ * Adds a sitemap option in RapydLaunch Booster for The SEO Framework.
  *
  * @since 3.12 deprecated
  * @since 3.2.1
  * @author Sybre Waaijer
  * @source ./yoast-seo.php (Remy Perona)
  *
- * @param array $options WP Rocket options array.
- * @return array Updated WP Rocket options array
+ * @param array $options RapydLaunch Booster options array.
+ * @return array Updated RapydLaunch Booster options array
  */
 function rocket_add_tsf_seo_sitemap_option( $options ) {
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -220,8 +220,8 @@ function rocket_add_tsf_seo_sitemap_option( $options ) {
  * @author Sybre Waaijer
  * @source ./yoast-seo.php (Remy Perona)
  *
- * @param array $inputs WP Rocket inputs array.
- * @return array Sanitized WP Rocket inputs array
+ * @param array $inputs RapydLaunch Booster inputs array.
+ * @return array Sanitized RapydLaunch Booster inputs array
  */
 function rocket_tsf_seo_sitemap_option_sanitize( $inputs ) {
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -231,15 +231,15 @@ function rocket_tsf_seo_sitemap_option_sanitize( $inputs ) {
 }
 
 /**
- * Add The SEO Framework SEO option to WP Rocket settings
+ * Add The SEO Framework SEO option to RapydLaunch Booster settings
  *
  * @since 3.12 deprecated
  * @since 3.2.1
  * @author Sybre Waaijer
  * @source ./yoast-seo.php (Remy Perona)
  *
- * @param array $options WP Rocket settings array.
- * @return array Updated WP Rocket settings array
+ * @param array $options RapydLaunch Booster settings array.
+ * @return array Updated RapydLaunch Booster settings array
  */
 function rocket_sitemap_add_tsf_sitemap_to_preload_option( $options ) {
 	_deprecated_function( __FUNCTION__, '3.12' );
@@ -262,10 +262,10 @@ function rocket_sitemap_add_tsf_sitemap_to_preload_option( $options ) {
 }
 
 /**
- * Add Jetpack option to WP Rocket options
+ * Add Jetpack option to RapydLaunch Booster options
  *
- * @param Array $options WP Rocket options array.
- * @return Array Updated WP Rocket options array
+ * @param Array $options RapydLaunch Booster options array.
+ * @return Array Updated RapydLaunch Booster options array
  * @since 2.8
  * @author Remy Perona
  *
@@ -315,10 +315,10 @@ function rocket_add_jetpack_sitemap($sitemaps)
 }
 
 /**
- * Add Jetpack sub-option to WP Rocket settings page
+ * Add Jetpack sub-option to RapydLaunch Booster settings page
  *
- * @param Array $options WP Rocket options array.
- * @return Array Updated WP Rocket options array
+ * @param Array $options RapydLaunch Booster options array.
+ * @return Array Updated RapydLaunch Booster options array
  * @since 2.8
  * @author Remy Perona
  *
@@ -384,7 +384,7 @@ function rocket_activate_jetpack_cookie_law()
 		add_filter('rocket_htaccess_mod_rewrite', '__return_false', 76);
 		add_filter('rocket_cache_mandatory_cookies', 'rocket_add_jetpack_cookie_law_mandatory_cookie');
 
-		// Update the WP Rocket rules on the .htaccess file.
+		// Update the RapydLaunch Booster rules on the .htaccess file.
 		flush_rocket_htaccess();
 
 		// Regenerate the config file.
@@ -407,7 +407,7 @@ function rocket_remove_jetpack_cookie_law_mandatory_cookie()
 	remove_filter('rocket_htaccess_mod_rewrite', '__return_false', 76);
 	remove_filter('rocket_cache_mandatory_cookies', '_rocket_add_eu_cookie_law_mandatory_cookie');
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.

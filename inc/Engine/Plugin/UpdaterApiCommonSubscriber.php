@@ -103,7 +103,7 @@ class UpdaterApiCommonSubscriber implements Subscriber_Interface {
 	/**
 	 * Get the user agent to use when requesting the API.
 	 *
-	 * @return string WP Rocket user agent
+	 * @return string RapydLaunch Booster user agent
 	 */
 	public function get_rocket_user_agent() {
 		$consumer_key   = $this->get_current_option( 'consumer_key' );

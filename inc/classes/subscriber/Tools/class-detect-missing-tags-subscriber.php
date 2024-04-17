@@ -145,7 +145,7 @@ class Detect_Missing_Tags_Subscriber implements Subscriber_Interface {
 			$notice[ $i ] = '<code>' . esc_html( $tag ) . '</code>';
 		}
 
-		$msg  = '<b>' . __( 'WP Rocket: ', 'rocket' ) . '</b>';
+		$msg  = '<b>' . __( 'RapydLaunch Booster: ', 'rocket' ) . '</b>';
 		$msg .= sprintf(
 		/* translators: %1$s = missing tags; */
 			esc_html( _n( 'Failed to detect the following requirement in your theme: closing %1$s.', 'Failed to detect the following requirements in your theme: closing %1$s.', count( $notice ), 'rocket' ) ),

@@ -41,7 +41,7 @@ class Subscriber implements Subscriber_Interface {
 	 * Creates an instance of the Cloudflare Subscriber.
 	 *
 	 * @param Cloudflare           $cloudflare Cloudflare instance.
-	 * @param Options_Data         $options WP Rocket options instance.
+	 * @param Options_Data         $options RapydLaunch Booster options instance.
 	 * @param Options              $options_api Options instance.
 	 * @param AuthFactoryInterface $auth_factory Authentication factory.
 	 */
@@ -229,7 +229,7 @@ class Subscriber implements Subscriber_Interface {
 				'result'  => 'error',
 				'message' => sprintf(
 					// translators: %1$s = <strong>, %2$s = </strong>, %3$s = CloudFare API return message.
-					__( '%1$sWP Rocket:%2$s %3$s', 'rocket' ),
+					__( '%1$sRapydLaunch Booster:%2$s %3$s', 'rocket' ),
 					'<strong>',
 					'</strong>',
 					$connection->get_error_message()
@@ -247,7 +247,7 @@ class Subscriber implements Subscriber_Interface {
 			'result'  => 'success',
 			'message' => sprintf(
 				// translators: %1$s = <strong>, %2$s = </strong>.
-				__( '%1$sWP Rocket:%2$s Cloudflare cache successfully purged.', 'rocket' ),
+				__( '%1$sRapydLaunch Booster:%2$s Cloudflare cache successfully purged.', 'rocket' ),
 				'<strong>',
 				'</strong>'
 			),
@@ -258,7 +258,7 @@ class Subscriber implements Subscriber_Interface {
 				'result'  => 'error',
 				'message' => sprintf(
 					// translators: %1$s = <strong>, %2$s = </strong>, %3$s = CloudFare API return message.
-					__( '%1$sWP Rocket:%2$s %3$s', 'rocket' ),
+					__( '%1$sRapydLaunch Booster:%2$s %3$s', 'rocket' ),
 					'<strong>',
 					'</strong>',
 					$cf_purge->get_error_message()
@@ -487,7 +487,7 @@ class Subscriber implements Subscriber_Interface {
 
 		$result = [
 			'pre' => sprintf(
-				'%1$sWP Rocket:%2$s',
+				'%1$sRapydLaunch Booster:%2$s',
 				'<strong>',
 				'</strong>&nbsp;'
 			),
@@ -533,7 +533,7 @@ class Subscriber implements Subscriber_Interface {
 		$result = [
 			'pre' => sprintf(
 				// translators: %1$s = strong opening tag, %2$s = strong closing tag.
-				__( '%1$sWP Rocket:%2$s Optimal settings activated for Cloudflare:', 'rocket' ),
+				__( '%1$sRapydLaunch Booster:%2$s Optimal settings activated for Cloudflare:', 'rocket' ),
 				'<strong>',
 				'</strong>'
 			) . '<br>',
@@ -542,7 +542,7 @@ class Subscriber implements Subscriber_Interface {
 		if ( 0 === (int) $value['cloudflare_auto_settings'] ) {
 			$result['pre'] = sprintf(
 				// translators: %1$s = strong opening tag, %2$s = strong closing tag.
-				__( '%1$sWP Rocket:%2$s Optimal settings deactivated for Cloudflare, reverted to previous settings:', 'rocket' ),
+				__( '%1$sRapydLaunch Booster:%2$s Optimal settings deactivated for Cloudflare, reverted to previous settings:', 'rocket' ),
 				'<strong>',
 				'</strong>'
 			) . '<br>';
@@ -658,7 +658,7 @@ class Subscriber implements Subscriber_Interface {
 		$connection = $this->cloudflare->check_connection( $value['cloudflare_zone_id'] );
 
 		if ( is_wp_error( $connection ) ) {
-			add_settings_error( 'general', 'cloudflare_api_key_invalid', __( 'WP Rocket: ', 'rocket' ) . '</strong>' . $connection->get_error_message() . '<strong>', 'error' );
+			add_settings_error( 'general', 'cloudflare_api_key_invalid', __( 'RapydLaunch Booster: ', 'rocket' ) . '</strong>' . $connection->get_error_message() . '<strong>', 'error' );
 		}
 
 		return $value;

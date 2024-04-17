@@ -11,7 +11,7 @@ use WP_Rocket\Event_Management\Subscriber_Interface;
  */
 class Subscriber implements Subscriber_Interface {
 	/**
-	 * WP Rocket Options instance
+	 * RapydLaunch Booster Options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -27,7 +27,7 @@ class Subscriber implements Subscriber_Interface {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data $options WP Rocket Options instance.
+	 * @param Options_Data $options RapydLaunch Booster Options instance.
 	 * @param CDN          $cdn     CDN instance.
 	 */
 	public function __construct( Options_Data $options, CDN $cdn ) {

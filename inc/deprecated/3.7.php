@@ -20,9 +20,9 @@ class_alias( '\WP_Rocket\Engine\Heartbeat\HeartbeatSubscriber', '\WP_Rocket\Subs
  * @since 3.7 deprecated
  * @since 2.6.11
  *
- * @param array $html_options WP Rocket options array.
+ * @param array $html_options RapydLaunch Booster options array.
  *
- * @return array Updated WP Rocket options array.
+ * @return array Updated RapydLaunch Booster options array.
  */
 function rocket_deactivate_inline_js_on_wp_serveur( $html_options ) {
 	_deprecated_function( __FUNCTION__ . '()', '3.7' );
@@ -39,7 +39,7 @@ function rocket_deactivate_inline_js_on_wp_serveur( $html_options ) {
  * @since 3.7 deprecated
  * @since 2.2.4
  *
- * @param array $html_options An array of WP Rocket options.
+ * @param array $html_options An array of RapydLaunch Booster options.
  *
  * @return array Array without the inline js minify option
  */
@@ -53,7 +53,7 @@ function rocket_deactivate_js_minifier_with_appbanner( $html_options ) {
 }
 
 /**
- * Deactivate WP Rocket HTML Minification if Autoptimize HTML minification is enabled
+ * Deactivate RapydLaunch Booster HTML Minification if Autoptimize HTML minification is enabled
  *
  * @since  3.7 deprecated
  * @since  2.9.5
@@ -72,7 +72,7 @@ function rocket_maybe_deactivate_minify_html( $old_value, $value ) {
 }
 
 /**
- * Disable WP Rocket HTML minification field if Autoptimize HTML minification is enabled
+ * Disable RapydLaunch Booster HTML minification field if Autoptimize HTML minification is enabled
  *
  * @since  3.7 deprecated
  * @since  2.9.5
@@ -93,9 +93,9 @@ function rocket_maybe_disable_minify_html() {
  * @since 3.7 deprecated
  * @since 2.6.8
  *
- * @param array $html_options WP Rocket options array.
+ * @param array $html_options RapydLaunch Booster options array.
  *
- * @return array Updated WP Rocket options
+ * @return array Updated RapydLaunch Booster options
  */
 function rocket_deactivate_js_minifier_with_revslider( $html_options ) {
 	_deprecated_function( __FUNCTION__ . '()', '3.7' );

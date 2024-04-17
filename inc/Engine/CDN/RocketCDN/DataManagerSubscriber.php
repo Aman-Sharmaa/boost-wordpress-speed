@@ -4,7 +4,7 @@ namespace WP_Rocket\Engine\CDN\RocketCDN;
 use WP_Rocket\Event_Management\Subscriber_Interface;
 
 /**
- * Subscriber for the RocketCDN integration in WP Rocket settings page
+ * Subscriber for the RocketCDN integration in RapydLaunch Booster settings page
  *
  * @since  3.5
  */

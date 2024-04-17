@@ -4,7 +4,7 @@ defined( 'ABSPATH' ) || exit;
 
 add_action( 'admin_init', 'rocket_clear_cache_after_studiopress_accelerator' );
 /**
- * Clear WP Rocket cache after purged the StudioPress Accelerator cache
+ * Clear RapydLaunch Booster cache after purged the StudioPress Accelerator cache
  *
  * @since 2.5.5
  *

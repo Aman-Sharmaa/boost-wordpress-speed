@@ -21,7 +21,7 @@ class Subscriber implements Subscriber_Interface {
 	const EVENT_NAME = 'rocket_purge_time_event';
 
 	/**
-	 * WP Rocket Options instance.
+	 * RapydLaunch Booster Options instance.
 	 *
 	 * @since  3.4
 	 *
@@ -72,7 +72,7 @@ class Subscriber implements Subscriber_Interface {
 	public function custom_cron_schedule( $schedules ) {
 		$schedules['rocket_expired_cache_cron_interval'] = [
 			'interval' => $this->get_interval(),
-			'display'  => __( 'WP Rocket Expired Cache Interval', 'rocket' ),
+			'display'  => __( 'RapydLaunch Booster Expired Cache Interval', 'rocket' ),
 		];
 
 		return $schedules;
@@ -162,7 +162,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Update lifespan option to remove minutes with WP Rocket Update.
+	 * Update lifespan option to remove minutes with RapydLaunch Booster Update.
 	 *
 	 * @since 3.8
 	 *

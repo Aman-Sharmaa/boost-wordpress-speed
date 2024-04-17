@@ -5,7 +5,7 @@ use Imagify_Partner;
 use WP_Rocket\Event_Management\Subscriber_Interface;
 
 /**
- * WP Rocket settings page subscriber.
+ * RapydLaunch Booster settings page subscriber.
  *
  * @since 3.5.5 Moves into the new architecture.
  * @since 3.3
@@ -71,7 +71,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Enqueues WP Rocket scripts on the settings page
+	 * Enqueues RapydLaunch Booster scripts on the settings page
 	 *
 	 * @since 3.6
 	 *

@@ -9,7 +9,7 @@ namespace WP_Rocket\Admin;
  */
 class Options extends Abstract_Options {
 	/**
-	 * The prefix used by WP Rocket options.
+	 * The prefix used by RapydLaunch Booster options.
 	 *
 	 * @since 3.0
 	 * @author Remy Perona
@@ -24,7 +24,7 @@ class Options extends Abstract_Options {
 	 * @since 3.0
 	 * @author Remy Perona
 	 *
-	 * @param string $prefix WP Rocket options prefix.
+	 * @param string $prefix RapydLaunch Booster options prefix.
 	 */
 	public function __construct( $prefix = '' ) {
 		$this->prefix = $prefix;

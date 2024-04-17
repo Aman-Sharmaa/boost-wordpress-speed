@@ -8,7 +8,7 @@ use WP_Rocket\Engine\Admin\Beacon\Beacon;
 
 class Settings extends Abstract_Render {
 	/**
-	 * WP Rocket options instance
+	 * RapydLaunch Booster options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -24,7 +24,7 @@ class Settings extends Abstract_Render {
 	/**
 	 * Instantiate the class
 	 *
-	 * @param Options_Data $options       WP Rocket options instance.
+	 * @param Options_Data $options       RapydLaunch Booster options instance.
 	 * @param Beacon       $beacon        Beacon instance.
 	 * @param string       $template_path Path to template files.
 	 */

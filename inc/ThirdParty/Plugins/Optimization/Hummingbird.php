@@ -11,7 +11,7 @@ use WP_Rocket\Event_Management\Subscriber_Interface;
  */
 class Hummingbird implements Subscriber_Interface {
 	/**
-	 * WP Rocket Options instance
+	 * RapydLaunch Booster Options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -27,7 +27,7 @@ class Hummingbird implements Subscriber_Interface {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data $options WP Rocket Options instance.
+	 * @param Options_Data $options RapydLaunch Booster Options instance.
 	 */
 	public function __construct( Options_Data $options ) {
 		$this->options = $options;
@@ -75,7 +75,7 @@ class Hummingbird implements Subscriber_Interface {
 		}
 
 		// Translators: %s = Plugin name.
-		$message = '<p>' . sprintf( _nx( 'Please deactivate the following %s option which conflicts with WP Rocket features:', 'Please deactivate the following %s options which conflict with WP Rocket features:', count( $this->errors ), 'Hummingbird notice', 'rocket' ), 'Hummingbird' ) . '</p>';
+		$message = '<p>' . sprintf( _nx( 'Please deactivate the following %s option which conflicts with RapydLaunch Booster features:', 'Please deactivate the following %s options which conflict with RapydLaunch Booster features:', count( $this->errors ), 'Hummingbird notice', 'rocket' ), 'Hummingbird' ) . '</p>';
 
 		$message .= '<ul>';
 
@@ -134,7 +134,7 @@ class Hummingbird implements Subscriber_Interface {
 	}
 
 	/**
-	 * Checks if Hummingbird and WP Rocket disable emoji options are active at the same time
+	 * Checks if Hummingbird and RapydLaunch Booster disable emoji options are active at the same time
 	 *
 	 * @since 3.3.3
 	 * @author Remy Perona
@@ -148,7 +148,7 @@ class Hummingbird implements Subscriber_Interface {
 
 		if ( $this->options->get( 'emoji' ) && WP_Hummingbird_Settings::get_setting( 'emoji', 'advanced' ) ) {
 			// Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
-			$this->errors[] = sprintf( _x( '%1$s %2$sdisable emoji%3$s conflicts with WP Rockets %2$sdisable emoji%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
+			$this->errors[] = sprintf( _x( '%1$s %2$sdisable emoji%3$s conflicts with RapydLaunch Boosters %2$sdisable emoji%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
 			return true;
 		}
 
@@ -184,7 +184,7 @@ class Hummingbird implements Subscriber_Interface {
 
 		if ( $gzip::is_htaccess_written( 'gzip' ) && 'apache' === $gzip::get_server_type() ) {
 			// Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
-			$this->errors[] = sprintf( _x( '%1$s %2$sGZIP compression%3$s conflicts with WP Rocket %2$sGZIP compression%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
+			$this->errors[] = sprintf( _x( '%1$s %2$sGZIP compression%3$s conflicts with RapydLaunch Booster %2$sGZIP compression%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
 			return true;
 		}
 
@@ -220,7 +220,7 @@ class Hummingbird implements Subscriber_Interface {
 
 		if ( $caching::is_htaccess_written( 'caching' ) && 'apache' === $caching::get_server_type() ) {
 			// Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
-			$this->errors[] = sprintf( _x( '%1$s %2$sbrowser caching%3$s conflicts with WP Rocket %2$sbrowser caching%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
+			$this->errors[] = sprintf( _x( '%1$s %2$sbrowser caching%3$s conflicts with RapydLaunch Booster %2$sbrowser caching%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
 			return true;
 		}
 
@@ -252,7 +252,7 @@ class Hummingbird implements Subscriber_Interface {
 
 		if ( $cache->is_active() ) {
 			// Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
-			$this->errors[] = sprintf( _x( '%1$s %2$spage caching%3$s conflicts with WP Rocket %2$spage caching%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
+			$this->errors[] = sprintf( _x( '%1$s %2$spage caching%3$s conflicts with RapydLaunch Booster %2$spage caching%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
 			return true;
 		}
 
@@ -262,7 +262,7 @@ class Hummingbird implements Subscriber_Interface {
 	/**
 	 * Checks if Hummingbird Assets optimization is active
 	 *
-	 * Checks against WP Rocket Minify CSS, Minify JS and Defer JS options.
+	 * Checks against RapydLaunch Booster Minify CSS, Minify JS and Defer JS options.
 	 *
 	 * @since 3.3.3
 	 * @author Remy Perona
@@ -286,7 +286,7 @@ class Hummingbird implements Subscriber_Interface {
 
 		if ( $minify->is_active() && ( $this->options->get( 'minify_css' ) || $this->options->get( 'minify_js' ) || $this->options->get( 'defer_all_js' ) ) ) {
 			// Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
-			$this->errors[] = sprintf( _x( '%1$s %2$sasset optimization%3$s conflicts with WP Rocket %2$sfile optimization%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
+			$this->errors[] = sprintf( _x( '%1$s %2$sasset optimization%3$s conflicts with RapydLaunch Booster %2$sfile optimization%3$s', 'Hummingbird notice', 'rocket' ), 'Hummingbird', '<em>', '</em>' );
 			return true;
 		}
 

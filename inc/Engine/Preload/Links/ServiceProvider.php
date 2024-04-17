@@ -4,7 +4,7 @@ namespace WP_Rocket\Engine\Preload\Links;
 use WP_Rocket\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 /**
- * Service provider for WP Rocket preload links.
+ * Service provider for RapydLaunch Booster preload links.
  */
 class ServiceProvider extends AbstractServiceProvider {
 	/**

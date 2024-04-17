@@ -40,7 +40,7 @@ function rocket_pl_clean_post( $post = false, $permalink = false ) {
  *
  * @since 3.3
  *
- * @param string $root WP Rocket root cache path.
+ * @param string $root RapydLaunch Booster root cache path.
  * @param string $lang Current language.
  *
  * @return void
@@ -55,7 +55,7 @@ function rocket_pl_clean_home( $root = false, $lang = false ) {
 }
 
 /**
- * Remove WP Rocket functions on WP core action hooks to prevent triggering a double cache clear.
+ * Remove RapydLaunch Booster functions on WP core action hooks to prevent triggering a double cache clear.
  *
  * @since 3.3
  *

@@ -8,7 +8,7 @@ if ( isset( $nginx_helper ) ) :
 	global $nginx_purger;
 
 	/**
-	 * Clear WP Rocket cache after the NGINX cache is purged from Nginx Helper.
+	 * Clear RapydLaunch Booster cache after the NGINX cache is purged from Nginx Helper.
 	 *
 	 * @since 3.3.0.1
 	 *
@@ -37,7 +37,7 @@ if ( isset( $nginx_helper ) ) :
 	add_action( 'admin_init', 'rocket_clear_cache_after_nginx_helper_purge' );
 
 	/**
-	 * Clear WP Rocket cache for the current page after the NGINX cache is purged from Nginx Helper.
+	 * Clear RapydLaunch Booster cache for the current page after the NGINX cache is purged from Nginx Helper.
 	 *
 	 * @since 3.3.0.1
 	 *
@@ -82,7 +82,7 @@ if ( isset( $nginx_helper ) ) :
 	 * @since 3.3.0.1
 	 * @author Remy Perona
 	 *
-	 * @param string $root WP Rocket root cache path.
+	 * @param string $root RapydLaunch Booster root cache path.
 	 * @param string $lang Current language.
 	 * @return void
 	 */
@@ -134,7 +134,7 @@ if ( isset( $nginx_helper ) ) :
 	add_action( 'after_rocket_clean_file', 'rocket_clean_nginx_cache_url' );
 
 	/**
-	 * Clean the NGINX cache using Nginx Helper after WP Rocket's cache is purged.
+	 * Clean the NGINX cache using Nginx Helper after RapydLaunch Booster's cache is purged.
 	 *
 	 * @since 3.3.0.1
 	 */

@@ -12,7 +12,7 @@ use WP_Rocket\Engine\Optimization\DelayJS\HTML;
  */
 class Elementor implements Subscriber_Interface {
 	/**
-	 * WP Rocket options.
+	 * RapydLaunch Booster options.
 	 *
 	 * @var Options_Data
 	 */
@@ -35,7 +35,7 @@ class Elementor implements Subscriber_Interface {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data          $options WP Rocket options.
+	 * @param Options_Data          $options RapydLaunch Booster options.
 	 * @param \WP_Filesystem_Direct $filesystem The Filesystem object.
 	 * @param HTML                  $delayjs_html DelayJS HTML class.
 	 */
@@ -82,7 +82,7 @@ class Elementor implements Subscriber_Interface {
 	}
 
 	/**
-	 * Clear WP Rocket caches when Elementor changes the CSS
+	 * Clear RapydLaunch Booster caches when Elementor changes the CSS
 	 *
 	 * @return void
 	 */

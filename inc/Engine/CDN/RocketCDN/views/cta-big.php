@@ -51,7 +51,7 @@ defined( 'ABSPATH' ) || die( 'Cheatin&#8217; uh?' );
 				<li class="wpr-rocketcdn-feature wpr-rocketcdn-automatic">
 					<?php
 					// translators: %1$s = opening strong tag, %2$s = closing strong tag.
-					printf( esc_html__( 'WP Rocket integration: the CDN option is %1$sautomatically configured%2$s in our plugin', 'rocket' ), '<strong>', '</strong>' );
+					printf( esc_html__( 'RapydLaunch Booster integration: the CDN option is %1$sautomatically configured%2$s in our plugin', 'rocket' ), '<strong>', '</strong>' );
 					?>
 				</li>
 				<li class="wpr-rocketcdn-cta-footer">

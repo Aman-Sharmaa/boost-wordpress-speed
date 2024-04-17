@@ -19,7 +19,7 @@ use WP_Rocket\Logger\Logger;
 use WP_Rocket_Mobile_Detect;
 
 /**
- * Service provider for the WP Rocket preload.
+ * Service provider for the RapydLaunch Booster preload.
  *
  * @since 3.3
  */

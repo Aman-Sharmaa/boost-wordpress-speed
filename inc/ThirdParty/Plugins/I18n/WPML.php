@@ -167,7 +167,7 @@ class WPML implements Subscriber_Interface {
 		}
 
 		/**
-		 * Reset WP Rocket Preload.
+		 * Reset RapydLaunch Booster Preload.
 		 */
 		do_action( 'rocket_reset_preload' );
 		rocket_clean_domain();
@@ -187,7 +187,7 @@ class WPML implements Subscriber_Interface {
 		}
 
 		/**
-		 * Reset WP Rocket Preload.
+		 * Reset RapydLaunch Booster Preload.
 		 */
 		do_action( 'rocket_reset_preload' );
 		rocket_clean_cache_dir();

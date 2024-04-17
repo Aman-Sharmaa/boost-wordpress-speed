@@ -8,7 +8,7 @@ use WP_Rocket\Engine\Admin\Beacon\Beacon;
 use WP_Rocket\Event_Management\Subscriber_Interface;
 
 /**
- * Subscriber for the RocketCDN integration in WP Rocket settings page
+ * Subscriber for the RocketCDN integration in RapydLaunch Booster settings page
  *
  * @since  3.5
  */
@@ -21,7 +21,7 @@ class AdminPageSubscriber extends Abstract_Render implements Subscriber_Interfac
 	private $api_client;
 
 	/**
-	 * WP Rocket options instance
+	 * RapydLaunch Booster options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -38,7 +38,7 @@ class AdminPageSubscriber extends Abstract_Render implements Subscriber_Interfac
 	 * Constructor
 	 *
 	 * @param APIClient    $api_client    RocketCDN API Client instance.
-	 * @param Options_Data $options       WP Rocket options instance.
+	 * @param Options_Data $options       RapydLaunch Booster options instance.
 	 * @param Beacon       $beacon        Beacon instance.
 	 * @param string       $template_path Path to the templates.
 	 */
@@ -194,7 +194,7 @@ class AdminPageSubscriber extends Abstract_Render implements Subscriber_Interfac
 	}
 
 	/**
-	 * Adds the subscription modal on the WP Rocket settings page
+	 * Adds the subscription modal on the RapydLaunch Booster settings page
 	 *
 	 * @since  3.5
 	 *

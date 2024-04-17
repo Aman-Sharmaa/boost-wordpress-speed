@@ -69,7 +69,7 @@ class Optimization extends Abstract_Buffer {
 	 */
 	public function maybe_process_buffer( $buffer ) {
 		/**
-		 * Triggered before WP Rocket starts the optimization process.
+		 * Triggered before RapydLaunch Booster starts the optimization process.
 		 *
 		 * @since  3.4.2
 		 * @author Soponar Cristina

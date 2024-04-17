@@ -57,11 +57,11 @@ function rocket_add_gdpr_mandatory_cookies() {
 
 	// Create cache version based on value set in GDPR cookies.
 	add_filter( 'rocket_cache_dynamic_cookies', 'rocket_get_gdpr_dynamic_cookies' );
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 	// Regenerate the config file.
 	rocket_generate_config_file();
-	// Clear WP Rocket cache.
+	// Clear RapydLaunch Booster cache.
 	rocket_clean_domain();
 }
 add_action( 'activate_gdpr/gdpr.php', 'rocket_add_gdpr_mandatory_cookies', 11 );
@@ -77,11 +77,11 @@ function rocket_remove_gdpr_mandatory_cookies() {
 
 	// Delete the dynamic cookie filter.
 	remove_filter( 'rocket_cache_dynamic_cookies', 'rocket_get_gdpr_dynamic_cookies' );
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 	// Regenerate the config file.
 	rocket_generate_config_file();
-	// Clear WP Rocket cache.
+	// Clear RapydLaunch Booster cache.
 	rocket_clean_domain();
 }
 add_action( 'deactivate_gdpr/gdpr.php', 'rocket_remove_gdpr_mandatory_cookies', 11 );

@@ -884,7 +884,7 @@ document.addEventListener('DOMContentLoaded', function () {
 \*-----------------------------------------------*/
 
 /**
- * Manages the display of pages / section for WP Rocket plugin
+ * Manages the display of pages / section for RapydLaunch Booster plugin
  *
  * Public method :
      detectID - Detect ID with hash
@@ -943,7 +943,7 @@ function PageManager(aElem) {
         return false;
       }
     };
-  } // Click links not WP rocket to reset hash
+  } // Click links not RapydLaunch Booster to reset hash
 
 
   var $otherlinks = document.querySelectorAll('#adminmenumain a, #wpadminbar a');

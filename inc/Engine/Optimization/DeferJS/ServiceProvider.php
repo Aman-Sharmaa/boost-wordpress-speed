@@ -4,7 +4,7 @@ namespace WP_Rocket\Engine\Optimization\DeferJS;
 use WP_Rocket\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 /**
- * Service provider for the WP Rocket Defer JS
+ * Service provider for the RapydLaunch Booster Defer JS
  *
  * @since 3.8
  */

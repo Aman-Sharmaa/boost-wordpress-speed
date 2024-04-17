@@ -35,7 +35,7 @@ class Perfmatters implements Subscriber_Interface {
 
 		return [
 			'disable' => true,
-			'text'    => __( 'Remove Unused CSS is currently activated in Perfmatters. If you want to use WP Rocket\'s Remove Unused CSS feature, disable this option in Perfmatters.', 'rocket' ),
+			'text'    => __( 'Remove Unused CSS is currently activated in Perfmatters. If you want to use RapydLaunch Booster\'s Remove Unused CSS feature, disable this option in Perfmatters.', 'rocket' ),
 		];
 	}
 

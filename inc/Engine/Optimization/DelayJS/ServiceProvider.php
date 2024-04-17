@@ -8,7 +8,7 @@ use WP_Rocket\Engine\Optimization\DelayJS\Admin\Subscriber as AdminSubscriber;
 use WP_Rocket\Logger\Logger;
 
 /**
- * Service provider for the WP Rocket Delay JS
+ * Service provider for the RapydLaunch Booster Delay JS
  *
  * @since  3.7
  */

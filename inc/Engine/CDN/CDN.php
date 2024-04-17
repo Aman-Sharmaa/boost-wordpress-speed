@@ -12,7 +12,7 @@ use WP_Rocket\Admin\Options_Data;
  */
 class CDN {
 	/**
-	 * WP Rocket Options instance
+	 * RapydLaunch Booster Options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -28,7 +28,7 @@ class CDN {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data $options WP Rocket Options instance.
+	 * @param Options_Data $options RapydLaunch Booster Options instance.
 	 */
 	public function __construct( Options_Data $options ) {
 		$this->options = $options;
@@ -191,7 +191,7 @@ class CDN {
 	 * Get all CDN URLs for one or more zones.
 	 *
 	 * @since 2.1
-	 * @since 3.0 Don't check for WP Rocket CDN option activated to be able to use the function on Hosting with CDN auto-enabled.
+	 * @since 3.0 Don't check for RapydLaunch Booster CDN option activated to be able to use the function on Hosting with CDN auto-enabled.
 	 *
 	 * @param  array $zones List of zones. Default is [ 'all' ].
 	 * @return array

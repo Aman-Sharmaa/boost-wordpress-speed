@@ -280,7 +280,7 @@ add_action( 'clean_post_cache',        'rocket_clean_post' );
 add_action( 'wp_update_comment_count', 'rocket_clean_post' );
 
 /**
- * Purge WP Rocket cache when post status is changed from publish to draft.
+ * Purge RapydLaunch Booster cache when post status is changed from publish to draft.
  *
  * @since  3.4.3
  *
@@ -488,7 +488,7 @@ function do_admin_post_rocket_purge_cache() { // phpcs:ignore WordPress.NamingCo
 						[
 							'blocking'   => false,
 							'timeout'    => 0.01,
-							'user-agent' => 'WP Rocket/Homepage_Preload_After_Purge_Cache',
+							'user-agent' => 'RapydLaunch Booster/Homepage_Preload_After_Purge_Cache',
 							'sslverify'  => apply_filters( 'https_local_ssl_verify', false ), // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 						]
 					);
@@ -603,7 +603,7 @@ function rocket_clean_cache_theme_update( $wp_upgrader, $hook_extra ) {
 add_action( 'upgrader_process_complete', 'rocket_clean_cache_theme_update', 10, 2 );  // When a theme is updated.
 
 /**
- * Purge WP Rocket cache on Slug / Permalink change.
+ * Purge RapydLaunch Booster cache on Slug / Permalink change.
  *
  * @since  3.4.2
  *

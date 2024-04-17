@@ -8,7 +8,7 @@ defined( 'ABSPATH' ) || exit;
  * @since 2.7
  */
 if ( class_exists( 'EDD_Software_Licensing' ) && defined( 'EDD_SL_VERSION' ) ) :
-	// Exclude EDD SL endpoint from cache on WP Rocket activation.
+	// Exclude EDD SL endpoint from cache on RapydLaunch Booster activation.
 	add_filter( 'rocket_cache_reject_uri', 'rocket_exclude_edd_sl_endpoint' );
 endif;
 
@@ -20,7 +20,7 @@ endif;
 function rocket_activate_edd_software_licensing() {
 	add_filter( 'rocket_cache_reject_uri', 'rocket_exclude_edd_sl_endpoint' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.
@@ -36,7 +36,7 @@ add_action( 'activate_edd-software-licensing/edd-software-licenses.php', 'rocket
 function rocket_deactivate_edd_software_licensing() {
 	remove_filter( 'rocket_cache_reject_uri', 'rocket_exclude_edd_sl_endpoint' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.

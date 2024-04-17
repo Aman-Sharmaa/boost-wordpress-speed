@@ -29,7 +29,7 @@ class Cloudflare {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data $options WP Rocket options instance.
+	 * @param Options_Data $options RapydLaunch Booster options instance.
 	 * @param Endpoints    $endpoints Endpoints instance.
 	 */
 	public function __construct( Options_Data $options, Endpoints $endpoints ) {

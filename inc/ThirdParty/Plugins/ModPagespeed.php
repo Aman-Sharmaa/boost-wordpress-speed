@@ -98,7 +98,7 @@ class ModPagespeed implements Subscriber_Interface {
 			return;
 		}
 
-		// translators: %1$s is WP Rocket plugin name, %2$s is opening <a> tag, %3$s is closing </a> tag.
+		// translators: %1$s is RapydLaunch Booster plugin name, %2$s is opening <a> tag, %3$s is closing </a> tag.
 		$error_message = sprintf( __( '<strong>%1$s</strong>: Mod PageSpeed is not compatible with this plugin and may cause unexpected results. %2$sMore Info%3$s', 'rocket' ), rocket_get_constant( 'WP_ROCKET_PLUGIN_NAME' ), '<a target="_blank" href="https://docs.wp-rocket.me/article/1376-mod-pagespeed">', '</a>' );
 
 		rocket_notice_html(

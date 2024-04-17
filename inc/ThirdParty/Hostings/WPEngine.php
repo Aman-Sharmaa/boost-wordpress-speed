@@ -52,7 +52,7 @@ class WPEngine extends AbstractNoCacheHost {
 	}
 
 	/**
-	 * Run WP Rocket preload bot after purged the Varnish cache via WP Engine Hosting.
+	 * Run RapydLaunch Booster preload bot after purged the Varnish cache via WP Engine Hosting.
 	 *
 	 * @since 3.6.1
 	 */
@@ -94,13 +94,13 @@ class WPEngine extends AbstractNoCacheHost {
 	}
 
 	/**
-	 * Add WP Rocket footprint on Buffer.
+	 * Add RapydLaunch Booster footprint on Buffer.
 	 *
 	 * @since 3.6.1
 	 *
 	 * @param string $buffer HTML content.
 	 *
-	 * @return string HTML with WP Rocket footprint.
+	 * @return string HTML with RapydLaunch Booster footprint.
 	 */
 	public function add_footprint( $buffer ) {
 		if ( ! preg_match( '/<\/html>/i', $buffer ) ) {

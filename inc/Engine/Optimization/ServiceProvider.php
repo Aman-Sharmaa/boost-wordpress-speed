@@ -11,7 +11,7 @@ use WP_Rocket\Engine\Optimization\GoogleFonts\Subscriber;
 use WP_Rocket\Engine\Optimization\Buffer\Subscriber as BufferSubscriber;
 
 /**
- * Service provider for the WP Rocket optimizations
+ * Service provider for the RapydLaunch Booster optimizations
  *
  * @since  3.3
  * @since  3.6 Renamed and moved into this module.

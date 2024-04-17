@@ -46,7 +46,7 @@ class WPCache implements ActivationInterface, DeactivationInterface {
 	 *
 	 * @since 3.6.3
 	 *
-	 * @param int $sites_number Number of WP Rocket config files found.
+	 * @param int $sites_number Number of RapydLaunch Booster config files found.
 	 * @return void
 	 */
 	public function update_wp_cache( $sites_number = 0 ) {
@@ -355,7 +355,7 @@ class WPCache implements ActivationInterface, DeactivationInterface {
 			],
 			'description' => sprintf(
 				'<p>%s</p>',
-				__( 'The WP_CACHE constant needs to be set to true for WP Rocket cache to work properly', 'rocket' )
+				__( 'The WP_CACHE constant needs to be set to true for RapydLaunch Booster cache to work properly', 'rocket' )
 			),
 			'actions'     => '',
 			'test'        => 'wp_cache_status',

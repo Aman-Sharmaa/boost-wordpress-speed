@@ -51,7 +51,7 @@ class WP_Rocket_Requirements_Check {
 	private $php_version;
 
 	/**
-	 * WP Rocket options
+	 * RapydLaunch Booster options
 	 *
 	 * @var array
 	 */
@@ -148,12 +148,12 @@ class WP_Rocket_Requirements_Check {
 
 		if ( ! $this->php_passes() ) {
 			// Translators: %1$s = PHP version required.
-			$message .= '<li>' . sprintf( __( 'PHP %1$s. To use this WP Rocket version, please ask your web host how to upgrade your server to PHP %1$s or higher.', 'rocket' ), $this->php_version ) . '</li>';
+			$message .= '<li>' . sprintf( __( 'PHP %1$s. To use this RapydLaunch Booster version, please ask your web host how to upgrade your server to PHP %1$s or higher.', 'rocket' ), $this->php_version ) . '</li>';
 		}
 
 		if ( ! $this->wp_passes() ) {
 			// Translators: %1$s = WordPress version required.
-			$message .= '<li>' . sprintf( __( 'WordPress %1$s. To use this WP Rocket version, please upgrade WordPress to version %1$s or higher.', 'rocket' ), $this->wp_version ) . '</li>';
+			$message .= '<li>' . sprintf( __( 'WordPress %1$s. To use this RapydLaunch Booster version, please upgrade WordPress to version %1$s or higher.', 'rocket' ), $this->wp_version ) . '</li>';
 		}
 
 		$message .= '</ul><p>' . __( 'If you are not able to upgrade, you can rollback to the previous version by using the button below.', 'rocket' ) . '</p><p><a href="' . wp_nonce_url( admin_url( 'admin-post.php?action=rocket_rollback' ), 'rocket_rollback' ) . '" class="button">' .
@@ -219,7 +219,7 @@ class WP_Rocket_Requirements_Check {
 	}
 
 	/**
-	 * Filters the User Agent when doing a request to WP Rocket server
+	 * Filters the User Agent when doing a request to RapydLaunch Booster server
 	 *
 	 * @since 3.0
 	 * @author Remy Perona

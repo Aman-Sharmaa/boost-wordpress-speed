@@ -47,7 +47,7 @@ class Avada extends ThirdpartyTheme {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data $options WP Rocket options instance.
+	 * @param Options_Data $options RapydLaunch Booster options instance.
 	 */
 	public function __construct( Options_Data $options ) {
 		$this->options = $options;
@@ -55,7 +55,7 @@ class Avada extends ThirdpartyTheme {
 
 	/**
 	 * When Avada theme purge its own cache.
-	 * Clear WP Rocket cache when Avada dynamic CSS is updated.
+	 * Clear RapydLaunch Booster cache when Avada dynamic CSS is updated.
 	 *
 	 * @return void
 	 */
@@ -64,7 +64,7 @@ class Avada extends ThirdpartyTheme {
 	}
 
 	/**
-	 * Deactivate WP Rocket lazyload if Avada lazyload is enabled.
+	 * Deactivate RapydLaunch Booster lazyload if Avada lazyload is enabled.
 	 *
 	 * @since 3.3.4
 	 *
@@ -96,7 +96,7 @@ class Avada extends ThirdpartyTheme {
 	}
 
 	/**
-	 * Disable WP Rocket lazyload field if Avada lazyload is enabled
+	 * Disable RapydLaunch Booster lazyload field if Avada lazyload is enabled
 	 *
 	 * @since 3.3.4
 	 * @param  array $disable_images_lazyload Array with plugins which disable lazyload functionality.

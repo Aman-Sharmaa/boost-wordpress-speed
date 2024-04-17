@@ -8,7 +8,7 @@ defined( 'ABSPATH' ) || exit;
  * @since 2.7
  */
 if ( class_exists( 'WC_Currency_Converter' ) ) :
-	// Add cookie to config file when WP Rocket is activated and WooCommerce Currency Converter Widget is already active.
+	// Add cookie to config file when RapydLaunch Booster is activated and WooCommerce Currency Converter Widget is already active.
 	add_filter( 'rocket_htaccess_mod_rewrite', '__return_false', 70 );
 	add_filter( 'rocket_cache_dynamic_cookies', 'rocket_add_woocommerce_currency_converter_dynamic_cookies', 11 );
 	add_filter( 'rocket_cache_mandatory_cookies', 'rocket_add_woocommerce_currency_converter_mandatory_cookie', 11 );
@@ -25,7 +25,7 @@ function rocket_activate_woocommerce_currency_converter() {
 	add_filter( 'rocket_cache_dynamic_cookies', 'rocket_add_woocommerce_currency_converter_dynamic_cookies' );
 	add_filter( 'rocket_cache_mandatory_cookies', 'rocket_add_woocommerce_currency_converter_mandatory_cookie' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.
@@ -43,7 +43,7 @@ function rocket_deactivate_woocommerce_currency_converter() {
 	remove_filter( 'rocket_cache_dynamic_cookies', 'rocket_add_woocommerce_currency_converter_dynamic_cookies' );
 	remove_filter( 'rocket_cache_mandatory_cookies', 'rocket_add_woocommerce_currency_converter_mandatory_cookie' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.

@@ -30,7 +30,7 @@ if ( rocket_wcml_has_requirements() ) :
 	add_action( 'updated_option', 'rocket_wcml_reset_settings', 10, 3 );
 
 	/**
-	 * Reset WP Rocket settings on WCML deactivation.
+	 * Reset RapydLaunch Booster settings on WCML deactivation.
 	 */
 	function rocket_wcml_deactivate() {
 		remove_filter( 'rocket_htaccess_mod_rewrite', '__return_false', 64 );
@@ -78,7 +78,7 @@ function rocket_wcml_add_mandatory_cookies( $cookies ) {
 }
 
 /**
- * Reset WP Rocket settings when a relevant WCML setting is changed.
+ * Reset RapydLaunch Booster settings when a relevant WCML setting is changed.
  *
  * @param string $option   Option name.
  * @param mixed  $old_data Old data.
@@ -113,7 +113,7 @@ function rocket_wcml_reset_settings( $option, $old_data, $data ) {
 }
 
 /**
- * Reset WP Rocket settings on WCML activation.
+ * Reset RapydLaunch Booster settings on WCML activation.
  */
 function rocket_wcml_activate() {
 	if ( rocket_wcml_has_requirements() ) {

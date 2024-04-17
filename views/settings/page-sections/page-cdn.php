@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 	</div>
 	<?php
 	/**
-	 * Fires before displaying CDN sections on WP Rocket settings page
+	 * Fires before displaying CDN sections on RapydLaunch Booster settings page
 	 *
 	 * @since 3.5
 	 */
@@ -31,7 +31,7 @@ defined( 'ABSPATH' ) || exit;
 	<?php $this->render_settings_sections( $data['id'] ); ?>
 	<?php
 	/**
-	 * Fires after displaying CDN sections on WP Rocket settings page
+	 * Fires after displaying CDN sections on RapydLaunch Booster settings page
 	 *
 	 * @since 3.5
 	 */

@@ -32,7 +32,7 @@ class WPGeotargeting implements Subscriber_Interface {
 			return $events;
 		}
 
-		// Update the WP Rocket rules on the .htaccess file.
+		// Update the RapydLaunch Booster rules on the .htaccess file.
 		$events['admin_init'] = [
 			[ 'flush_rocket_htaccess' ],
 			[ 'rocket_generate_config_file' ],
@@ -66,7 +66,7 @@ class WPGeotargeting implements Subscriber_Interface {
 		add_filter( 'rocket_cache_dynamic_cookies', [ $this, 'add_geot_cookies' ] );
 		add_filter( 'rocket_cache_mandatory_cookies', [ $this, 'add_geot_cookies' ] );
 
-		// Update the WP Rocket rules on the .htaccess file.
+		// Update the RapydLaunch Booster rules on the .htaccess file.
 		flush_rocket_htaccess();
 
 		// Regenerate the config file.
@@ -85,7 +85,7 @@ class WPGeotargeting implements Subscriber_Interface {
 		remove_filter( 'rocket_cache_dynamic_cookies', [ $this, 'add_geot_cookies' ] );
 		remove_filter( 'rocket_cache_mandatory_cookies', [ $this, 'add_geot_cookies' ] );
 
-		// Update the WP Rocket rules on the .htaccess file.
+		// Update the RapydLaunch Booster rules on the .htaccess file.
 		flush_rocket_htaccess();
 
 		// Regenerate the config file.

@@ -498,7 +498,7 @@ class Logger {
 
 		if ( $enable ) {
 			// Add the constant.
-			$define  = "define( 'WP_ROCKET_DEBUG', true ); // Added by WP Rocket.\r\n";
+			$define  = "define( 'WP_ROCKET_DEBUG', true ); // Added by RapydLaunch Booster.\r\n";
 			$content = preg_replace( '@<\?php\s*@i', "<?php\n$define", $content, 1 );
 		}
 
@@ -554,7 +554,7 @@ class Logger {
 
 		foreach ( $cookies as $cookie_name => $value ) {
 			if ( preg_match( $pattern, $cookie_name ) ) {
-				$cookies[ $cookie_name ] = 'Value removed by WP Rocket.';
+				$cookies[ $cookie_name ] = 'Value removed by RapydLaunch Booster.';
 			}
 		}
 

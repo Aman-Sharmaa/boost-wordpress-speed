@@ -735,7 +735,7 @@ if ( ! function_exists( 'is_rocket_cache_ssl' ) ) {
 
 if ( ! function_exists( 'rocket_reset_white_label_values_action' ) ) {
 	/**
-	 * Reset White Label values to WP Rocket default values
+	 * Reset White Label values to RapydLaunch Booster default values
 	 *
 	 * @since 2.1
 	 * @deprecated 3.0
@@ -825,7 +825,7 @@ if ( ! function_exists( 'rocket_reset_white_label_values' ) ) {
 		_deprecated_function( __FUNCTION__, '3.0' );
 		// White Label default values - !!! DO NOT TRANSLATE !!!
 		$options                   = get_option( WP_ROCKET_SLUG );
-		$options['wl_plugin_name'] = 'WP Rocket';
+		$options['wl_plugin_name'] = 'RapydLaunch Booster';
 		$options['wl_plugin_slug'] = 'wprocket';
 		$options['wl_plugin_URI']  = 'https://wp-rocket.me';
 		$options['wl_description'] = array( 'The best WordPress performance plugin.' );
@@ -867,7 +867,7 @@ if ( ! function_exists( 'rocket_correct_capability_for_options_page' ) ) {
 	 * @deprecated 3.0
 	 * @see WP_Rocket\Engine\Settings\Page->required_capability()
 	 *
-	 * @param string $capability Capacity to access WP Rocket options.
+	 * @param string $capability Capacity to access RapydLaunch Booster options.
 	 * @return string Updated capacity
 	 */
 	function rocket_correct_capability_for_options_page( $capability ) {
@@ -1829,7 +1829,7 @@ if ( ! function_exists( 'rocket_hidden_fields' ) ) {
 	 * @since 2.1
 	 * @deprecated 3.0
 	 *
-	 * @param array $fields An array of fields to add to WP Rocket settings.
+	 * @param array $fields An array of fields to add to RapydLaunch Booster settings.
 	 */
 	function rocket_hidden_fields( $fields ) {
 		_deprecated_function( __FUNCTION__, '3.0', 'WP_Rocket\Admin\Render->render_hidden_fields()' );
@@ -2132,7 +2132,7 @@ if ( ! function_exists( 'rocket_exclude_wc_rest_api' ) ) {
 
 if ( ! function_exists( 'rocket_minify_process' ) ) {
 	/**
-	 * Launch WP Rocket minification process (HTML, CSS and JavaScript)
+	 * Launch RapydLaunch Booster minification process (HTML, CSS and JavaScript)
 	 *
 	 * @since 2.10  New process for minification without concatenation
 	 * @since 1.3.0 This process is called via the new filter rocket_buffer
@@ -2469,7 +2469,7 @@ if ( ! function_exists( 'rocket_extract_ie_conditionals' ) ) {
 
 if ( ! function_exists( 'rocket_inject_ie_conditionals' ) ) {
 	/**
-	 * Replaces WP Rocket placeholders with IE condtional tags
+	 * Replaces RapydLaunch Booster placeholders with IE condtional tags
 	 *
 	 * @since 1.0
 	 * @deprecated 3.1

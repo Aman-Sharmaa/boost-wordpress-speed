@@ -264,7 +264,7 @@ class Renewal extends Abstract_Render {
 	}
 
 	/**
-	 * Adds the license expiration time to WP Rocket localize script data
+	 * Adds the license expiration time to RapydLaunch Booster localize script data
 	 *
 	 * @since 3.7.5
 	 *
@@ -606,7 +606,7 @@ class Renewal extends Abstract_Render {
 	}
 
 	/**
-	 * Adds the notification bubble to WP Rocket menu item when expired
+	 * Adds the notification bubble to RapydLaunch Booster menu item when expired
 	 *
 	 * @param string $menu_title Menu title.
 	 *

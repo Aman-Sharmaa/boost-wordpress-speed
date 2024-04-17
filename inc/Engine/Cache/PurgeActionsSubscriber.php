@@ -12,7 +12,7 @@ use WP_Rocket\Logger\Logger;
  */
 class PurgeActionsSubscriber implements Subscriber_Interface {
 	/**
-	 * WP Rocket options instance
+	 * RapydLaunch Booster options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -28,7 +28,7 @@ class PurgeActionsSubscriber implements Subscriber_Interface {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data $options WP Rocket options instance.
+	 * @param Options_Data $options RapydLaunch Booster options instance.
 	 * @param Purge        $purge   Purge instance.
 	 */
 	public function __construct( Options_Data $options, Purge $purge ) {

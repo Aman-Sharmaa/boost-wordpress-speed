@@ -55,7 +55,7 @@ class Savvii implements Subscriber_Interface {
 	}
 
 	/**
-	 * Clear WP Rocket cache after purged the Varnish cache via Savvii Hosting.
+	 * Clear RapydLaunch Booster cache after purged the Varnish cache via Savvii Hosting.
 	 *
 	 * @since 3.6.3 Rename and move to new architecture. Refactor. Fix wrong nonce names/actions.
 	 * @since 2.6.5

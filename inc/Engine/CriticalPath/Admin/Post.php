@@ -38,7 +38,7 @@ class Post extends Abstract_Render {
 	/**
 	 * Creates an instance of the subscriber.
 	 *
-	 * @param Options_Data $options       WP Rocket Options instance.
+	 * @param Options_Data $options       RapydLaunch Booster Options instance.
 	 * @param Beacon       $beacon        Beacon instance.
 	 * @param string       $critical_path Path to the critical CSS base folder.
 	 * @param string       $template_path Path to the templates folder.
@@ -52,7 +52,7 @@ class Post extends Abstract_Render {
 	}
 
 	/**
-	 * Displays the critical CSS block in WP Rocket options metabox.
+	 * Displays the critical CSS block in RapydLaunch Booster options metabox.
 	 *
 	 * @since 3.6
 	 *
@@ -220,7 +220,7 @@ class Post extends Abstract_Render {
 		$list   = [
 			// translators: %s = post type.
 			'not_published'   => sprintf( __( 'Publish the %s', 'rocket' ), $post->post_type ),
-			'option_disabled' => __( 'Enable Load CSS asynchronously in WP Rocket settings', 'rocket' ),
+			'option_disabled' => __( 'Enable Load CSS asynchronously in RapydLaunch Booster settings', 'rocket' ),
 			'option_excluded' => __( 'Enable Load CSS asynchronously in the options above', 'rocket' ),
 		];
 

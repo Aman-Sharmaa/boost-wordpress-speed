@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 			<?php
 			printf(
 				// translators: %1$s = <strong>, %2$s = </strong>.
-				esc_html__( 'Your %1$sWP Rocket license is about to expire%2$s: you will soon lose access to product updates and support.', 'rocket' ),
+				esc_html__( 'Your %1$sRapydLaunch Booster license is about to expire%2$s: you will soon lose access to product updates and support.', 'rocket' ),
 				'<strong>',
 				'</strong>'
 			);

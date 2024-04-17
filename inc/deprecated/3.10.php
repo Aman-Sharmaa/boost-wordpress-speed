@@ -9,7 +9,7 @@ class_alias( '\WP_Rocket\Engine\Admin\Database\ServiceProvider','\WP_Rocket\Serv
 class_alias( '\WP_Rocket\Engine\Admin\Database\Subscriber','\WP_Rocket\Subscriber\Admin\Database\Optimization_Subscriber' );
 
 /**
- * Maybe reset opcache after WP Rocket update.
+ * Maybe reset opcache after RapydLaunch Booster update.
  *
  * @since 3.10.8 deprecated
  * @since  3.1
@@ -62,7 +62,7 @@ function rocket_reset_opcache() {
 	static $can_reset;
 
 	/**
-	 * Triggers before WP Rocket tries to reset OPCache
+	 * Triggers before RapydLaunch Booster tries to reset OPCache
 	 *
 	 * @since 3.2.5
 	 * @author Remy Perona
@@ -94,7 +94,7 @@ function rocket_reset_opcache() {
 	$opcache_reset = opcache_reset();
 
 	/**
-	 * Triggers after WP Rocket tries to reset OPCache
+	 * Triggers after RapydLaunch Booster tries to reset OPCache
 	 *
 	 * @since 3.2.5
 	 * @author Remy Perona

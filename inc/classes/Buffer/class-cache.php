@@ -442,7 +442,7 @@ class Cache extends Abstract_Buffer {
 	}
 
 	/**
-	 * Get WP Rocket footprint
+	 * Get RapydLaunch Booster footprint
 	 *
 	 * @since 3.0.5 White label footprint if WP_ROCKET_WHITE_LABEL_FOOTPRINT is defined.
 	 * @since 2.0
@@ -605,7 +605,7 @@ class Cache extends Abstract_Buffer {
 		}
 
 		/**
-		 * Force WP Rocket to disable its webp cache.
+		 * Force RapydLaunch Booster to disable its webp cache.
 		 *
 		 * @since  3.4
 		 *

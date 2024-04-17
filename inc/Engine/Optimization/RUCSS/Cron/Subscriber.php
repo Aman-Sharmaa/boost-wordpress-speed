@@ -157,7 +157,7 @@ class Subscriber implements Subscriber_Interface {
 
 		$schedules['rocket_rucss_pending_jobs'] = [
 			'interval' => $interval,
-			'display'  => esc_html__( 'WP Rocket Remove Unused CSS pending jobs', 'rocket' ),
+			'display'  => esc_html__( 'RapydLaunch Booster Remove Unused CSS pending jobs', 'rocket' ),
 		];
 
 		$default_interval = 3 * rocket_get_constant( 'DAY_IN_SECONDS', 86400 );
@@ -171,7 +171,7 @@ class Subscriber implements Subscriber_Interface {
 
 		$schedules['rocket_remove_rucss_failed_jobs'] = [
 			'interval' => $interval,
-			'display'  => esc_html__( 'WP Rocket clear Remove Unused CSS failed jobs', 'rocket' ),
+			'display'  => esc_html__( 'RapydLaunch Booster clear Remove Unused CSS failed jobs', 'rocket' ),
 		];
 
 		return $schedules;

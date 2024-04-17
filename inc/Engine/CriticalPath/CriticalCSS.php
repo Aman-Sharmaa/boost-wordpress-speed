@@ -24,7 +24,7 @@ class CriticalCSS {
 	public $process;
 
 	/**
-	 * WP Rocket options instance.
+	 * RapydLaunch Booster options instance.
 	 *
 	 * @var Options_Data
 	 */

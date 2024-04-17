@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) || exit;
 			<?php
 			printf(
 				// translators: %1$s = <strong>, %2$s = plugin version, %3$s = </strong>, %4$s = <a>, %5$s = </a>, %6$s = <a>.
-				esc_html__( ' %1$sWP Rocket %2$s%3$s is available. %4$sLearn more%5$s about the updates and enhancements of this major version. You need an active license to use them on your website, don’t miss out! %6$sRenew Now%5$s', 'rocket' ),
+				esc_html__( ' %1$sRapydLaunch Booster %2$s%3$s is available. %4$sLearn more%5$s about the updates and enhancements of this major version. You need an active license to use them on your website, don’t miss out! %6$sRenew Now%5$s', 'rocket' ),
 				'<strong>',
 				esc_html( $data['version'] ),
 				'</strong>',

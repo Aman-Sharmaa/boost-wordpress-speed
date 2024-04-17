@@ -42,7 +42,7 @@ function rocket_add_custom_login_exclude_pages( $urls, $show_safe_content = true
 function rocket_activate_custom_login_page_template() {
 	add_filter( 'rocket_cache_reject_uri', 'rocket_add_custom_login_exclude_pages', 2, 2 );
 
-	// Update the WP Rocket rules on the .htaccess.
+	// Update the RapydLaunch Booster rules on the .htaccess.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.
@@ -59,7 +59,7 @@ add_action( 'activate_custom-login-page-template/custom-login-page-template.php'
 function rocket_remove_custom_login_exclude_pages() {
 	remove_filter( 'rocket_cache_reject_uri', 'rocket_add_custom_login_exclude_pages' );
 
-	// Update the WP Rocket rules on the .htaccess.
+	// Update the RapydLaunch Booster rules on the .htaccess.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.

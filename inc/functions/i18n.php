@@ -340,7 +340,7 @@ function get_rocket_i18n_uri() { // phpcs:ignore WordPress.NamingConventions.Pre
  * @since 2.0
  *
  * @param string $current_lang The current language code.
- * @param string $cache_path   Optional. WP Rocket's cache path.
+ * @param string $cache_path   Optional. RapydLaunch Booster's cache path.
  *
  * @return array                A list of directories path to preserve.
  */

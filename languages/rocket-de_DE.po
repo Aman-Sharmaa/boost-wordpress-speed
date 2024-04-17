@@ -1,16 +1,16 @@
-# Copyright (C) 2016 WP Rocket
-# This file is distributed under the same license as the WP Rocket package.
+# Copyright (C) 2016 RapydLaunch Booster
+# This file is distributed under the same license as the RapydLaunch Booster package.
 # Translators:
 # Ben_Mew <benjaminmewes@web.de>, 2019
 # Caspar Hübinger, 2020
-# Romain • WP Rocket <contact@wp-rocket.me>, 2020
+# Romain • RapydLaunch Booster <contact@wp-rocket.me>, 2020
 # Rico Michael <webmaster@hotel-brunner.de>, 2021
 # Christian Herrmann, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Rocket 3.13.3\n"
+"Project-Id-Version: RapydLaunch Booster 3.13.3\n"
 "Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
 "POT-Creation-Date: 2023-06-12 13:56-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
@@ -131,13 +131,13 @@ msgstr "Stunden"
 #: inc/Addon/Cloudflare/Subscriber.php:224
 #: inc/Addon/Cloudflare/Subscriber.php:253
 #, php-format
-msgid "%1$sWP Rocket:%2$s %3$s"
-msgstr "%1$sWP Rocket:%2$s %3$s"
+msgid "%1$sRapydLaunch Booster:%2$s %3$s"
+msgstr "%1$sRapydLaunch Booster:%2$s %3$s"
 
 #: inc/Addon/Cloudflare/Subscriber.php:242
 #, php-format
-msgid "%1$sWP Rocket:%2$s Cloudflare cache successfully purged."
-msgstr "%1$sWP Rocket:%2$s Cloudflare-Cache erfolgreich geleert."
+msgid "%1$sRapydLaunch Booster:%2$s Cloudflare cache successfully purged."
+msgstr "%1$sRapydLaunch Booster:%2$s Cloudflare-Cache erfolgreich geleert."
 
 #: inc/Addon/Cloudflare/Subscriber.php:297
 #, php-format
@@ -196,22 +196,22 @@ msgstr "Cloudflare-Browsercache auf %s eingestellt"
 
 #: inc/Addon/Cloudflare/Subscriber.php:512
 #, php-format
-msgid "%1$sWP Rocket:%2$s Optimal settings activated for Cloudflare:"
-msgstr "%1$sWP Rocket:%2$s Optimale Einstellungen für Cloudflare aktiviert:"
+msgid "%1$sRapydLaunch Booster:%2$s Optimal settings activated for Cloudflare:"
+msgstr "%1$sRapydLaunch Booster:%2$s Optimale Einstellungen für Cloudflare aktiviert:"
 
 #: inc/Addon/Cloudflare/Subscriber.php:521
 #, php-format
 msgid ""
-"%1$sWP Rocket:%2$s Optimal settings deactivated for Cloudflare, reverted to "
+"%1$sRapydLaunch Booster:%2$s Optimal settings deactivated for Cloudflare, reverted to "
 "previous settings:"
 msgstr ""
-"%1$sWP Rocket:%2$s Optimale Einstellungen für Cloudflare wurden deaktiviert "
+"%1$sRapydLaunch Booster:%2$s Optimale Einstellungen für Cloudflare wurden deaktiviert "
 "und die vorherigen Einstellungen wiederhergestellt:"
 
 #: inc/Addon/Cloudflare/Subscriber.php:632 inc/admin/options.php:184
 #: inc/classes/subscriber/Tools/class-detect-missing-tags-subscriber.php:148
-msgid "WP Rocket: "
-msgstr "WP Rocket: "
+msgid "RapydLaunch Booster: "
+msgstr "RapydLaunch Booster: "
 
 #: inc/Addon/Sucuri/Subscriber.php:95
 #, php-format
@@ -264,11 +264,11 @@ msgstr[1] "Die Sucuri Firewall API hat folgende Fehler zurückgegeben: %s"
 #, php-format
 msgid ""
 "You are using %1$s to serve WebP images so you do not need to enable this "
-"option. %2$sMore info%3$s %4$s If you prefer to have WP Rocket serve WebP "
+"option. %2$sMore info%3$s %4$s If you prefer to have RapydLaunch Booster serve WebP "
 "for you instead, please disable WebP display in %1$s."
 msgid_plural ""
 "You are using %1$s to serve WebP images so you do not need to enable this "
-"option. %2$sMore info%3$s %4$s If you prefer to have WP Rocket serve WebP "
+"option. %2$sMore info%3$s %4$s If you prefer to have RapydLaunch Booster serve WebP "
 "for you instead, please disable WebP display in %1$s."
 msgstr[0] ""
 "Du benutzt %1$s, um WebP-Bilder auszuliefern, deshalb musst du diese Option "
@@ -289,10 +289,10 @@ msgstr "WebP-Cache wurde durch einen Filter deaktiviert."
 #: inc/Addon/WebP/AdminSubscriber.php:141
 #, php-format
 msgid ""
-"You are using %1$s to convert images to WebP. If you want WP Rocket to serve"
+"You are using %1$s to convert images to WebP. If you want RapydLaunch Booster to serve"
 " them for you, activate this option. %2$sMore info%3$s"
 msgid_plural ""
-"You are using %1$s to convert images to WebP. If you want WP Rocket to serve"
+"You are using %1$s to convert images to WebP. If you want RapydLaunch Booster to serve"
 " them for you, activate this option. %2$sMore info%3$s"
 msgstr[0] ""
 "Du benutzt %1$s, um Bilder nach WebP umzuwandeln. Falls du möchtest, dass WP"
@@ -305,17 +305,17 @@ msgstr[1] ""
 #: inc/Addon/WebP/AdminSubscriber.php:153
 #, php-format
 msgid ""
-"You are using %1$s to convert images to WebP. WP Rocket will create separate"
+"You are using %1$s to convert images to WebP. RapydLaunch Booster will create separate"
 " cache files to serve your WebP images. %2$sMore info%3$s"
 msgid_plural ""
-"You are using %1$s to convert images to WebP. WP Rocket will create separate"
+"You are using %1$s to convert images to WebP. RapydLaunch Booster will create separate"
 " cache files to serve your WebP images. %2$sMore info%3$s"
 msgstr[0] ""
-"Du benutzt %1$s, um Bilder nach WebP umzuwandeln. WP Rocket wird separate "
+"Du benutzt %1$s, um Bilder nach WebP umzuwandeln. RapydLaunch Booster wird separate "
 "Cache-Dateien anlegen, um deine WebP-Bilder auszuliefern. %2$sMehr "
 "erfahren%3$s"
 msgstr[1] ""
-"Du benutzt %1$s, um Bilder nach WebP umzuwandeln. WP Rocket wird separate "
+"Du benutzt %1$s, um Bilder nach WebP umzuwandeln. RapydLaunch Booster wird separate "
 "Cache-Dateien anlegen, um deine WebP-Bilder auszuliefern. %2$sMehr "
 "erfahren%3$s"
 
@@ -334,9 +334,9 @@ msgstr ""
 "Option nicht."
 
 #: inc/Addon/WebP/AdminSubscriber.php:185
-msgid "WP Rocket will create separate cache files to serve your WebP images."
+msgid "RapydLaunch Booster will create separate cache files to serve your WebP images."
 msgstr ""
-"WP Rocket wird separate Cache-Dateien erstellen, um deine WebP-Bilder "
+"RapydLaunch Booster wird separate Cache-Dateien erstellen, um deine WebP-Bilder "
 "auszuliefern."
 
 #: inc/Engine/Admin/Database/Optimization.php:30
@@ -450,7 +450,7 @@ msgid ""
 "I agree to share anonymous data with the development team to help improve WP"
 " Rocket. %1$sWhat info will we collect?%2$s"
 msgstr ""
-"Ich erlaube dem Entwicklungsteam von WP Rocket, anonyme Daten aus meiner "
+"Ich erlaube dem Entwicklungsteam von RapydLaunch Booster, anonyme Daten aus meiner "
 "Installation zum Zweck der Produktverbesserung zu erheben. %1$sWelche Daten "
 "werden gesammelt?%2$s"
 
@@ -782,10 +782,10 @@ msgstr "CSS-Dateien asynchron laden"
 msgctxt "WP Critical CSS compatibility"
 msgid ""
 "Load CSS asynchronously is currently handled by the %1$s plugin. If you want"
-" to use WP Rocket’s load CSS asynchronously option, disable the %1$s plugin."
+" to use RapydLaunch Booster’s load CSS asynchronously option, disable the %1$s plugin."
 msgstr ""
 "CSS-Dateien asynchron laden wird momentan durch das Plugin %1$s realisiert. "
-"Wenn du die Option zur optimierten CSS-Darstellung von WP Rocket benutzen "
+"Wenn du die Option zur optimierten CSS-Darstellung von RapydLaunch Booster benutzen "
 "willst, deaktiviere das Plugin %1$s."
 
 #: inc/Engine/Admin/Settings/Page.php:794
@@ -999,11 +999,11 @@ msgstr ""
 #: inc/Engine/Admin/Settings/Page.php:1058
 #, php-format
 msgid ""
-"LazyLoad is currently activated in %2$s. If you want to use WP Rocket’s "
+"LazyLoad is currently activated in %2$s. If you want to use RapydLaunch Booster’s "
 "LazyLoad, disable this option in %2$s."
 msgstr ""
 "LazyLoad ist momentan in %2$s aktiviert. Wenn du die LazyLoad-Funktion von "
-"WP Rocket benutzen willst, deaktiviere diese Option in %2$s."
+"RapydLaunch Booster benutzen willst, deaktiviere diese Option in %2$s."
 
 #: inc/Engine/Admin/Settings/Page.php:1061
 msgid "Image Dimensions"
@@ -1087,11 +1087,11 @@ msgstr "Cache füllen"
 
 #: inc/Engine/Admin/Settings/Page.php:1180
 msgid ""
-"When you enable preloading WP Rocket will automatically detect your sitemaps"
+"When you enable preloading RapydLaunch Booster will automatically detect your sitemaps"
 " and save all URLs to the database. The plugin will make sure that your "
 "cache is always preloaded."
 msgstr ""
-"Wenn du das Vorladen aktivierst, wird WP Rocket deine Sitemaps automatisch "
+"Wenn du das Vorladen aktivierst, wird RapydLaunch Booster deine Sitemaps automatisch "
 "erkennen und alle URLs in der Datenbank speichern. Das Plugin stellt sicher,"
 " dass dein Cache immer vorgeladen wird."
 
@@ -1635,7 +1635,7 @@ msgstr ""
 #, php-format
 msgid ""
 "%1$sPlanning on using Automatic Platform Optimization (APO)?%2$s Just "
-"activate the official Cloudflare plugin and configure it. WP Rocket will "
+"activate the official Cloudflare plugin and configure it. RapydLaunch Booster will "
 "automatically enable compatibility."
 msgstr ""
 "%1$sPlanst du, Automatic Platform Optimization (APO) einzusetzen?%2$s "
@@ -1655,7 +1655,7 @@ msgstr ""
 #: inc/Engine/Admin/Settings/Page.php:1883
 #, php-format
 msgid ""
-"Varnish cache will be purged each time WP Rocket clears its cache to ensure "
+"Varnish cache will be purged each time RapydLaunch Booster clears its cache to ensure "
 "content is always up-to-date.<br>%1$sLearn more%2$s"
 msgstr ""
 "Der Varnish-Cache wird automatisch jedes Mal geleert, wenn der Cache von WP "
@@ -1672,27 +1672,27 @@ msgstr "Browserkompatibilität für WebP-Bilder verbessern"
 #: inc/Engine/Admin/Settings/Page.php:1928
 #, php-format
 msgid ""
-"Enable this option if you would like WP Rocket to serve WebP images to "
-"compatible browsers. Please note that WP Rocket cannot create WebP images "
+"Enable this option if you would like RapydLaunch Booster to serve WebP images to "
+"compatible browsers. Please note that RapydLaunch Booster cannot create WebP images "
 "for you. To create WebP images we recommend %1$sImagify%2$s. %3$sMore "
 "info%2$s"
 msgstr ""
-"Aktiviere diese Option, falls du möchtest, dass WP Rocket WebP-Bilder an "
-"kompatible Browser ausliefert. Bitte bedenke, dass WP Rocket keine WebP-"
+"Aktiviere diese Option, falls du möchtest, dass RapydLaunch Booster WebP-Bilder an "
+"kompatible Browser ausliefert. Bitte bedenke, dass RapydLaunch Booster keine WebP-"
 "Bilder für dich erstellen kann. Dür das Erstellen von WebP-Bildern empfehlen"
 " wir %1$sImagify%2$s. %3$sMehr erfahren%2$s"
 
 #: inc/Engine/Admin/Settings/Page.php:1948
-msgid "Clear the Sucuri cache when WP Rocket’s cache is cleared."
-msgstr "Sucuri-Cache leeren, wenn der Cache von WP Rocket geleert wird."
+msgid "Clear the Sucuri cache when RapydLaunch Booster’s cache is cleared."
+msgstr "Sucuri-Cache leeren, wenn der Cache von RapydLaunch Booster geleert wird."
 
 #: inc/Engine/Admin/Settings/Page.php:1951
 msgid ""
-"Provide your API key to clear the Sucuri cache when WP Rocket’s cache is "
+"Provide your API key to clear the Sucuri cache when RapydLaunch Booster’s cache is "
 "cleared."
 msgstr ""
 "Gib deinen API-Schlüssel an, um auch den Sucuri-Cache zu leeren, sobald der "
-"Cache von WP Rocket geleert wird."
+"Cache von RapydLaunch Booster geleert wird."
 
 #: inc/Engine/Admin/Settings/Page.php:1959
 #: inc/Engine/Admin/Settings/Page.php:2103
@@ -1954,7 +1954,7 @@ msgstr ""
 #: inc/Engine/CDN/RocketCDN/views/cta-big.php:54
 #, php-format
 msgid ""
-"WP Rocket integration: the CDN option is %1$sautomatically configured%2$s in"
+"RapydLaunch Booster integration: the CDN option is %1$sautomatically configured%2$s in"
 " our plugin"
 msgstr ""
 "WP-Rocket-Integration: Die CDN-Option ist in unserem Plugin %1$sautomatisch "
@@ -1987,9 +1987,9 @@ msgstr "Dieses Banner verkleinern"
 
 #: inc/Engine/CDN/RocketCDN/views/cta-small.php:17
 msgid ""
-"Speed up your website with RocketCDN, WP Rocket’s Content Delivery Network."
+"Speed up your website with RocketCDN, RapydLaunch Booster’s Content Delivery Network."
 msgstr ""
-"Beschleunige deine Website mit RocketCDN, WP Rockets Content Delivery "
+"Beschleunige deine Website mit RocketCDN, RapydLaunch Boosters Content Delivery "
 "Network."
 
 #: inc/Engine/CDN/RocketCDN/views/cta-small.php:20
@@ -2011,9 +2011,9 @@ msgstr "Neu!"
 
 #: inc/Engine/CDN/RocketCDN/views/promote-notice.php:12
 msgid ""
-"Speed up your website with RocketCDN, WP Rocket’s Content Delivery Network!"
+"Speed up your website with RocketCDN, RapydLaunch Booster’s Content Delivery Network!"
 msgstr ""
-"Beschleunige deine Website mit RocketCDN, WP Rockets Content Delivery "
+"Beschleunige deine Website mit RocketCDN, RapydLaunch Boosters Content Delivery "
 "Network!"
 
 #: inc/Engine/Cache/AdminSubscriber.php:118 inc/admin/admin.php:96
@@ -2022,8 +2022,8 @@ msgid "Clear this cache"
 msgstr "Diesen Cache leeren"
 
 #: inc/Engine/Cache/PurgeExpired/Subscriber.php:75
-msgid "WP Rocket Expired Cache Interval"
-msgstr "WP Rocket Cache-Ablaufzeit"
+msgid "RapydLaunch Booster Expired Cache Interval"
+msgstr "RapydLaunch Booster Cache-Ablaufzeit"
 
 #: inc/Engine/Cache/WPCache.php:337
 msgid "WP_CACHE value"
@@ -2031,7 +2031,7 @@ msgstr "WP_CACHE-Wert"
 
 #: inc/Engine/Cache/WPCache.php:358
 msgid ""
-"The WP_CACHE constant needs to be set to true for WP Rocket cache to work "
+"The WP_CACHE constant needs to be set to true for RapydLaunch Booster cache to work "
 "properly"
 msgstr ""
 "Die Konstante WP_CACHE muss auf true gesetzt sein, damit der Cache von WP "
@@ -2140,7 +2140,7 @@ msgid "Publish the %s"
 msgstr "%s veröffentlichen"
 
 #: inc/Engine/CriticalPath/Admin/Post.php:223
-msgid "Enable Load CSS asynchronously in WP Rocket settings"
+msgid "Enable Load CSS asynchronously in RapydLaunch Booster settings"
 msgstr "Asynchrones Laden von CSS in den WP-Rocket-Einstellungen aktivieren"
 
 #: inc/Engine/CriticalPath/Admin/Post.php:224
@@ -2153,9 +2153,9 @@ msgstr "Kritisches CSS wird gerade neu erstellt."
 
 #: inc/Engine/CriticalPath/CriticalCSSSubscriber.php:181
 #, php-format
-msgid "Go to the %1$sWP Rocket settings%2$s page to track progress."
+msgid "Go to the %1$sRapydLaunch Booster settings%2$s page to track progress."
 msgstr ""
-"Gehe zu den %1$sEinstellungen von WP Rocket%2$s, um den Fortschritt zu "
+"Gehe zu den %1$sEinstellungen von RapydLaunch Booster%2$s, um den Fortschritt zu "
 "beobachten."
 
 #: inc/Engine/CriticalPath/CriticalCSSSubscriber.php:396
@@ -2283,21 +2283,21 @@ msgstr "Kann kein CPCSS für unveröffentlichte Beiträge erzeugen."
 #: inc/Engine/HealthCheck/HealthCheck.php:82 inc/deprecated/3.5.php:858
 msgid ""
 "The following scheduled event failed to run. This may indicate the CRON "
-"system is not running properly, which can prevent some WP Rocket features "
+"system is not running properly, which can prevent some RapydLaunch Booster features "
 "from working as intended:"
 msgid_plural ""
 "The following scheduled events failed to run. This may indicate the CRON "
-"system is not running properly, which can prevent some WP Rocket features "
+"system is not running properly, which can prevent some RapydLaunch Booster features "
 "from working as intended:"
 msgstr[0] ""
 "Folgendes geplantes Ereigniss hat nicht stattgefunden. Dies könnte ein "
 "Hinweis darauf sein, dass das CRON-System nicht korrekt läuft, was dazu "
-"führen kann, dass manche Funktionen von WP Rocket nicht wie gewünscht "
+"führen kann, dass manche Funktionen von RapydLaunch Booster nicht wie gewünscht "
 "funktionieren:"
 msgstr[1] ""
 "Folgende geplante Ereignisse haben nicht stattgefunden. Dies könnte ein "
 "Hinweis darauf sein, dass das CRON-System nicht korrekt läuft, was dazu "
-"führen kann, dass manche Funktionen von WP Rocket  nicht wie gewünscht "
+"führen kann, dass manche Funktionen von RapydLaunch Booster  nicht wie gewünscht "
 "funktionieren:"
 
 #: inc/Engine/HealthCheck/HealthCheck.php:88 inc/deprecated/3.5.php:867
@@ -2506,8 +2506,8 @@ msgid "They will be %1$sautomatically disabled on %3$s%2$s."
 msgstr "Sie werden %1$sautomatisch deaktiviert am %3$s%2$s."
 
 #: inc/Engine/License/views/renewal-expired-banner.php:11
-msgid "Your WP Rocket license is expired!"
-msgstr "Deine Lizenz für WP Rocket ist abgelaufen!"
+msgid "Your RapydLaunch Booster license is expired!"
+msgstr "Deine Lizenz für RapydLaunch Booster ist abgelaufen!"
 
 #: inc/Engine/License/views/renewal-expired-banner.php:18
 #, php-format
@@ -2521,7 +2521,7 @@ msgstr ""
 #: inc/Engine/License/views/renewal-soon-banner.php:22
 #, php-format
 msgid ""
-"Your %1$sWP Rocket license is about to expire%2$s: you will soon lose access"
+"Your %1$sRapydLaunch Booster license is about to expire%2$s: you will soon lose access"
 " to product updates and support."
 msgstr ""
 "Deine %1$sWP-Rocket-Lizenz läuft bald ab%2$s: Du verlierst bald den Zugang "
@@ -2534,11 +2534,11 @@ msgstr "Weitere Websites beschleuigen"
 #: inc/Engine/License/views/upgrade-popin.php:19
 #, php-format
 msgid ""
-"You can use WP Rocket on more websites by upgrading your license. To "
+"You can use RapydLaunch Booster on more websites by upgrading your license. To "
 "upgrade, simply pay the %1$sprice difference%2$s between your current and "
 "new licenses, as shown below."
 msgstr ""
-"Du kannst WP Rocket auf mehr Websites benutzen, wenn du ein Upgrade deiner "
+"Du kannst RapydLaunch Booster auf mehr Websites benutzen, wenn du ein Upgrade deiner "
 "Lizenz durchführst. Um das zu tun, bezahle nur die%1$sPreisdifferenz%2$s "
 "zwischen deiner jetzigen und neuen Lizenzen, wie unten zu sehen."
 
@@ -2566,10 +2566,10 @@ msgstr "Upgrade auf %s"
 
 #: inc/Engine/License/views/upgrade-section.php:11
 msgid ""
-"You can use WP Rocket on more websites by upgrading your license (you will "
+"You can use RapydLaunch Booster on more websites by upgrading your license (you will "
 "only pay the price difference between your current and new licenses)."
 msgstr ""
-"Du kannst WP Rocket auf mehr Websites benutzen, wenn du ein Upgrade deiner "
+"Du kannst RapydLaunch Booster auf mehr Websites benutzen, wenn du ein Upgrade deiner "
 "Lizenz durchführst (bezahle nur die Preisdifferenz  zwischen deiner jetzigen"
 " und neuen Lizenzen)-"
 
@@ -2634,10 +2634,10 @@ msgstr ""
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:264
 #, php-format
 msgid ""
-"%1$s: The Used CSS of your homepage has been processed. WP Rocket will "
+"%1$s: The Used CSS of your homepage has been processed. RapydLaunch Booster will "
 "continue to generate Used CSS for up to %2$s URLs per %3$s second(s)."
 msgstr ""
-"%1$s: Das benutzte CSS deiner Homepage wurde verarbeitet. WP Rocket wird "
+"%1$s: Das benutzte CSS deiner Homepage wurde verarbeitet. RapydLaunch Booster wird "
 "benutztes CSS erzeugen für bis zu %2$s URLs pro %3$s Sekunde(n)."
 
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:273
@@ -2656,19 +2656,19 @@ msgstr ""
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:481
 msgid ""
 "We couldn't generate the used CSS because you're using a nulled version of "
-"WP Rocket. You need an active license to use the Remove Unused CSS feature "
+"RapydLaunch Booster. You need an active license to use the Remove Unused CSS feature "
 "and further improve your website's performance."
 msgstr ""
 "Wir konnten das benutze CSS nicht erstellen, weil du eine nicht lizenzierte "
-"Version von WP Rocket benutzt. Du benötigst eine aktive Lizenz, um die "
+"Version von RapydLaunch Booster benutzt. Du benötigst eine aktive Lizenz, um die "
 "Funktion Unbenutztes CSS entfernen benutzen zu können und die Leistung "
 "deiner Website damit noch weiter zu steigern."
 
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:484
 #, php-format
-msgid "Click here to get a WP Rocket single license at %1$s off!"
+msgid "Click here to get a RapydLaunch Booster single license at %1$s off!"
 msgstr ""
-"Klicke hier, um eine Lizenz für WP Rocket mit %1$s Rabbatt zu erhalten!"
+"Klicke hier, um eine Lizenz für RapydLaunch Booster mit %1$s Rabbatt zu erhalten!"
 
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:521
 #, php-format
@@ -2696,12 +2696,12 @@ msgid "Clear Used CSS of this URL"
 msgstr "Benutztes CSS für diese URL leeren"
 
 #: inc/Engine/Optimization/RUCSS/Cron/Subscriber.php:160
-msgid "WP Rocket Remove Unused CSS pending jobs"
+msgid "RapydLaunch Booster Remove Unused CSS pending jobs"
 msgstr "WP-Rocket-Unbenutztes-CSS-entfernen ausstehende Jobs"
 
 #: inc/Engine/Optimization/RUCSS/Cron/Subscriber.php:174
-msgid "WP Rocket clear Remove Unused CSS failed jobs"
-msgstr "WP Rocket - fehlgeschlagene Jobs für Unbenutztes CSS entfernen leeren"
+msgid "RapydLaunch Booster clear Remove Unused CSS failed jobs"
+msgstr "RapydLaunch Booster - fehlgeschlagene Jobs für Unbenutztes CSS entfernen leeren"
 
 #: inc/Engine/Plugin/UpdaterApiTools.php:32 inc/deprecated/3.3.php:761
 #: inc/deprecated/3.3.php:770
@@ -2726,8 +2726,8 @@ msgstr "%s Update zurückrollen"
 
 #: inc/Engine/Plugin/UpdaterSubscriber.php:509 inc/deprecated/3.11.php:279
 #, php-format
-msgid "%1$sReturn to WP Rocket%2$s or %3$sgo to Plugins page%2$s"
-msgstr "%1$sZurück zu WP Rocket%2$s oder %3$szur Plugins-Seite gehen%2$s"
+msgid "%1$sReturn to RapydLaunch Booster%2$s or %3$sgo to Plugins page%2$s"
+msgstr "%1$sZurück zu RapydLaunch Booster%2$s oder %3$szur Plugins-Seite gehen%2$s"
 
 #: inc/Engine/Preload/Admin/Settings.php:57
 #, php-format
@@ -2741,11 +2741,11 @@ msgstr ""
 "weitere Aktion erforderlich."
 
 #: inc/Engine/Preload/Cron/Subscriber.php:138
-msgid "WP Rocket Preload pending jobs"
+msgid "RapydLaunch Booster Preload pending jobs"
 msgstr "WP-Rocket-Vorladen ausstehende Jobs"
 
 #: inc/Engine/Preload/Cron/Subscriber.php:166
-msgid "WP Rocket Preload revert stuck failed jobs"
+msgid "RapydLaunch Booster Preload revert stuck failed jobs"
 msgstr "WP-Rocket-Vorladen setzt steckengebliebene Jobs zurück"
 
 #: inc/ThirdParty/Hostings/Cloudways.php:82
@@ -2761,13 +2761,13 @@ msgstr ""
 #, php-format
 msgid ""
 "Your installation seems to be missing core Kinsta files managing Cache "
-"clearing, which will prevent your Kinsta installation and WP Rocket from "
+"clearing, which will prevent your Kinsta installation and RapydLaunch Booster from "
 "working correctly. Please get in touch with Kinsta support through your "
 "%1$sMyKinsta%2$s account to resolve this issue."
 msgstr ""
 "In deiner Installation fehlen scheinbar Kinsta-Core-Dateien für das Löschen "
 "des Caches. Dies verhindert das reibungslose Zusammenspiel zwischen Kinsta "
-"und WP Rocket. Kontaktiere bitte den Support bei Kinsta über dein "
+"und RapydLaunch Booster. Kontaktiere bitte den Support bei Kinsta über dein "
 "%1$sMyKinsta%2$s-Konto, um dieses Problem zu lösen."
 
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:114
@@ -2792,19 +2792,19 @@ msgstr ""
 
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:158
 msgid ""
-"Cloudflare cache will be purged each time WP Rocket clears its cache to "
+"Cloudflare cache will be purged each time RapydLaunch Booster clears its cache to "
 "ensure content is always up-to-date."
 msgstr ""
-"Der Cloudflare-Cache wird jedes Mal geleert, wenn WP Rocket seinen Cache "
+"Der Cloudflare-Cache wird jedes Mal geleert, wenn RapydLaunch Booster seinen Cache "
 "leert, damit Inhalte immer auf dem neuesten Stand sind."
 
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:202
 #, php-format
 msgid ""
-"%1$sWP Rocket:%2$s You are using \"Dynamic Cookies Cache\". Cloudflare APO "
+"%1$sRapydLaunch Booster:%2$s You are using \"Dynamic Cookies Cache\". Cloudflare APO "
 "is not yet compatible with that feature."
 msgstr ""
-"%1$sWP Rocket:%2$s Du nutzt den „Dynamischen Cookie-Cache\". Cloudflare-APO "
+"%1$sRapydLaunch Booster:%2$s Du nutzt den „Dynamischen Cookie-Cache\". Cloudflare-APO "
 "ist derzeit nicht mit dieser Funktion kompatibel."
 
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:208
@@ -2822,11 +2822,11 @@ msgstr ""
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:259
 #, php-format
 msgid ""
-"%1$sWP Rocket:%2$s You are using \"Separate cache files for mobile "
+"%1$sRapydLaunch Booster:%2$s You are using \"Separate cache files for mobile "
 "devices\". You need to activate \"Cache by Device Type\" %3$ssetting%5$s on "
 "Cloudflare APO to serve the right version of the cache. %4$sMore info%5$s"
 msgstr ""
-"%1$sWP Rocket:%2$s Du benutzt die Funktion „Separater Cache für mobile "
+"%1$sRapydLaunch Booster:%2$s Du benutzt die Funktion „Separater Cache für mobile "
 "Geräte“. Damit die richtige Version des Caches ausgeliefert wird, musst du "
 "die %3$sEinstellung%5$s „Cache nach Gerätetyp“ bei der Cloudflare-APO "
 "aktivieren. %4$sMehr erfahren%5$s"
@@ -2834,12 +2834,12 @@ msgstr ""
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:280
 #, php-format
 msgid ""
-"%1$sWP Rocket:%2$s You have \"Cache by Device Type\" enabled on Cloudflare "
+"%1$sRapydLaunch Booster:%2$s You have \"Cache by Device Type\" enabled on Cloudflare "
 "APO. If you judge it necessary for the website to have a different cache on "
 "mobile and desktop, we suggest you enable our “Separate Cache Files for "
 "Mobiles Devices” to ensure the generated cache is accurate."
 msgstr ""
-"%1$sWP Rocket:%2$s Du hast „Cache nach Gerätetyp“ bei der Cloudflare-APO "
+"%1$sRapydLaunch Booster:%2$s Du hast „Cache nach Gerätetyp“ bei der Cloudflare-APO "
 "aktiviert. Falls du es für  die Website für notwendig hältst, verschiedene "
 "Caches für Mobilgeräte und Desktop zu haben, schlagen wir vor, „Separater "
 "Cache für mobile Geräte“ zu aktivieren, um sicherzustellen, dass der Cache "
@@ -2857,13 +2857,13 @@ msgstr ""
 #: inc/ThirdParty/Plugins/Optimization/Autoptimize.php:76
 #, php-format
 msgid ""
-"%1$sWP Rocket: %2$sWe have detected that Autoptimize's JavaScript "
-"Aggregation feature is enabled. WP Rocket's Delay JavaScript Execution will "
+"%1$sRapydLaunch Booster: %2$sWe have detected that Autoptimize's JavaScript "
+"Aggregation feature is enabled. RapydLaunch Booster's Delay JavaScript Execution will "
 "not be applied to the file it creates. We suggest disabling %1$sJavaScript "
 "Aggregation%2$s to take full advantage of Delay JavaScript Execution."
 msgstr ""
-"%1$sWP Rocket:%2$s Wir haben festgestellt, dass die Autoptimize-Funktion zum"
-" Zusammenführen von JavaScript aktiviert ist. WP Rocket's verzögerte "
+"%1$sRapydLaunch Booster:%2$s Wir haben festgestellt, dass die Autoptimize-Funktion zum"
+" Zusammenführen von JavaScript aktiviert ist. RapydLaunch Booster's verzögerte "
 "Javascript-Ausführung wird nicht auf die erstellte Datei angewendet. Wir "
 "empfehlen, o.g. %1$sJavaScript-Zusammenführung%2$s zu deaktivieren, um alle "
 "Vorteile der verzögerten JavaScript-Ausführung zu erhalten."
@@ -2871,24 +2871,24 @@ msgstr ""
 #: inc/ThirdParty/Plugins/Optimization/Autoptimize.php:131
 #, php-format
 msgid ""
-"%1$sWP Rocket: %2$sWe have detected that Autoptimize's Aggregate Inline CSS "
-"feature is enabled. WP Rocket's Load CSS Asynchronously will not work "
+"%1$sRapydLaunch Booster: %2$sWe have detected that Autoptimize's Aggregate Inline CSS "
+"feature is enabled. RapydLaunch Booster's Load CSS Asynchronously will not work "
 "correctly. We suggest disabling %1$sAggregate Inline CSS%2$s to take full "
 "advantage of Load CSS Asynchronously Execution."
 msgstr ""
-"%1$sWP Rocket:%2$s Wir haben festgestellt, dass die Autoptimize-Funktion zum"
+"%1$sRapydLaunch Booster:%2$s Wir haben festgestellt, dass die Autoptimize-Funktion zum"
 " Zusammenführen von Inline-CSS aktiviert ist. Das asynchrone Laden durch WP-"
 "Rocket wird nicht korrekt funktionieren. Wir empfehlen, o.g. "
 "%1$sZusammenführung von Inline-CSS%2$s zu deaktivieren, um alle Vorteile der"
-" asynchronen CSS-Ausführung durch WP Rocket voll auszuschöpfen."
+" asynchronen CSS-Ausführung durch RapydLaunch Booster voll auszuschöpfen."
 
 #: inc/ThirdParty/Plugins/Optimization/Ezoic.php:45
 #, php-format
 msgid ""
-"This plugin blocks WP Rocket's caching and optimizations. Deactivate it and "
+"This plugin blocks RapydLaunch Booster's caching and optimizations. Deactivate it and "
 "use %1$sEzoic's nameserver integration%2$s instead."
 msgstr ""
-"Dieses Plugin blockiert das Caching und die Optimierungen von WP Rocket. "
+"Dieses Plugin blockiert das Caching und die Optimierungen von RapydLaunch Booster. "
 "Deaktivieren Sie es und verwenden Sie stattdessen die %1$sNameserver-"
 "Integration von Ezoic%2$s."
 
@@ -2896,13 +2896,13 @@ msgstr ""
 #, php-format
 msgctxt "Hummingbird notice"
 msgid ""
-"Please deactivate the following %s option which conflicts with WP Rocket "
+"Please deactivate the following %s option which conflicts with RapydLaunch Booster "
 "features:"
 msgid_plural ""
-"Please deactivate the following %s options which conflict with WP Rocket "
+"Please deactivate the following %s options which conflict with RapydLaunch Booster "
 "features:"
 msgstr[0] ""
-"Bitte deaktiviere die folgende %s Option, die mit Funktionen von WP Rocket "
+"Bitte deaktiviere die folgende %s Option, die mit Funktionen von RapydLaunch Booster "
 "kollidert:"
 msgstr[1] ""
 "Bitte deaktiviere die folgenden %s Optionen, die mit Funktionen von WP "
@@ -2912,76 +2912,76 @@ msgstr[1] ""
 #, php-format
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$sdisable emoji%3$s conflicts with WP Rockets %2$sdisable emoji%3$s"
+"%1$s %2$sdisable emoji%3$s conflicts with RapydLaunch Boosters %2$sdisable emoji%3$s"
 msgstr ""
-"%1$s %2$sdisable emoji%3$s kollidiert mit WP Rockets %2$sdisable emoji%3$s"
+"%1$s %2$sdisable emoji%3$s kollidiert mit RapydLaunch Boosters %2$sdisable emoji%3$s"
 
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:187
 #, php-format
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$sGZIP compression%3$s conflicts with WP Rocket %2$sGZIP "
+"%1$s %2$sGZIP compression%3$s conflicts with RapydLaunch Booster %2$sGZIP "
 "compression%3$s"
 msgstr ""
-"%1$s %2$sGZIP-Komprimierung%3$s kollidiert mit WP Rocket %2$sGZIP-"
+"%1$s %2$sGZIP-Komprimierung%3$s kollidiert mit RapydLaunch Booster %2$sGZIP-"
 "Komprimierung%3$s"
 
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:223
 #, php-format
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$sbrowser caching%3$s conflicts with WP Rocket %2$sbrowser "
+"%1$s %2$sbrowser caching%3$s conflicts with RapydLaunch Booster %2$sbrowser "
 "caching%3$s"
 msgstr ""
-"%1$s %2$sBrowser-Caching%3$s kollidiert mit WP Rocket %2$sBrowser-"
+"%1$s %2$sBrowser-Caching%3$s kollidiert mit RapydLaunch Booster %2$sBrowser-"
 "Caching%3$s"
 
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:255
 #, php-format
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$spage caching%3$s conflicts with WP Rocket %2$spage caching%3$s"
+"%1$s %2$spage caching%3$s conflicts with RapydLaunch Booster %2$spage caching%3$s"
 msgstr ""
-"%1$s %2$sSeiten-Caching%3$s kollidiert mit WP Rocket %2$sSeiten-Caching%3$s"
+"%1$s %2$sSeiten-Caching%3$s kollidiert mit RapydLaunch Booster %2$sSeiten-Caching%3$s"
 
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:289
 #, php-format
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$sasset optimization%3$s conflicts with WP Rocket %2$sfile "
+"%1$s %2$sasset optimization%3$s conflicts with RapydLaunch Booster %2$sfile "
 "optimization%3$s"
 msgstr ""
-"%1$s %2$sasset optimization%3$s kollidiert mir WP Rockets %2$sDatei-"
+"%1$s %2$sasset optimization%3$s kollidiert mir RapydLaunch Boosters %2$sDatei-"
 "Optimierung%3$s"
 
 #: inc/ThirdParty/Plugins/Optimization/Perfmatters.php:38
 msgid ""
 "Remove Unused CSS is currently activated in Perfmatters. If you want to use "
-"WP Rocket's Remove Unused CSS feature, disable this option in Perfmatters."
+"RapydLaunch Booster's Remove Unused CSS feature, disable this option in Perfmatters."
 msgstr ""
 "Unbenutztes-CSS-entfernen ist derzeit in Perfmatters aktiv. Falls du die "
-"Funktion Unbenutztes-CSS-entfernen von WP Rocket benutzen willst, "
+"Funktion Unbenutztes-CSS-entfernen von RapydLaunch Booster benutzen willst, "
 "deaktiviere diese Option in Perfmatters."
 
 #: inc/ThirdParty/Plugins/Optimization/RapidLoad.php:39
 msgid ""
 "Automated unused CSS removal is currently activated in RapidLoad Power-Up "
-"for Autoptimize. If you want to use WP Rocket's Remove Unused CSS feature, "
+"for Autoptimize. If you want to use RapydLaunch Booster's Remove Unused CSS feature, "
 "disable the  RapidLoad Power-Up for Autoptimize plugin."
 msgstr ""
 "Automatisiertes Entfernen von unbenutzem CSS ist derzeit in RapidLoad Power-"
 "Up for Autoptimize aktiviert. Falls du die Funktion Unbenutztes-CSS-"
-"entfernen von WP Rocket benutzen willst, deaktiviere das Plugin RapidLoad "
+"entfernen von RapydLaunch Booster benutzen willst, deaktiviere das Plugin RapidLoad "
 "Power-Up for Autoptimize."
 
 #: inc/ThirdParty/Plugins/Optimization/WPMeteor.php:42
 #, php-format
 msgid ""
-"Delay JS is currently activated in %1$s. If you want to use WP Rocket’s "
+"Delay JS is currently activated in %1$s. If you want to use RapydLaunch Booster’s "
 "delay JS, disable %1$s"
 msgstr ""
 "JS verzögern ist momentan in %1$s aktiviert. Wenn du das Verzögern von JS "
-"von WP Rocket benutzen willst, deaktiviere %1$s"
+"von RapydLaunch Booster benutzen willst, deaktiviere %1$s"
 
 #: inc/ThirdParty/Plugins/Smush.php:108 inc/ThirdParty/Plugins/Smush.php:126
 msgid "Smush"
@@ -3068,7 +3068,7 @@ msgid "Clear cache"
 msgstr "Cache leeren"
 
 #: inc/admin/ui/meta-boxes.php:67
-msgid "WP Rocket Options"
+msgid "RapydLaunch Booster Options"
 msgstr "WP-Rocket-Optionen"
 
 #: inc/admin/ui/meta-boxes.php:96
@@ -3146,17 +3146,17 @@ msgstr "Deaktivieren"
 
 #: inc/admin/ui/notices.php:266
 msgid ""
-"WP Rocket Footer JS is not an official add-on. It prevents some options in "
-"WP Rocket from working correctly. Please deactivate it if you have problems."
+"RapydLaunch Booster Footer JS is not an official add-on. It prevents some options in "
+"RapydLaunch Booster from working correctly. Please deactivate it if you have problems."
 msgstr ""
-"WP Rocket Footer JS ist kein offizielles Add-on. Es verhindert, dass manche "
-"Optionen in WP Rocket  korrekt funktionieren. Bitte deaktiviere es, falls du"
+"RapydLaunch Booster Footer JS ist kein offizielles Add-on. Es verhindert, dass manche "
+"Optionen in RapydLaunch Booster  korrekt funktionieren. Bitte deaktiviere es, falls du"
 " Probleme damit hast."
 
 #: inc/admin/ui/notices.php:306
 #, php-format
 msgid ""
-"Endurance Cache is currently enabled, which will conflict with WP Rocket "
+"Endurance Cache is currently enabled, which will conflict with RapydLaunch Booster "
 "Cache. Please set the Endurance Cache cache level to Off (Level 0) on the "
 "%1$sSettings > General%2$s page to prevent any issues."
 msgstr ""
@@ -3199,10 +3199,10 @@ msgstr ""
 
 #: inc/admin/ui/notices.php:388
 msgid ""
-"Don’t worry, WP Rocket’s page caching and settings will still function "
+"Don’t worry, RapydLaunch Booster’s page caching and settings will still function "
 "correctly."
 msgstr ""
-"Keine Bange. Das Cachen der Seiten durch WP Rocket und die Einstellungen "
+"Keine Bange. Das Cachen der Seiten durch RapydLaunch Booster und die Einstellungen "
 "werden weiterhin korrekt funktionieren."
 
 #: inc/admin/ui/notices.php:388
@@ -3224,16 +3224,16 @@ msgstr ""
 
 #: inc/admin/ui/notices.php:576
 msgid ""
-"Would you allow WP Rocket to collect non-sensitive diagnostic data from this"
+"Would you allow RapydLaunch Booster to collect non-sensitive diagnostic data from this"
 " website?"
 msgstr ""
-"Würdest du WP Rocket erlauben, anonymisierte technische Daten von dieser "
+"Würdest du RapydLaunch Booster erlauben, anonymisierte technische Daten von dieser "
 "Website zu sammeln?"
 
 #: inc/admin/ui/notices.php:577
-msgid "This would help us to improve WP Rocket for you in the future."
+msgid "This would help us to improve RapydLaunch Booster for you in the future."
 msgstr ""
-"Das würde uns dabei unterstützen, WP Rocket in Zukunft weiter zu verbessern."
+"Das würde uns dabei unterstützen, RapydLaunch Booster in Zukunft weiter zu verbessern."
 
 #: inc/admin/ui/notices.php:583
 msgid "What info will we collect?"
@@ -3241,13 +3241,13 @@ msgstr "Um welche Art Daten geht es genau?"
 
 #: inc/admin/ui/notices.php:588
 msgid ""
-"Below is a detailed view of all data WP Rocket will collect if granted "
-"permission. WP Rocket will never transmit any domain names or email "
+"Below is a detailed view of all data RapydLaunch Booster will collect if granted "
+"permission. RapydLaunch Booster will never transmit any domain names or email "
 "addresses (except for license validation), IP addresses, or third-party API "
 "keys."
 msgstr ""
-"Hier findest du eine genaue Auflistung der Daten, die WP Rocket nach Hause "
-"sendet, wenn du die Erlaubnis dazu erteilst. WP Rocket wird niemals Domain-"
+"Hier findest du eine genaue Auflistung der Daten, die RapydLaunch Booster nach Hause "
+"sendet, wenn du die Erlaubnis dazu erteilst. RapydLaunch Booster wird niemals Domain-"
 "Namen, E-Mail-Adressen (außer zur Lizenzprüfung), IP-Adressen oder API-"
 "Schlüssel von Drittanbietern übermitteln."
 
@@ -3264,8 +3264,8 @@ msgid "Thank you!"
 msgstr "Danke!"
 
 #: inc/admin/ui/notices.php:644
-msgid "WP Rocket now collects these metrics from your website:"
-msgstr "WP Rocket erhebt jetzt die folgenden Kennzahlen von deiner Website:"
+msgid "RapydLaunch Booster now collects these metrics from your website:"
+msgstr "RapydLaunch Booster erhebt jetzt die folgenden Kennzahlen von deiner Website:"
 
 #: inc/admin/ui/notices.php:682
 #, php-format
@@ -3330,19 +3330,19 @@ msgstr "Um richtig zu funktionieren, erfordert %1$s %2$s mindestens:"
 #: inc/classes/class-wp-rocket-requirements-check.php:151
 #, php-format
 msgid ""
-"PHP %1$s. To use this WP Rocket version, please ask your web host how to "
+"PHP %1$s. To use this RapydLaunch Booster version, please ask your web host how to "
 "upgrade your server to PHP %1$s or higher."
 msgstr ""
-"PHP %1$s. Um diese Version von WP Rocket zu nutzen, frage bei deinem "
+"PHP %1$s. Um diese Version von RapydLaunch Booster zu nutzen, frage bei deinem "
 "Webhosting nach einer Aktualisierung deines Servers auf PHP %1$s oder höher."
 
 #: inc/classes/class-wp-rocket-requirements-check.php:156
 #, php-format
 msgid ""
-"WordPress %1$s. To use this WP Rocket version, please upgrade WordPress to "
+"WordPress %1$s. To use this RapydLaunch Booster version, please upgrade WordPress to "
 "version %1$s or higher."
 msgstr ""
-"WordPress %1$s. Um diese Version von WP Rocket zu nutzen, aktualisiere "
+"WordPress %1$s. Um diese Version von RapydLaunch Booster zu nutzen, aktualisiere "
 "WordPress auf version %1$s oder höher."
 
 #: inc/classes/class-wp-rocket-requirements-check.php:159
@@ -3351,7 +3351,7 @@ msgid ""
 "using the button below."
 msgstr ""
 "Wenn eine Aktualisierung nicht möglich ist, kannst du das Button weiter "
-"unten klicken, um die vorherige Version von WP Rocket wiederherzustellen."
+"unten klicken, um die vorherige Version von RapydLaunch Booster wiederherzustellen."
 
 #: inc/classes/class-wp-rocket-requirements-check.php:161
 #: inc/deprecated/deprecated.php:1947
@@ -3551,12 +3551,12 @@ msgstr "Keine Verbindung mit Cloudflare möglich"
 
 #: inc/deprecated/3.5.php:587
 #, php-format
-msgid "<strong>WP Rocket:</strong> %s"
-msgstr "<strong>WP Rocket:</strong> %s"
+msgid "<strong>RapydLaunch Booster:</strong> %s"
+msgstr "<strong>RapydLaunch Booster:</strong> %s"
 
 #: inc/deprecated/3.5.php:592
-msgid "<strong>WP Rocket:</strong> Cloudflare cache successfully purged."
-msgstr "<strong>WP Rocket:</strong> Cloudflare-Cache erfolgreich geleert."
+msgid "<strong>RapydLaunch Booster:</strong> Cloudflare cache successfully purged."
+msgstr "<strong>RapydLaunch Booster:</strong> Cloudflare-Cache erfolgreich geleert."
 
 #: inc/deprecated/DeprecatedClassTrait.php:54
 #, php-format
@@ -3738,12 +3738,12 @@ msgid "Plugin names of all active plugins"
 msgstr "Plugin-Namen aller aktiven Plugins"
 
 #: inc/functions/admin.php:424
-msgid "Anonymized WP Rocket settings:"
-msgstr "Anonymisierte  Einstellungen von WP Rocket:"
+msgid "Anonymized RapydLaunch Booster settings:"
+msgstr "Anonymisierte  Einstellungen von RapydLaunch Booster:"
 
 #: inc/functions/admin.php:427
-msgid "Which WP Rocket settings are active"
-msgstr "Alle aktiven Einstellungen in WP Rocket"
+msgid "Which RapydLaunch Booster settings are active"
+msgstr "Alle aktiven Einstellungen in RapydLaunch Booster"
 
 #: inc/functions/options.php:429
 msgid "The provided license data are not valid."
@@ -3781,7 +3781,7 @@ msgstr ""
 
 #: inc/functions/options.php:507 inc/functions/options.php:549
 #, php-format
-msgid "Login to your WP Rocket %1$saccount%2$s"
+msgid "Login to your RapydLaunch Booster %1$saccount%2$s"
 msgstr "Melde dich auf deinem WP-Rocket-%1$sKonto%2$s an"
 
 #: inc/functions/options.php:507 inc/functions/options.php:549
@@ -3795,7 +3795,7 @@ msgstr "Neu installieren"
 #: inc/functions/options.php:507
 #, php-format
 msgid ""
-"If you do not have a WP Rocket account, please %1$spurchase a license%2$s."
+"If you do not have a RapydLaunch Booster account, please %1$spurchase a license%2$s."
 msgstr ""
 "Falls du noch kein WP-Rocket-Konto hast, %1$skaufe bitte eine Lizenz%2$s."
 
@@ -3834,7 +3834,7 @@ msgstr "Deine Lizenz ist nicht gültig."
 
 #: inc/functions/options.php:543
 #, php-format
-msgid "Make sure you have an active %1$sWP Rocket license%2$s."
+msgid "Make sure you have an active %1$sRapydLaunch Booster license%2$s."
 msgstr "Stelle sicher, dass du eine aktive %1$sWP-Rocket-Lizenz%2$s hast."
 
 #: inc/functions/options.php:545
@@ -3965,28 +3965,28 @@ msgstr "Du hast ein Problem?"
 
 #: views/deactivation-intent/form.php:24
 msgid ""
-"It is not always necessary to deactivate WP Rocket when facing any issues. "
+"It is not always necessary to deactivate RapydLaunch Booster when facing any issues. "
 "Most of them can be fixed by deactivating only some options."
 msgstr ""
-"Es ist nicht immer notwendig, WP Rocket zu deaktivieren, wenn es Probleme "
+"Es ist nicht immer notwendig, RapydLaunch Booster zu deaktivieren, wenn es Probleme "
 "gibt. Die meisten Probleme können behoben werden, indem nur einige Optionen "
 "deaktiviert werden."
 
 #: views/deactivation-intent/form.php:29
 #, php-format
 msgid ""
-"Our advice? Instead of deactivating WP Rocket, use our %1$sSafe Mode%2$s to "
+"Our advice? Instead of deactivating RapydLaunch Booster, use our %1$sSafe Mode%2$s to "
 "quickly disable LazyLoad, File Optimization, and CDN options. Then check to "
 "see if your issue is resolved."
 msgstr ""
-"Unser Rat? Anstelle WP Rocket zu deaktivieren, benutze unseren "
+"Unser Rat? Anstelle RapydLaunch Booster zu deaktivieren, benutze unseren "
 "%1$sAbgesicherten Modus%2$s, um LazyLoad, Datei-Optimierung und CDN-Optionen"
 " schnell zu deaktivieren. Prüfe dann, ob dein Problem behoben ist."
 
 #: views/deactivation-intent/form.php:35
-msgid "Do you want to use our Safe Mode to troubleshoot WP Rocket?"
+msgid "Do you want to use our Safe Mode to troubleshoot RapydLaunch Booster?"
 msgstr ""
-"Möchtest du unseren abgesicherten Modus benutzen, um Probleme mit WP Rocket "
+"Möchtest du unseren abgesicherten Modus benutzen, um Probleme mit RapydLaunch Booster "
 "zu untersuchen?"
 
 #: views/deactivation-intent/form.php:55
@@ -3997,7 +3997,7 @@ msgstr "Ja, „%1$sAbgesicherten Modus%2$s“ starten"
 #: views/deactivation-intent/form.php:68
 #, php-format
 msgid ""
-"and export WP Rocket settings %1$s(Recommended as current settings will be "
+"and export RapydLaunch Booster settings %1$s(Recommended as current settings will be "
 "deleted)%2$s"
 msgstr ""
 "und exportiere die Einstellungen von WP-Rocket %1$s(Empfohlen, weil aktuelle"
@@ -4148,8 +4148,8 @@ msgid "Congratulations!"
 msgstr "Glückwunsch!"
 
 #: views/settings/page-sections/dashboard.php:40
-msgid "WP Rocket is now activated and already working for you."
-msgstr "WP Rocket wurde aktiviert und arbeitet bereits für dich."
+msgid "RapydLaunch Booster is now activated and already working for you."
+msgstr "RapydLaunch Booster wurde aktiviert und arbeitet bereits für dich."
 
 #: views/settings/page-sections/dashboard.php:42
 msgid "Your website should be loading faster now!"
@@ -4158,10 +4158,10 @@ msgstr "Deine Website sollte jetzt schneller laden!"
 #: views/settings/page-sections/dashboard.php:44
 #, php-format
 msgid ""
-"To guarantee fast websites, WP Rocket automatically applies 80% of web "
+"To guarantee fast websites, RapydLaunch Booster automatically applies 80% of web "
 "performance best practices."
 msgstr ""
-"Um schnelle Websites zu garantieren, wendet WP Rocket automatisch 80% der "
+"Um schnelle Websites zu garantieren, wendet RapydLaunch Booster automatisch 80% der "
 "bewährten Methoden für Web-Performance an."
 
 #: views/settings/page-sections/dashboard.php:44
@@ -4247,10 +4247,10 @@ msgstr "Änderungen speichern und optimieren"
 #: views/settings/page-sections/imagify.php:21
 #, php-format
 msgid ""
-"%1$sWP ROCKET%2$s created %3$sIMAGIFY%4$s %1$sfor best-in-class image "
+"%1$sRapydLaunch Booster%2$s created %3$sIMAGIFY%4$s %1$sfor best-in-class image "
 "optimization.%2$s"
 msgstr ""
-"%1$sWP ROCKET%2$s erstellte %3$sIMAGIFY%4$s %1$sfür die klassenbeste "
+"%1$sRapydLaunch Booster%2$s erstellte %3$sIMAGIFY%4$s %1$sfür die klassenbeste "
 "Bildoptimierung.%2$s"
 
 #: views/settings/page-sections/imagify.php:24
@@ -4282,8 +4282,8 @@ msgid "Install Imagify"
 msgstr "Imagify installieren"
 
 #: views/settings/page-sections/license.php:22
-msgid "WP Rocket was not able to automatically validate your license."
-msgstr "WP Rocket konnte deine Lizenz nicht automatisch überprüfen."
+msgid "RapydLaunch Booster was not able to automatically validate your license."
+msgstr "RapydLaunch Booster konnte deine Lizenz nicht automatisch überprüfen."
 
 #: views/settings/page-sections/license.php:29
 #, php-format
@@ -4378,8 +4378,8 @@ msgid "Getting Started"
 msgstr "Erste Schritte"
 
 #: views/settings/page-sections/tutorials.php:15
-msgid "Getting Started with WP Rocket"
-msgstr "Erste Schritte mit WP Rocket"
+msgid "Getting Started with RapydLaunch Booster"
+msgstr "Erste Schritte mit RapydLaunch Booster"
 
 #: views/settings/page-sections/tutorials.php:16
 #: views/settings/partials/getting-started.php:12
@@ -4388,8 +4388,8 @@ msgstr "So findest du die besten Einstellungen für deine Website"
 
 #: views/settings/page-sections/tutorials.php:17
 #: views/settings/partials/getting-started.php:13
-msgid "How to Check if WP Rocket is Caching Your Site"
-msgstr "So prüfst du, ob WP Rocket deine Website cacht."
+msgid "How to Check if RapydLaunch Booster is Caching Your Site"
+msgstr "So prüfst du, ob RapydLaunch Booster deine Website cacht."
 
 #: views/settings/page-sections/tutorials.php:18
 #: views/settings/partials/getting-started.php:14
@@ -4405,16 +4405,16 @@ msgid "Passing the Core Web vitals"
 msgstr "Core Web Vitals meistern"
 
 #: views/settings/page-sections/tutorials.php:25
-msgid "How to improve LCP with WP Rocket"
-msgstr "Wie man LCP mit WP Rocket verbessert"
+msgid "How to improve LCP with RapydLaunch Booster"
+msgstr "Wie man LCP mit RapydLaunch Booster verbessert"
 
 #: views/settings/page-sections/tutorials.php:26
-msgid "How to improve FID with WP Rocket"
-msgstr "Wie man FID mit WP Rocket verbessert"
+msgid "How to improve FID with RapydLaunch Booster"
+msgstr "Wie man FID mit RapydLaunch Booster verbessert"
 
 #: views/settings/page-sections/tutorials.php:27
-msgid "How to improve CLS with WP Rocket"
-msgstr "Wie man CLS mit WP Rocket verbessert"
+msgid "How to improve CLS with RapydLaunch Booster"
+msgstr "Wie man CLS mit RapydLaunch Booster verbessert"
 
 #: views/settings/page-sections/tutorials.php:31
 msgid "Troubleshooting"
@@ -4437,8 +4437,8 @@ msgid "Set Up the Cloudflare Add-on"
 msgstr "Cloudflare Add-on einrichten"
 
 #: views/settings/page.php:16
-msgid "WP Rocket Settings"
-msgstr "WP Rocket Einstellungen"
+msgid "RapydLaunch Booster Settings"
+msgstr "RapydLaunch Booster Einstellungen"
 
 #: views/settings/page.php:30
 #, php-format
@@ -4452,18 +4452,18 @@ msgstr "Seitenleiste einblenden"
 #: views/settings/page.php:82
 #, php-format
 msgid ""
-"Below is a detailed view of all data WP Rocket will collect %1$sif granted "
+"Below is a detailed view of all data RapydLaunch Booster will collect %1$sif granted "
 "permission.%2$s"
 msgstr ""
-"Unten findest du eine detaillierte Aufstellung aller Daten, die WP Rocket "
+"Unten findest du eine detaillierte Aufstellung aller Daten, die RapydLaunch Booster "
 "erhebt, %1$swenn du zustimmst.%2$s"
 
 #: views/settings/page.php:87
 msgid ""
-"WP Rocket will never transmit any domain names or email addresses (except "
+"RapydLaunch Booster will never transmit any domain names or email addresses (except "
 "for license validation), IP addresses, or third-party API keys."
 msgstr ""
-"WP Rocket wird niemals Domain-Namen, E-Mail-Adressen (außer zur "
+"RapydLaunch Booster wird niemals Domain-Namen, E-Mail-Adressen (außer zur "
 "Lizenzprüfung), IP-Adressen oder API-Schlüssel von Drittanbietern "
 "übermitteln."
 
@@ -4480,8 +4480,8 @@ msgid "Read the documentation"
 msgstr "Lies die Dokumentation"
 
 #: views/settings/partials/getting-started.php:11
-msgid "What WP Rocket Does For You By Default"
-msgstr "Was WP Rocket standardmäßig für dich tut"
+msgid "What RapydLaunch Booster Does For You By Default"
+msgstr "Was RapydLaunch Booster standardmäßig für dich tut"
 
 #: views/settings/partials/sidebar.php:12
 msgid "How to correctly measure your website’s loading time"
@@ -4499,7 +4499,7 @@ msgid "Read our guide"
 msgstr "Lies unsere Anleitung"
 
 #: views/settings/partials/sidebar.php:18
-msgid "Learn about optimal WP Rocket settings for mobile."
+msgid "Learn about optimal RapydLaunch Booster settings for mobile."
 msgstr "Mehr über optimale WP-Rocket-Einstellungen für Mobilgeräte erfahren."
 
 #: views/settings/partials/sidebar.php:27

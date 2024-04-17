@@ -73,7 +73,7 @@ class PreloadUrl {
 				'headers'   => [
 					'blocking'   => false,
 					'timeout'    => 0.01,
-					'user-agent' => 'WP Rocket/Preload',
+					'user-agent' => 'RapydLaunch Booster/Preload',
 				],
 			],
 		];
@@ -171,7 +171,7 @@ class PreloadUrl {
 			return $prefix;
 		}
 
-		return 'WP Rocket/Preload ' . $new_prefix;
+		return 'RapydLaunch Booster/Preload ' . $new_prefix;
 	}
 
 	/**

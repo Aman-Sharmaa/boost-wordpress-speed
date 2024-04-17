@@ -32,7 +32,7 @@ class Settings extends Abstract_Render {
 	/**
 	 * Creates an instance of the subscriber.
 	 *
-	 * @param Options_Data $options       WP Rocket Options instance.
+	 * @param Options_Data $options       RapydLaunch Booster Options instance.
 	 * @param Beacon       $beacon        Beacon instance.
 	 * @param CriticalCSS  $critical_css  CriticalCSS instance.
 	 * @param string       $template_path Path to the templates folder.
@@ -105,11 +105,11 @@ class Settings extends Abstract_Render {
 	}
 
 	/**
-	 * Adds async_css_mobile option to WP Rocket options.
+	 * Adds async_css_mobile option to RapydLaunch Booster options.
 	 *
 	 * @since 3.6
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 *
 	 * @return array
 	 */
@@ -126,8 +126,8 @@ class Settings extends Abstract_Render {
 	 *
 	 * @since 3.6
 	 *
-	 * @param string $new_version New WP Rocket version.
-	 * @param string $old_version Previous WP Rocket version.
+	 * @param string $new_version New RapydLaunch Booster version.
+	 * @param string $old_version Previous RapydLaunch Booster version.
 	 */
 	public function set_async_css_mobile_default_value( $new_version, $old_version ) {
 		if ( version_compare( $old_version, '3.6', '>' ) ) {

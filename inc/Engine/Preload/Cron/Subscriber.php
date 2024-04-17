@@ -135,7 +135,7 @@ class Subscriber implements Subscriber_Interface {
 
 		$schedules['rocket_preload_process_pending'] = [
 			'interval' => $interval,
-			'display'  => esc_html__( 'WP Rocket Preload pending jobs', 'rocket' ),
+			'display'  => esc_html__( 'RapydLaunch Booster Preload pending jobs', 'rocket' ),
 		];
 
 		return $schedules;
@@ -163,7 +163,7 @@ class Subscriber implements Subscriber_Interface {
 
 		$schedules['rocket_revert_old_failed_rows'] = [
 			'interval' => $interval,
-			'display'  => esc_html__( 'WP Rocket Preload revert stuck failed jobs', 'rocket' ),
+			'display'  => esc_html__( 'RapydLaunch Booster Preload revert stuck failed jobs', 'rocket' ),
 		];
 
 		return $schedules;

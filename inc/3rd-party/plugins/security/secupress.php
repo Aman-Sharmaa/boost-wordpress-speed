@@ -57,7 +57,7 @@ add_action( 'secupress.plugins.activation', 'rocket_maybe_activate_secupress', 1
 function rocket_activate_secupress() {
 	add_filter( 'rocket_cache_reject_uri', 'rocket_exclude_secupress_move_login', 2, 2 );
 
-	// Update the WP Rocket rules on the .htaccess.
+	// Update the RapydLaunch Booster rules on the .htaccess.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.
@@ -87,7 +87,7 @@ add_action( 'secupress.deactivation', 'rocket_maybe_deactivate_secupress', 10001
 function rocket_deactivate_secupress() {
 	remove_filter( 'rocket_cache_reject_uri', 'rocket_exclude_secupress_move_login' );
 
-	// Update the WP Rocket rules on the .htaccess.
+	// Update the RapydLaunch Booster rules on the .htaccess.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.

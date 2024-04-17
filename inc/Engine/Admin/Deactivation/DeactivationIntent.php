@@ -110,7 +110,7 @@ class DeactivationIntent extends Abstract_Render {
 	}
 
 	/**
-	 * Activates WP Rocket safe mode by deactivating possibly layout breaking options
+	 * Activates RapydLaunch Booster safe mode by deactivating possibly layout breaking options
 	 *
 	 * @since 3.0
 	 *
@@ -176,7 +176,7 @@ class DeactivationIntent extends Abstract_Render {
 	}
 
 	/**
-	 * Add data attribute to WP Rocket deactivation link for the modal
+	 * Add data attribute to RapydLaunch Booster deactivation link for the modal
 	 *
 	 * @since 3.11.1
 	 *

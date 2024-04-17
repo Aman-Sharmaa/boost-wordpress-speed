@@ -53,7 +53,7 @@ class Optimization {
 	 *
 	 * @since 2.11
 	 *
-	 * @param array $options WP Rocket Database options.
+	 * @param array $options RapydLaunch Booster Database options.
 	 */
 	public function process_handler( $options ) {
 		if ( method_exists( $this->process, 'cancel_process' ) ) {

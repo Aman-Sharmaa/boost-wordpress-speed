@@ -17,13 +17,13 @@ function rocket_as3cf_assets_compatibility() {
 	global $as3cf_assets;
 
 	if ( isset( $as3cf_assets ) && $as3cf_assets->is_plugin_setup() && 1 === (int) $as3cf_assets->get_setting( 'enable-addon' ) ) {
-			// Disable WP Rocket CDN option.
+			// Disable RapydLaunch Booster CDN option.
 			add_filter( 'rocket_readonly_cdn_option', '__return_true' );
 	}
 }
 
 /**
- * Deactivate WP Rocket CDN if WP Offload S3 assets addon copy & serve is active.
+ * Deactivate RapydLaunch Booster CDN if WP Offload S3 assets addon copy & serve is active.
  *
  * @since 2.10.7
  * @author Remy Perona

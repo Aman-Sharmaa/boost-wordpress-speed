@@ -108,7 +108,7 @@ class Subscriber implements Subscriber_Interface {
 		}
 
 		/**
-		 * Fires after WP Rocket options that require a cache purge have changed
+		 * Fires after RapydLaunch Booster options that require a cache purge have changed
 		 *
 		 * @param array $value An array of submitted values for the settings.
 		 */
@@ -140,7 +140,7 @@ class Subscriber implements Subscriber_Interface {
 			'dismiss_button' => false,
 			'message'        => sprintf(
 			// translators: %1$s = <strong>, %2$s = </strong>, %3$s = <a>, %4$s = </a>.
-				__( '%1$sWP Rocket:%2$s We detected that the website domain has changed. The configuration files must be regenerated for the page cache and all other optimizations to work as intended. %3$sLearn More%4$s', 'rocket' ),
+				__( '%1$sRapydLaunch Booster:%2$s We detected that the website domain has changed. The configuration files must be regenerated for the page cache and all other optimizations to work as intended. %3$sLearn More%4$s', 'rocket' ),
 				'<strong>',
 				'</strong>',
 				'<a href="' . esc_url( $beacon['url'] ) . '" data-beacon-article="' . esc_attr( $beacon['id'] ) . '" target="_blank" rel="noopener noreferrer">',
@@ -168,7 +168,7 @@ class Subscriber implements Subscriber_Interface {
 			'action' => 'rocket_regenerate_configuration',
 		];
 
-		$args['action'] = '<a class="wp-core-ui button" href="' . add_query_arg( $params, wp_nonce_url( admin_url( 'admin-post.php' ), 'rocket_regenerate_configuration' ) ) . '">' . __( 'Regenerate WP Rocket configuration files now', 'rocket' ) . '</a>';
+		$args['action'] = '<a class="wp-core-ui button" href="' . add_query_arg( $params, wp_nonce_url( admin_url( 'admin-post.php' ), 'rocket_regenerate_configuration' ) ) . '">' . __( 'Regenerate RapydLaunch Booster configuration files now', 'rocket' ) . '</a>';
 
 		return $args;
 	}

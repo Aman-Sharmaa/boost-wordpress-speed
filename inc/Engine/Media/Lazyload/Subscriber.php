@@ -457,7 +457,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Prevents lazyload if the option is unchecked on the WP Rocket options metabox for a post
+	 * Prevents lazyload if the option is unchecked on the RapydLaunch Booster options metabox for a post
 	 *
 	 * @since 3.3
 	 *

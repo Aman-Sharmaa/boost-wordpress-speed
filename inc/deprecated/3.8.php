@@ -11,7 +11,7 @@ if ( ! class_exists( 'WP_Rocket\Subscriber\Optimization\Dequeue_JQuery_Migrate_S
 }
 
 /**
- * Deactivate WP Rocket lazyload if Avada lazyload is enabled
+ * Deactivate RapydLaunch Booster lazyload if Avada lazyload is enabled
  *
  * @since 3.8.1 deprecated
  * @since 3.3.4
@@ -33,7 +33,7 @@ function rocket_avada_maybe_deactivate_lazyload( $old_value, $value ) {
 }
 
 /**
- * Disable WP Rocket lazyload field if Avada lazyload is enabled
+ * Disable RapydLaunch Booster lazyload field if Avada lazyload is enabled
  *
  * @since 3.8.1 deprecated
  * @since 3.3.4
@@ -62,7 +62,7 @@ function rocket_avada_maybe_disable_lazyload() {
 }
 
 /**
- * Clears WP Rocket's cache after Avada's Fusion Patcher flushes their caches
+ * Clears RapydLaunch Booster's cache after Avada's Fusion Patcher flushes their caches
  *
  * @since 3.8.1 deprecated
  * @since 3.3.5
@@ -308,7 +308,7 @@ function rocket_activate_age_verify() {
 	add_filter( 'rocket_htaccess_mod_rewrite', '__return_false', 18 );
 	add_filter( 'rocket_cache_mandatory_cookies', 'rocket_add_cache_mandatory_cookie_for_age_verify' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.
@@ -325,7 +325,7 @@ function rocket_deactivate_age_verify() {
 	_deprecated_function( __FUNCTION__ . '()', '3.8.6' );
 	remove_filter( 'rocket_cache_mandatory_cookies', 'rocket_add_cache_mandatory_cookie_for_age_verify' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.

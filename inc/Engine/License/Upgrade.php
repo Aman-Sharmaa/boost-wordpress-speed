@@ -71,7 +71,7 @@ class Upgrade extends Abstract_Render {
 	}
 
 	/**
-	 * Adds the notification bubble to WP Rocket menu item when a promo is active
+	 * Adds the notification bubble to RapydLaunch Booster menu item when a promo is active
 	 *
 	 * @param string $menu_title Menu title.
 	 * @return string
@@ -159,7 +159,7 @@ class Upgrade extends Abstract_Render {
 	}
 
 	/**
-	 * Adds the promotion end time to WP Rocket localize script data
+	 * Adds the promotion end time to RapydLaunch Booster localize script data
 	 *
 	 * @since 3.7.4
 	 *

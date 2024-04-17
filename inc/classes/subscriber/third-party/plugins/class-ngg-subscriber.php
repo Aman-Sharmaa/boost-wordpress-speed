@@ -31,7 +31,7 @@ class NGG_Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Deactivate NGG Resource Manager to prevent conflict with WP Rocket output buffering
+	 * Deactivate NGG Resource Manager to prevent conflict with RapydLaunch Booster output buffering
 	 *
 	 * @since 3.3.1
 	 * @author Remy Perona

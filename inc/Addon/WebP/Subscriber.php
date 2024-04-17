@@ -314,7 +314,7 @@ class Subscriber extends AbstractWebp implements Subscriber_Interface {
 	}
 
 	/**
-	 * Get the names of the HTML attributes where WP Rocket must search for image files.
+	 * Get the names of the HTML attributes where RapydLaunch Booster must search for image files.
 	 *
 	 * @since 3.4
 	 *
@@ -324,7 +324,7 @@ class Subscriber extends AbstractWebp implements Subscriber_Interface {
 		$attributes = [ 'href', 'src', 'srcset', 'data-large_image', 'data-thumb' ];
 
 		/**
-		 * Filter the names of the HTML attributes where WP Rocket must search for image files.
+		 * Filter the names of the HTML attributes where RapydLaunch Booster must search for image files.
 		 * Don't prepend new names with `data-`, WPR will do it. For example if you want to add `data-foo-bar`, you only need to add `foo-bar` or `bar` to the list.
 		 *
 		 * @since 3.4

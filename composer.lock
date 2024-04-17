@@ -4071,7 +4071,7 @@
                     "email": "contact@wp-media.me"
                 }
             ],
-            "description": "Common Code between WP Rocket and Lazyload by WP Rocket",
+            "description": "Common Code between RapydLaunch Booster and Lazyload by RapydLaunch Booster",
             "support": {
                 "issues": "https://github.com/wp-media/rocket-lazyload-common/issues",
                 "source": "https://github.com/wp-media/rocket-lazyload-common"

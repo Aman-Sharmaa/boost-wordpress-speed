@@ -35,11 +35,11 @@ class AdminSubscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds defer js option to WP Rocket options array
+	 * Adds defer js option to RapydLaunch Booster options array
 	 *
 	 * @since 3.8
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 * @return array
 	 */
 	public function add_defer_js_option( array $options ) : array {

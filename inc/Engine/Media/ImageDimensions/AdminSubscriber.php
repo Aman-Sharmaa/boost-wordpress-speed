@@ -35,9 +35,9 @@ class AdminSubscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Add the images dimensions option to the WP Rocket options array
+	 * Add the images dimensions option to the RapydLaunch Booster options array
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 * @return array
 	 */
 	public function add_option( array $options ) : array {

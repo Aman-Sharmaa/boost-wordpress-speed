@@ -51,7 +51,7 @@ class Pressable extends AbstractNoCacheHost {
 	}
 
 	/**
-	 * Add Pressable CDN cname to WP Rocket list to recognize assets as internal ones.
+	 * Add Pressable CDN cname to RapydLaunch Booster list to recognize assets as internal ones.
 	 *
 	 * @since 3.3
 	 *

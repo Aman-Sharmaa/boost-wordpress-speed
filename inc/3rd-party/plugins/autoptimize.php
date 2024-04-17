@@ -4,7 +4,7 @@ defined( 'ABSPATH' ) || exit;
 
 if ( class_exists( 'autoptimizeCache' ) ) :
 	/**
-	 * Deactivate WP Rocket lazyload if Autoptimize lazyload is enabled
+	 * Deactivate RapydLaunch Booster lazyload if Autoptimize lazyload is enabled
 	 *
 	 * @since 3.3.4
 	 *
@@ -29,7 +29,7 @@ endif;
 
 if ( class_exists( 'autoptimizeConfig' ) ) :
 	/**
-	 * Deactivate WP Rocket CSS Minification if Autoptimize CSS minification is enabled
+	 * Deactivate RapydLaunch Booster CSS Minification if Autoptimize CSS minification is enabled
 	 *
 	 * @since 2.9.5
 	 * @author Remy Perona
@@ -46,7 +46,7 @@ if ( class_exists( 'autoptimizeConfig' ) ) :
 	add_action( 'update_option_autoptimize_css', 'rocket_maybe_deactivate_minify_css', 10, 2 );
 
 	/**
-	 * Deactivate WP Rocket JS Minification if Autoptimize JS minification is enabled
+	 * Deactivate RapydLaunch Booster JS Minification if Autoptimize JS minification is enabled
 	 *
 	 * @since 2.9.5
 	 * @author Remy Perona
@@ -63,7 +63,7 @@ if ( class_exists( 'autoptimizeConfig' ) ) :
 	add_action( 'update_option_autoptimize_js', 'rocket_maybe_deactivate_minify_js', 10, 2 );
 
 	/**
-	 * Deactivate WP Rocket async CSS if Autoptimize async CSS is enabled
+	 * Deactivate RapydLaunch Booster async CSS if Autoptimize async CSS is enabled
 	 *
 	 * @since 2.10
 	 * @author Remy Perona
@@ -81,7 +81,7 @@ if ( class_exists( 'autoptimizeConfig' ) ) :
 endif;
 
 /**
- * Disable WP Rocket minification options when activating Autoptimize and values are already in the database.
+ * Disable RapydLaunch Booster minification options when activating Autoptimize and values are already in the database.
  *
  * @since 2.9.5
  * @author Remy Perona
@@ -110,7 +110,7 @@ function rocket_activate_autoptimize() {
 add_action( 'activate_autoptimize/autoptimize.php', 'rocket_activate_autoptimize', 11 );
 
 /**
- * Disable WP Rocket lazyload fields if Autoptimize lazyload is enabled
+ * Disable RapydLaunch Booster lazyload fields if Autoptimize lazyload is enabled
  *
  * @since 3.3.4
  *
@@ -127,7 +127,7 @@ function rocket_maybe_disable_lazyload() {
 }
 
 /**
- * Disable WP Rocket CSS minification field if Autoptimize CSS minification is enabled
+ * Disable RapydLaunch Booster CSS minification field if Autoptimize CSS minification is enabled
  *
  * @since 2.9.5
  * @author Remy Perona
@@ -141,7 +141,7 @@ function rocket_maybe_disable_minify_css() {
 }
 
 /**
- * Disable WP Rocket JS minification field if Autoptimize JS minification is enabled
+ * Disable RapydLaunch Booster JS minification field if Autoptimize JS minification is enabled
  *
  * @since 2.9.5
  * @author Remy Perona
@@ -155,7 +155,7 @@ function rocket_maybe_disable_minify_js() {
 }
 
 /**
- * Disable WP Rocket async CSS field if Autoptimize async CSS is enabled
+ * Disable RapydLaunch Booster async CSS field if Autoptimize async CSS is enabled
  *
  * @since 2.10
  * @author Remy Perona

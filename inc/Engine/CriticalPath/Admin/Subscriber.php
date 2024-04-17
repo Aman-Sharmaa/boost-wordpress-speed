@@ -98,7 +98,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Displays the critical CSS block in WP Rocket options metabox.
+	 * Displays the critical CSS block in RapydLaunch Booster options metabox.
 	 *
 	 * @since 3.6
 	 *
@@ -120,11 +120,11 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds async_css_mobile option to WP Rocket options.
+	 * Adds async_css_mobile option to RapydLaunch Booster options.
 	 *
 	 * @since 3.6
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 *
 	 * @return array
 	 */
@@ -137,8 +137,8 @@ class Subscriber implements Subscriber_Interface {
 	 *
 	 * @since 3.6
 	 *
-	 * @param string $new_version New WP Rocket version.
-	 * @param string $old_version Previous WP Rocket version.
+	 * @param string $new_version New RapydLaunch Booster version.
+	 * @param string $old_version Previous RapydLaunch Booster version.
 	 */
 	public function set_async_css_mobile_default_value( $new_version, $old_version ) {
 		$this->settings->set_async_css_mobile_default_value( $new_version, $old_version );
@@ -176,7 +176,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Add Regenerate Critical CSS link to WP Rocket admin bar item
+	 * Add Regenerate Critical CSS link to RapydLaunch Booster admin bar item
 	 *
 	 * @since 3.6
 	 *

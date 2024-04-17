@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
 		<p>
 		<?php
 		// translators: %1$s = opening strong tag, %2$s = closing strong tag.
-		printf( esc_html__( 'You can use WP Rocket on more websites by upgrading your license. To upgrade, simply pay the %1$sprice difference%2$s between your current and new licenses, as shown below.', 'rocket' ), '<strong>', '</strong>' );
+		printf( esc_html__( 'You can use RapydLaunch Booster on more websites by upgrading your license. To upgrade, simply pay the %1$sprice difference%2$s between your current and new licenses, as shown below.', 'rocket' ), '<strong>', '</strong>' );
 		?>
 		</p>
 		<p>

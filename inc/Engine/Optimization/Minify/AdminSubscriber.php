@@ -8,7 +8,7 @@ use WP_Rocket\Event_Management\Subscriber_Interface;
 
 class AdminSubscriber implements Subscriber_Interface {
 	/**
-	 * WP Rocket Options
+	 * RapydLaunch Booster Options
 	 *
 	 * @var Options_Data
 	 */
@@ -17,7 +17,7 @@ class AdminSubscriber implements Subscriber_Interface {
 	/**
 	 * Instantiate the class
 	 *
-	 * @param Options_Data $options WP Rocket Options Instance.
+	 * @param Options_Data $options RapydLaunch Booster Options Instance.
 	 */
 	public function __construct( Options_Data $options ) {
 		$this->options = $options;

@@ -39,7 +39,7 @@ class WPMeteor implements Subscriber_Interface {
 		$field['input_attr']['disabled'] = 1;
 		$field['helper']                 = sprintf(
 			// translators: %1$s = plugin name.
-			__( 'Delay JS is currently activated in %1$s. If you want to use WP Rocket’s delay JS, disable %1$s', 'rocket' ),
+			__( 'Delay JS is currently activated in %1$s. If you want to use RapydLaunch Booster’s delay JS, disable %1$s', 'rocket' ),
 			'WP Meteor'
 		);
 
@@ -84,7 +84,7 @@ class WPMeteor implements Subscriber_Interface {
 	}
 
 	/**
-	 * Disable delay JS on WP Rocket settings update if WP Meteor is active
+	 * Disable delay JS on RapydLaunch Booster settings update if WP Meteor is active
 	 *
 	 * @since 3.9.2
 	 *

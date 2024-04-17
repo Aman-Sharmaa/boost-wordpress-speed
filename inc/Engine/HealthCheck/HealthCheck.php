@@ -42,7 +42,7 @@ class HealthCheck implements Subscriber_Interface {
 	}
 
 	/**
-	 * Display a warning notice if WP Rocket scheduled events are not running properly.
+	 * Display a warning notice if RapydLaunch Booster scheduled events are not running properly.
 	 *
 	 * @since 3.5.4
 	 */
@@ -79,8 +79,8 @@ class HealthCheck implements Subscriber_Interface {
 			<ul>%2$s</ul>
 			<p>%3$s</p>',
 			_n(
-				'The following scheduled event failed to run. This may indicate the CRON system is not running properly, which can prevent some WP Rocket features from working as intended:',
-				'The following scheduled events failed to run. This may indicate the CRON system is not running properly, which can prevent some WP Rocket features from working as intended:',
+				'The following scheduled event failed to run. This may indicate the CRON system is not running properly, which can prevent some RapydLaunch Booster features from working as intended:',
+				'The following scheduled events failed to run. This may indicate the CRON system is not running properly, which can prevent some RapydLaunch Booster features from working as intended:',
 				count( $events ),
 				'rocket'
 			),

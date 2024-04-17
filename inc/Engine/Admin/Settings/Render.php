@@ -61,7 +61,7 @@ class Render extends Abstract_render {
 	 */
 	public function render_navigation() {
 		/**
-		 * Filters WP Rocket settings page navigation items.
+		 * Filters RapydLaunch Booster settings page navigation items.
 		 *
 		 * @since 3.0
 		 *

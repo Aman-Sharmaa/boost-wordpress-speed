@@ -18,11 +18,11 @@ class AdminSubscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds the exclude lazyload option to WP Rocket options array
+	 * Adds the exclude lazyload option to RapydLaunch Booster options array
 	 *
 	 * @since 3.8
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 * @return array
 	 */
 	public function add_option( array $options ) : array {

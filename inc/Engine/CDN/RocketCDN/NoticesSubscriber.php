@@ -6,7 +6,7 @@ use WP_Rocket\Engine\Admin\Beacon\Beacon;
 use WP_Rocket\Event_Management\Subscriber_Interface;
 
 /**
- * Subscriber for the RocketCDN notices on WP Rocket settings page
+ * Subscriber for the RocketCDN notices on RapydLaunch Booster settings page
  *
  * @since 3.5
  */
@@ -177,7 +177,7 @@ class NoticesSubscriber extends Abstract_Render implements Subscriber_Interface 
 	}
 
 	/**
-	 * Displays the RocketCDN Call to Action on the CDN tab of WP Rocket settings page
+	 * Displays the RocketCDN Call to Action on the CDN tab of RapydLaunch Booster settings page
 	 *
 	 * @since 3.5
 	 *

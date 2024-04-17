@@ -27,7 +27,7 @@ class ConfigSubscriber implements Subscriber_Interface {
 	/**
 	 * Creates an instance of the Cache Config Subscriber.
 	 *
-	 * @param Options_Data $options     WP Rocket options instance.
+	 * @param Options_Data $options     RapydLaunch Booster options instance.
 	 * @param Options      $options_api Options instance.
 	 */
 	public function __construct( Options_Data $options, Options $options_api ) {

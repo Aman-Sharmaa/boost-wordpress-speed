@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 function rocket_upgrader() {
 	// Grab some infos.
 	$actual_version = (string) get_rocket_option( 'version' );
-	// You can hook the upgrader to trigger any action when WP Rocket is upgraded.
+	// You can hook the upgrader to trigger any action when RapydLaunch Booster is upgraded.
 	// first install.
 	if ( ! $actual_version ) {
 		do_action( 'wp_rocket_first_install' );
@@ -155,8 +155,8 @@ add_action( 'wp_rocket_first_install', 'rocket_first_install' );
  *
  * @since 1.0
  *
- * @param string $wp_rocket_version Latest WP Rocket version.
- * @param string $actual_version Installed WP Rocket version.
+ * @param string $wp_rocket_version Latest RapydLaunch Booster version.
+ * @param string $actual_version Installed RapydLaunch Booster version.
  */
 function rocket_new_upgrade( $wp_rocket_version, $actual_version ) {
 	if ( version_compare( $actual_version, '2.4.1', '<' ) ) {

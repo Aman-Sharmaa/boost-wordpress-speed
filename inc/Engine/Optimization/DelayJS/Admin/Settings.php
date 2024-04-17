@@ -25,12 +25,12 @@ class Settings {
 	}
 
 	/**
-	 * Add the delay JS options to the WP Rocket options array
+	 * Add the delay JS options to the RapydLaunch Booster options array
 	 *
 	 * @since 3.9 Removed delay_js_scripts key, added delay_js_exclusions.
 	 * @since 3.7
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 *
 	 * @return array
 	 */

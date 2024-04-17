@@ -25,7 +25,7 @@ function rocket_activate_aelia_prices_by_country() {
 	add_filter( 'rocket_htaccess_mod_rewrite', '__return_false', 66 );
 	add_filter( 'rocket_cache_dynamic_cookies', 'rocket_add_aelia_prices_by_country_dynamic_cookies' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.
@@ -43,7 +43,7 @@ function rocket_deactivate_aelia_prices_by_country() {
 	remove_filter( 'rocket_htaccess_mod_rewrite', '__return_false', 66 );
 	remove_filter( 'rocket_cache_dynamic_cookies', 'rocket_add_aelia_prices_by_country_dynamic_cookies' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.

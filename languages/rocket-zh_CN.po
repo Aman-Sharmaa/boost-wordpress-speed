@@ -1,14 +1,14 @@
 # Copyright (C) 2023 WP Media
-# This file is distributed under the same license as the WP Rocket plugin.
+# This file is distributed under the same license as the RapydLaunch Booster plugin.
 # Translators:
-# Romain • WP Rocket <contact@wp-rocket.me>, 2019
+# Romain • RapydLaunch Booster <contact@wp-rocket.me>, 2019
 # Kurumi Tokisaki, 2021
 # 码农志 <liyangobj@gmail.com>, 2021
 # Tony Tong <tw191@163.com>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Rocket 3.14.4\n"
+"Project-Id-Version: RapydLaunch Booster 3.14.4\n"
 "Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
 "POT-Creation-Date: 2023-08-07 15:45-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
@@ -125,13 +125,13 @@ msgstr "小时"
 #. message.
 #: inc/Addon/Cloudflare/Subscriber.php:232
 #: inc/Addon/Cloudflare/Subscriber.php:261
-msgid "%1$sWP Rocket:%2$s %3$s"
-msgstr "%1$sWP Rocket:%2$s %3$s"
+msgid "%1$sRapydLaunch Booster:%2$s %3$s"
+msgstr "%1$sRapydLaunch Booster:%2$s %3$s"
 
 #. translators: %1$s = <strong>, %2$s = </strong>.
 #: inc/Addon/Cloudflare/Subscriber.php:250
-msgid "%1$sWP Rocket:%2$s Cloudflare cache successfully purged."
-msgstr "%1$sWP Rocket:%2$s Cloudflare 缓存已成功清除。"
+msgid "%1$sRapydLaunch Booster:%2$s Cloudflare cache successfully purged."
+msgstr "%1$sRapydLaunch Booster:%2$s Cloudflare 缓存已成功清除。"
 
 #. translators: %s is the message returned by the CloudFlare API.
 #: inc/Addon/Cloudflare/Subscriber.php:311
@@ -190,20 +190,20 @@ msgstr "Cloudflare 浏览器缓存已被设为 %s"
 
 #. translators: %1$s = strong opening tag, %2$s = strong closing tag.
 #: inc/Addon/Cloudflare/Subscriber.php:536
-msgid "%1$sWP Rocket:%2$s Optimal settings activated for Cloudflare:"
-msgstr "%1$sWP Rocket:%2$s 已为 Cloudflare 启用优化设置："
+msgid "%1$sRapydLaunch Booster:%2$s Optimal settings activated for Cloudflare:"
+msgstr "%1$sRapydLaunch Booster:%2$s 已为 Cloudflare 启用优化设置："
 
 #. translators: %1$s = strong opening tag, %2$s = strong closing tag.
 #: inc/Addon/Cloudflare/Subscriber.php:545
 msgid ""
-"%1$sWP Rocket:%2$s Optimal settings deactivated for Cloudflare, reverted to "
+"%1$sRapydLaunch Booster:%2$s Optimal settings deactivated for Cloudflare, reverted to "
 "previous settings:"
-msgstr "%1$sWP Rocket:%2$s Cloudflare 优化设置已禁用, 已回滚至上个版本的设置："
+msgstr "%1$sRapydLaunch Booster:%2$s Cloudflare 优化设置已禁用, 已回滚至上个版本的设置："
 
 #: inc/Addon/Cloudflare/Subscriber.php:661 inc/admin/options.php:144
 #: inc/classes/subscriber/Tools/class-detect-missing-tags-subscriber.php:148
-msgid "WP Rocket: "
-msgstr "WP Rocket："
+msgid "RapydLaunch Booster: "
+msgstr "RapydLaunch Booster："
 
 #. translators: %s is the error message returned by the API.
 #: inc/Addon/Sucuri/Subscriber.php:96
@@ -252,14 +252,14 @@ msgstr[0] "Sucuri 防火墙 API 返回以下错误：%s"
 #: inc/Addon/WebP/AdminSubscriber.php:93
 msgid ""
 "You are using %1$s to serve WebP images so you do not need to enable this "
-"option. %2$sMore info%3$s %4$s If you prefer to have WP Rocket serve WebP "
+"option. %2$sMore info%3$s %4$s If you prefer to have RapydLaunch Booster serve WebP "
 "for you instead, please disable WebP display in %1$s."
 msgid_plural ""
 "You are using %1$s to serve WebP images so you do not need to enable this "
-"option. %2$sMore info%3$s %4$s If you prefer to have WP Rocket serve WebP "
+"option. %2$sMore info%3$s %4$s If you prefer to have RapydLaunch Booster serve WebP "
 "for you instead, please disable WebP display in %1$s."
 msgstr[0] ""
-"您正在使用 %1$s的WebP 图片相关功能，因此无需开启该选项。%2$s更多信息%3$s %4$s如您想换用 WP Rocket， "
+"您正在使用 %1$s的WebP 图片相关功能，因此无需开启该选项。%2$s更多信息%3$s %4$s如您想换用 RapydLaunch Booster， "
 "请转到%1$s禁用相关选项。"
 
 #: inc/Addon/WebP/AdminSubscriber.php:105
@@ -271,24 +271,24 @@ msgstr "WebP 缓存被过滤器禁用。"
 #: inc/Addon/WebP/AdminSubscriber.php:115
 #: inc/Addon/WebP/AdminSubscriber.php:141
 msgid ""
-"You are using %1$s to convert images to WebP. If you want WP Rocket to serve"
+"You are using %1$s to convert images to WebP. If you want RapydLaunch Booster to serve"
 " them for you, activate this option. %2$sMore info%3$s"
 msgid_plural ""
-"You are using %1$s to convert images to WebP. If you want WP Rocket to serve"
+"You are using %1$s to convert images to WebP. If you want RapydLaunch Booster to serve"
 " them for you, activate this option. %2$sMore info%3$s"
-msgstr[0] "您正在使用 %1$s 将图片转换成WebP格式。如您想换用 WP Rocket，请启用该选项。%2$s更多信息%3$s"
+msgstr[0] "您正在使用 %1$s 将图片转换成WebP格式。如您想换用 RapydLaunch Booster，请启用该选项。%2$s更多信息%3$s"
 
 #. Translators: %1$s = plugin name(s), %2$s = opening <a> tag, %3$s = closing
 #. </a> tag.
 #: inc/Addon/WebP/AdminSubscriber.php:127
 #: inc/Addon/WebP/AdminSubscriber.php:153
 msgid ""
-"You are using %1$s to convert images to WebP. WP Rocket will create separate"
+"You are using %1$s to convert images to WebP. RapydLaunch Booster will create separate"
 " cache files to serve your WebP images. %2$sMore info%3$s"
 msgid_plural ""
-"You are using %1$s to convert images to WebP. WP Rocket will create separate"
+"You are using %1$s to convert images to WebP. RapydLaunch Booster will create separate"
 " cache files to serve your WebP images. %2$sMore info%3$s"
-msgstr[0] "您正在使用%1$s将图片转换成WebP格式。WP Rocket将为您的WebP 图片生成单独的缓存文件。%2$s更多信息%3$s"
+msgstr[0] "您正在使用%1$s将图片转换成WebP格式。RapydLaunch Booster将为您的WebP 图片生成单独的缓存文件。%2$s更多信息%3$s"
 
 #. Translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
 #: inc/Addon/WebP/AdminSubscriber.php:173
@@ -302,8 +302,8 @@ msgstr ""
 "%1$s更多信息%2$s %4$s如果您没有使用 WebP, 请勿开启该选项."
 
 #: inc/Addon/WebP/AdminSubscriber.php:185
-msgid "WP Rocket will create separate cache files to serve your WebP images."
-msgstr "WP Rocket 将为您的 WebP 图片创建单独的缓存文件。"
+msgid "RapydLaunch Booster will create separate cache files to serve your WebP images."
+msgstr "RapydLaunch Booster 将为您的 WebP 图片创建单独的缓存文件。"
 
 #: inc/admin/admin.php:18 inc/common/admin-bar.php:266
 #: inc/deprecated/deprecated.php:1787
@@ -414,8 +414,8 @@ msgid "Clear cache"
 msgstr "清除缓存"
 
 #: inc/admin/ui/meta-boxes.php:67
-msgid "WP Rocket Options"
-msgstr "WP Rocket 设置"
+msgid "RapydLaunch Booster Options"
+msgstr "RapydLaunch Booster 设置"
 
 #: inc/admin/ui/meta-boxes.php:96
 msgid "Never cache this page"
@@ -475,7 +475,7 @@ msgid ""
 "excluded from cache in the global cache settings."
 msgstr "%1$s注意：%2$s如该文章已在全局缓存设置中被设为排除，这些选项将不会生效。"
 
-#. translators: %1$s WP Rocket plugin name; %2$s = file name.
+#. translators: %1$s RapydLaunch Booster plugin name; %2$s = file name.
 #: inc/admin/ui/notices.php:30 inc/admin/ui/notices.php:43
 msgid ""
 "<strong>%1$s</strong> has not been deactivated due to missing writing permissions.<br>\n"
@@ -484,19 +484,19 @@ msgstr ""
 "<strong>%1$s</strong> 未被禁用：无写入权限。<br>\n"
 "将 <strong>%2$s</strong> 设为可写并重试，或立即强制禁用："
 
-#. translators: %s is WP Rocket plugin name.
+#. translators: %s is RapydLaunch Booster plugin name.
 #: inc/admin/ui/notices.php:97
 msgid ""
 "<strong>%s</strong>: One or more plugins have been enabled or disabled, "
 "clear the cache if they affect the front end of your site."
 msgstr "<strong>%s</strong>：监测到插件被启用/禁用，如插件影响网站前台页面，请清除缓存。"
 
-#. translators: %s is WP Rocket plugin name.
+#. translators: %s is RapydLaunch Booster plugin name.
 #: inc/admin/ui/notices.php:141
 msgid ""
 "<strong>%s</strong>: The following plugins are not compatible with this "
 "plugin and may cause unexpected results:"
-msgstr "<strong>%s</strong>：下列插件与WP Rocket不兼容，可能导致出错："
+msgstr "<strong>%s</strong>：下列插件与RapydLaunch Booster不兼容，可能导致出错："
 
 #: inc/admin/ui/notices.php:147
 msgid "Deactivate"
@@ -504,21 +504,21 @@ msgstr "停用"
 
 #: inc/admin/ui/notices.php:189
 msgid ""
-"WP Rocket Footer JS is not an official add-on. It prevents some options in "
-"WP Rocket from working correctly. Please deactivate it if you have problems."
-msgstr "WP Rocket Footer JS 为非官方插件，会阻碍 WP Rocket 中某些选项的正常工作。如有问题请禁用哦。"
+"RapydLaunch Booster Footer JS is not an official add-on. It prevents some options in "
+"RapydLaunch Booster from working correctly. Please deactivate it if you have problems."
+msgstr "RapydLaunch Booster Footer JS 为非官方插件，会阻碍 RapydLaunch Booster 中某些选项的正常工作。如有问题请禁用哦。"
 
 #. translators: %1$s = opening link tag, %2$s = closing link tag.
 #: inc/admin/ui/notices.php:229
 msgid ""
-"Endurance Cache is currently enabled, which will conflict with WP Rocket "
+"Endurance Cache is currently enabled, which will conflict with RapydLaunch Booster "
 "Cache. Please set the Endurance Cache cache level to Off (Level 0) on the "
 "%1$sSettings > General%2$s page to prevent any issues."
 msgstr ""
-"Endurance Cache目前已启用，这将与WP Rocket Cache冲突。请在%1$s设置>一般%2$s页面设置Endurance "
+"Endurance Cache目前已启用，这将与RapydLaunch Booster Cache冲突。请在%1$s设置>一般%2$s页面设置Endurance "
 "Cache的缓存级别为关闭(Level 0)以防止出现任何问题。"
 
-#. translators: %1$s WP Rocket plugin name; %2$s = opening link; %3$s =
+#. translators: %1$s RapydLaunch Booster plugin name; %2$s = opening link; %3$s =
 #. closing link
 #: inc/admin/ui/notices.php:250
 msgid ""
@@ -549,9 +549,9 @@ msgstr ""
 
 #: inc/admin/ui/notices.php:311
 msgid ""
-"Don’t worry, WP Rocket’s page caching and settings will still function "
+"Don’t worry, RapydLaunch Booster’s page caching and settings will still function "
 "correctly."
-msgstr "不用担心，WP Rocket 的页面缓存和设置仍将正常工作。"
+msgstr "不用担心，RapydLaunch Booster 的页面缓存和设置仍将正常工作。"
 
 #: inc/admin/ui/notices.php:311
 msgid ""
@@ -569,13 +569,13 @@ msgstr "%1$s准备好啦！%2$s测试您的加载时间%4$s，或访问您的%3$
 
 #: inc/admin/ui/notices.php:499
 msgid ""
-"Would you allow WP Rocket to collect non-sensitive diagnostic data from this"
+"Would you allow RapydLaunch Booster to collect non-sensitive diagnostic data from this"
 " website?"
-msgstr "您是否愿意 WP Rocket 收集此网站的脱敏诊断数据？"
+msgstr "您是否愿意 RapydLaunch Booster 收集此网站的脱敏诊断数据？"
 
 #: inc/admin/ui/notices.php:500
-msgid "This would help us to improve WP Rocket for you in the future."
-msgstr "这将有助于将来我们为您持续改进 WP Rocket 。"
+msgid "This would help us to improve RapydLaunch Booster for you in the future."
+msgstr "这将有助于将来我们为您持续改进 RapydLaunch Booster 。"
 
 #. translators: button text, click will expand data collection preview
 #: inc/admin/ui/notices.php:506
@@ -584,12 +584,12 @@ msgstr "我们收集何种信息？"
 
 #: inc/admin/ui/notices.php:511
 msgid ""
-"Below is a detailed view of all data WP Rocket will collect if granted "
-"permission. WP Rocket will never transmit any domain names or email "
+"Below is a detailed view of all data RapydLaunch Booster will collect if granted "
+"permission. RapydLaunch Booster will never transmit any domain names or email "
 "addresses (except for license validation), IP addresses, or third-party API "
 "keys."
 msgstr ""
-"以下详细列出了 WP Rocket 在获得许可后将收集的所有数据。WP Rocket 绝不会传输任何域名、邮箱（授权验证除外），IP地址或第三方API "
+"以下详细列出了 RapydLaunch Booster 在获得许可后将收集的所有数据。RapydLaunch Booster 绝不会传输任何域名、邮箱（授权验证除外），IP地址或第三方API "
 "key。"
 
 #. translators: button text for data collection opt-in
@@ -607,8 +607,8 @@ msgid "Thank you!"
 msgstr "谢谢！"
 
 #: inc/admin/ui/notices.php:567
-msgid "WP Rocket now collects these metrics from your website:"
-msgstr "WP Rocket 现在从您的网站收集这些指标："
+msgid "RapydLaunch Booster now collects these metrics from your website:"
+msgstr "RapydLaunch Booster 现在从您的网站收集这些指标："
 
 #. translators: %s = plugin name.
 #: inc/admin/ui/notices.php:605
@@ -686,16 +686,16 @@ msgstr "为确保正常工作，%1$s %2$s 需要至少："
 #. Translators: %1$s = PHP version required.
 #: inc/classes/class-wp-rocket-requirements-check.php:151
 msgid ""
-"PHP %1$s. To use this WP Rocket version, please ask your web host how to "
+"PHP %1$s. To use this RapydLaunch Booster version, please ask your web host how to "
 "upgrade your server to PHP %1$s or higher."
-msgstr "PHP %1$s。要使用当前 WP Rocket 版本，请联系您的主机服务商将 PHP 升级至 %1$s 或更高版本。"
+msgstr "PHP %1$s。要使用当前 RapydLaunch Booster 版本，请联系您的主机服务商将 PHP 升级至 %1$s 或更高版本。"
 
 #. Translators: %1$s = WordPress version required.
 #: inc/classes/class-wp-rocket-requirements-check.php:156
 msgid ""
-"WordPress %1$s. To use this WP Rocket version, please upgrade WordPress to "
+"WordPress %1$s. To use this RapydLaunch Booster version, please upgrade WordPress to "
 "version %1$s or higher."
-msgstr "WordPress %1$s. 要使用当前 WP Rocket 版本，请升级 WordPress 至 %1$s 或更高版本。"
+msgstr "WordPress %1$s. 要使用当前 RapydLaunch Booster 版本，请升级 WordPress 至 %1$s 或更高版本。"
 
 #: inc/classes/class-wp-rocket-requirements-check.php:159
 msgid ""
@@ -853,23 +853,23 @@ msgstr "Cloudflare连接失败"
 
 #. translators: %s = CloudFare API return message.
 #: inc/deprecated/3.5.php:587
-msgid "<strong>WP Rocket:</strong> %s"
-msgstr "<strong>WP Rocket：</strong> %s"
+msgid "<strong>RapydLaunch Booster:</strong> %s"
+msgstr "<strong>RapydLaunch Booster：</strong> %s"
 
 #: inc/deprecated/3.5.php:592
-msgid "<strong>WP Rocket:</strong> Cloudflare cache successfully purged."
-msgstr "<strong>WP Rocket:</strong> 成功刷新 Cloudflare 缓存。"
+msgid "<strong>RapydLaunch Booster:</strong> Cloudflare cache successfully purged."
+msgstr "<strong>RapydLaunch Booster:</strong> 成功刷新 Cloudflare 缓存。"
 
 #: inc/deprecated/3.5.php:858 inc/Engine/HealthCheck/HealthCheck.php:81
 msgid ""
 "The following scheduled event failed to run. This may indicate the CRON "
-"system is not running properly, which can prevent some WP Rocket features "
+"system is not running properly, which can prevent some RapydLaunch Booster features "
 "from working as intended:"
 msgid_plural ""
 "The following scheduled events failed to run. This may indicate the CRON "
-"system is not running properly, which can prevent some WP Rocket features "
+"system is not running properly, which can prevent some RapydLaunch Booster features "
 "from working as intended:"
-msgstr[0] "以下调度的事件运行失败。这可能是CRON系统运行不正常，导致它可能会阻止某些WP Rocket功能按预期工作："
+msgstr[0] "以下调度的事件运行失败。这可能是CRON系统运行不正常，导致它可能会阻止某些RapydLaunch Booster功能按预期工作："
 
 #: inc/deprecated/3.5.php:867 inc/Engine/HealthCheck/HealthCheck.php:88
 msgid "Please contact your host to check if CRON is working."
@@ -899,8 +899,8 @@ msgstr "已自动监测到 %s 插件生成的sitemap。 您可查看相关选项
 
 #. translators: 1 and 3 are link openings, 2 is a link closing.
 #: inc/deprecated/3.11.php:279 inc/Engine/Plugin/UpdaterSubscriber.php:520
-msgid "%1$sReturn to WP Rocket%2$s or %3$sgo to Plugins page%2$s"
-msgstr "%1$s返回 WP Rocket %2$s或 %3$s转到插件页%2$s"
+msgid "%1$sReturn to RapydLaunch Booster%2$s or %3$sgo to Plugins page%2$s"
+msgstr "%1$s返回 RapydLaunch Booster %2$s或 %3$s转到插件页%2$s"
 
 #: inc/deprecated/3.12.php:56
 msgid "All in One SEO XML sitemap"
@@ -1147,14 +1147,14 @@ msgstr "%1$d %2$s 已优化。"
 #. translators: %1$s = <strong>, %2$s = </strong>, %3$s = <a>, %4$s = </a>.
 #: inc/Engine/Admin/DomainChange/Subscriber.php:158
 msgid ""
-"%1$sWP Rocket:%2$s We detected that the website domain has changed. The "
+"%1$sRapydLaunch Booster:%2$s We detected that the website domain has changed. The "
 "configuration files must be regenerated for the page cache and all other "
 "optimizations to work as intended. %3$sLearn More%4$s"
-msgstr "%1$sWP Rocket:%2$s 检测到域名变更。请重新生成设置文件，以确保页面缓存和所有其他优化正常工作。 %3$s了解更多%4$s"
+msgstr "%1$sRapydLaunch Booster:%2$s 检测到域名变更。请重新生成设置文件，以确保页面缓存和所有其他优化正常工作。 %3$s了解更多%4$s"
 
 #: inc/Engine/Admin/DomainChange/Subscriber.php:186
-msgid "Regenerate WP Rocket configuration files now"
-msgstr "立即重新生成 WP Rocket 设置文件"
+msgid "Regenerate RapydLaunch Booster configuration files now"
+msgstr "立即重新生成 RapydLaunch Booster 设置文件"
 
 #: inc/Engine/Admin/Settings/Page.php:201
 msgid "Save Changes"
@@ -1198,7 +1198,7 @@ msgstr "Rocket 分析"
 msgid ""
 "I agree to share anonymous data with the development team to help improve WP"
 " Rocket. %1$sWhat info will we collect?%2$s"
-msgstr "我同意向开发团队分享匿名数据以帮助改进 WP Rocket。%1$s我们搜集何种信息？%2$s"
+msgstr "我同意向开发团队分享匿名数据以帮助改进 RapydLaunch Booster。%1$s我们搜集何种信息？%2$s"
 
 #: inc/Engine/Admin/Settings/Page.php:456 inc/Engine/Cache/WPCache.php:354
 msgid "Cache"
@@ -1463,8 +1463,8 @@ msgstr "指定无需移除的CSS文件名、ID 或 class 值（每行一个）�
 msgctxt "WP Critical CSS compatibility"
 msgid ""
 "Load CSS asynchronously is currently handled by the %1$s plugin. If you want"
-" to use WP Rocket’s load CSS asynchronously option, disable the %1$s plugin."
-msgstr " CSS 异步加载当前由%1$s扩展接管。如您想使用 WP Rocket 的 CSS 异步加载选项，请禁用%1$s扩展。"
+" to use RapydLaunch Booster’s load CSS asynchronously option, disable the %1$s plugin."
+msgstr " CSS 异步加载当前由%1$s扩展接管。如您想使用 RapydLaunch Booster 的 CSS 异步加载选项，请禁用%1$s扩展。"
 
 #. translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
 #: inc/Engine/Admin/Settings/Page.php:794
@@ -1622,12 +1622,12 @@ msgid ""
 msgstr ""
 "它可帮您改善加载时间（例如: 图片, 内嵌框架和视频将仅在进入或即将进入可视区域时才加载）和减少 HTTP 请求数.%1$s更多信息%2$s"
 
-#. translators: %1$s = “WP Rocket”, %2$s = a list of plugin names.
+#. translators: %1$s = “RapydLaunch Booster”, %2$s = a list of plugin names.
 #: inc/Engine/Admin/Settings/Page.php:1058
 msgid ""
-"LazyLoad is currently activated in %2$s. If you want to use WP Rocket’s "
+"LazyLoad is currently activated in %2$s. If you want to use RapydLaunch Booster’s "
 "LazyLoad, disable this option in %2$s."
-msgstr "延迟加载已在 %2$s 中启用。若您想要使用 WP Rocket 的延迟加载功能，请先在 %2$s 中禁用此选项。"
+msgstr "延迟加载已在 %2$s 中启用。若您想要使用 RapydLaunch Booster 的延迟加载功能，请先在 %2$s 中禁用此选项。"
 
 #: inc/Engine/Admin/Settings/Page.php:1061
 msgid "Image Dimensions"
@@ -1645,7 +1645,7 @@ msgstr "为图片添加缺失的宽高属性。这有助于防止布局偏移，
 msgid "Enable for images"
 msgstr "为图片开启"
 
-#. translators: %1$s = “WP Rocket”, %2$s = a list of plugin names.
+#. translators: %1$s = “RapydLaunch Booster”, %2$s = a list of plugin names.
 #: inc/Engine/Admin/Settings/Page.php:1095
 msgid ""
 "LazyLoad for images is currently activated in %2$s. If you want to use "
@@ -1660,12 +1660,12 @@ msgstr "框架 & 视频"
 msgid "Replace YouTube iframe with preview image"
 msgstr "用预览图替换 Youtube 框架"
 
-#. translators: %1$s = “WP Rocket”, %2$s = a list of plugin or themes names.
+#. translators: %1$s = “RapydLaunch Booster”, %2$s = a list of plugin or themes names.
 #: inc/Engine/Admin/Settings/Page.php:1120
 msgid "Replace YouTube iframe with preview image is not compatible with %2$s."
 msgstr "用预览图替换Youtube 框架 不兼容于%2$s"
 
-#. translators: %1$s = “WP Rocket”, %2$s = a list of plugin or themes names.
+#. translators: %1$s = “RapydLaunch Booster”, %2$s = a list of plugin or themes names.
 #: inc/Engine/Admin/Settings/Page.php:1120
 msgid ""
 "This can significantly improve your loading time if you have a lot of "
@@ -1698,10 +1698,10 @@ msgstr "预加载缓存"
 #. translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
 #: inc/Engine/Admin/Settings/Page.php:1180
 msgid ""
-"When you enable preloading WP Rocket will automatically detect your sitemaps"
+"When you enable preloading RapydLaunch Booster will automatically detect your sitemaps"
 " and save all URLs to the database. The plugin will make sure that your "
 "cache is always preloaded."
-msgstr "当您启用预加载功能时，WP Rocket 将自动检测您的站点地图并将所有 URL 保存到数据库中。该插件将确保您的缓存始终被预先加载。"
+msgstr "当您启用预加载功能时，RapydLaunch Booster 将自动检测您的站点地图并将所有 URL 保存到数据库中。该插件将确保您的缓存始终被预先加载。"
 
 #: inc/Engine/Admin/Settings/Page.php:1188
 msgid "Preload Links"
@@ -2158,10 +2158,10 @@ msgstr "提供您的账户邮箱、全局 API key 和域名以开启相关优化
 #: inc/Engine/Admin/Settings/Page.php:1833
 msgid ""
 "%1$sPlanning on using Automatic Platform Optimization (APO)?%2$s Just "
-"activate the official Cloudflare plugin and configure it. WP Rocket will "
+"activate the official Cloudflare plugin and configure it. RapydLaunch Booster will "
 "automatically enable compatibility."
 msgstr ""
-"%1$s准备好使用 自动平台优化（APO）功能了吗？%2$s 您只需启用 Cloudflare 官方插件并配置即可。WP Rocket 将自动为您优化。"
+"%1$s准备好使用 自动平台优化（APO）功能了吗？%2$s 您只需启用 Cloudflare 官方插件并配置即可。RapydLaunch Booster 将自动为您优化。"
 
 #: inc/Engine/Admin/Settings/Page.php:1881
 msgid "Varnish"
@@ -2174,9 +2174,9 @@ msgstr "如服务器已启用 Varnish，该功能必须开启。"
 #. translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
 #: inc/Engine/Admin/Settings/Page.php:1889
 msgid ""
-"Varnish cache will be purged each time WP Rocket clears its cache to ensure "
+"Varnish cache will be purged each time RapydLaunch Booster clears its cache to ensure "
 "content is always up-to-date.<br>%1$sLearn more%2$s"
-msgstr "当 WP Rocket 每次清除缓存时，自动清除 Varnish 缓存以使内容保持最新。<br>%1$s更多信息%2$s"
+msgstr "当 RapydLaunch Booster 每次清除缓存时，自动清除 Varnish 缓存以使内容保持最新。<br>%1$s更多信息%2$s"
 
 #: inc/Engine/Admin/Settings/Page.php:1924
 msgid "WebP Compatibility"
@@ -2189,23 +2189,23 @@ msgstr "让浏览器兼容WebP图片格式."
 #. translators: %1$s and %3$s = opening <a> tag, %2$s = closing </a> tag.
 #: inc/Engine/Admin/Settings/Page.php:1934
 msgid ""
-"Enable this option if you would like WP Rocket to serve WebP images to "
-"compatible browsers. Please note that WP Rocket cannot create WebP images "
+"Enable this option if you would like RapydLaunch Booster to serve WebP images to "
+"compatible browsers. Please note that RapydLaunch Booster cannot create WebP images "
 "for you. To create WebP images we recommend %1$sImagify%2$s. %3$sMore "
 "info%2$s"
 msgstr ""
-"如您想使用 WP Rocket 来增加 WebP 图片支持，可开启此选项。请注意 WP Rocket 无法为您 创建 WebP 图片。要创建 WebP "
+"如您想使用 RapydLaunch Booster 来增加 WebP 图片支持，可开启此选项。请注意 RapydLaunch Booster 无法为您 创建 WebP 图片。要创建 WebP "
 "图片 我们推荐使用 %1$sImagify%2$s 。%3$s更多信息%2$s"
 
 #: inc/Engine/Admin/Settings/Page.php:1954
-msgid "Clear the Sucuri cache when WP Rocket’s cache is cleared."
-msgstr "在 WP Rocket 的缓存被清理时，清理 Sucuri 缓存。"
+msgid "Clear the Sucuri cache when RapydLaunch Booster’s cache is cleared."
+msgstr "在 RapydLaunch Booster 的缓存被清理时，清理 Sucuri 缓存。"
 
 #: inc/Engine/Admin/Settings/Page.php:1957
 msgid ""
-"Provide your API key to clear the Sucuri cache when WP Rocket’s cache is "
+"Provide your API key to clear the Sucuri cache when RapydLaunch Booster’s cache is "
 "cleared."
-msgstr "提供 Sucuri 的 API Key 以便用于当 WP Rocket 的缓存被清理时, 清理 Sucuri 缓存。"
+msgstr "提供 Sucuri 的 API Key 以便用于当 RapydLaunch Booster 的缓存被清理时, 清理 Sucuri 缓存。"
 
 #: inc/Engine/Admin/Settings/Page.php:1965
 #: inc/Engine/Admin/Settings/Page.php:2109
@@ -2329,8 +2329,8 @@ msgid "Getting started and how to videos"
 msgstr "新手指南 和 How To 视频"
 
 #: inc/Engine/Cache/PurgeExpired/Subscriber.php:75
-msgid "WP Rocket Expired Cache Interval"
-msgstr "WP Rocket 过期缓存间隔"
+msgid "RapydLaunch Booster Expired Cache Interval"
+msgstr "RapydLaunch Booster 过期缓存间隔"
 
 #: inc/Engine/Cache/WPCache.php:337
 msgid "WP_CACHE value"
@@ -2338,9 +2338,9 @@ msgstr "WP_CACHE 值"
 
 #: inc/Engine/Cache/WPCache.php:358
 msgid ""
-"The WP_CACHE constant needs to be set to true for WP Rocket cache to work "
+"The WP_CACHE constant needs to be set to true for RapydLaunch Booster cache to work "
 "properly"
-msgstr "为确保 WP Rocket 正常工作，WP_CACHE 常量需设为 true"
+msgstr "为确保 RapydLaunch Booster 正常工作，WP_CACHE 常量需设为 true"
 
 #: inc/Engine/Cache/WPCache.php:367
 msgid "WP_CACHE is set to true"
@@ -2453,9 +2453,9 @@ msgstr "轻松设置：已自动为您启用了 %1$sCDN 最佳设置%2$s "
 #. translators: %1$s = opening strong tag, %2$s = closing strong tag.
 #: inc/Engine/CDN/RocketCDN/views/cta-big.php:54
 msgid ""
-"WP Rocket integration: the CDN option is %1$sautomatically configured%2$s in"
+"RapydLaunch Booster integration: the CDN option is %1$sautomatically configured%2$s in"
 " our plugin"
-msgstr "WP Rocket 整合: 我们的插件已为您%1$s自动配置%2$sCDN 选项"
+msgstr "RapydLaunch Booster 整合: 我们的插件已为您%1$s自动配置%2$sCDN 选项"
 
 #: inc/Engine/CDN/RocketCDN/views/cta-big.php:58
 msgid "Learn more about RocketCDN"
@@ -2482,8 +2482,8 @@ msgstr "不想看"
 
 #: inc/Engine/CDN/RocketCDN/views/cta-small.php:17
 msgid ""
-"Speed up your website with RocketCDN, WP Rocket’s Content Delivery Network."
-msgstr "用 RocketCDN 加速您的网站，是 WP Rocket 开发的哦 ~"
+"Speed up your website with RocketCDN, RapydLaunch Booster’s Content Delivery Network."
+msgstr "用 RocketCDN 加速您的网站，是 RapydLaunch Booster 开发的哦 ~"
 
 #: inc/Engine/CDN/RocketCDN/views/cta-small.php:20
 #: inc/Engine/CDN/RocketCDN/views/promote-notice.php:13
@@ -2504,8 +2504,8 @@ msgstr "New!"
 
 #: inc/Engine/CDN/RocketCDN/views/promote-notice.php:12
 msgid ""
-"Speed up your website with RocketCDN, WP Rocket’s Content Delivery Network!"
-msgstr "用 RocketCDN 加速您的网站，是 WP Rocket 开发的哦 ~"
+"Speed up your website with RocketCDN, RapydLaunch Booster’s Content Delivery Network!"
+msgstr "用 RocketCDN 加速您的网站，是 RapydLaunch Booster 开发的哦 ~"
 
 #: inc/Engine/Common/Queue/RUCSSQueueRunner.php:253
 msgid "Every minute"
@@ -2540,8 +2540,8 @@ msgstr "发布%s"
 
 #. translators: %s = post type.
 #: inc/Engine/CriticalPath/Admin/Post.php:223
-msgid "Enable Load CSS asynchronously in WP Rocket settings"
-msgstr "在WP Rocket 设置中开启 CSS 异步加载"
+msgid "Enable Load CSS asynchronously in RapydLaunch Booster settings"
+msgstr "在RapydLaunch Booster 设置中开启 CSS 异步加载"
 
 #: inc/Engine/CriticalPath/Admin/Post.php:224
 msgid "Enable Load CSS asynchronously in the options above"
@@ -2604,8 +2604,8 @@ msgstr "关键CSS生成 正在运行中。"
 
 #. Translators: %1$s = opening link tag, %2$s = closing link tag.
 #: inc/Engine/CriticalPath/CriticalCSSSubscriber.php:181
-msgid "Go to the %1$sWP Rocket settings%2$s page to track progress."
-msgstr "查看进展请访问 %1$sWP Rocket 设置%2$s页面。"
+msgid "Go to the %1$sRapydLaunch Booster settings%2$s page to track progress."
+msgstr "查看进展请访问 %1$sRapydLaunch Booster 设置%2$s页面。"
 
 #. Translators: %1$d = number of critical CSS generated, %2$d = total number
 #. of critical CSS to generate.
@@ -2887,8 +2887,8 @@ msgid "They will be %1$sautomatically disabled on %3$s%2$s."
 msgstr "%3$s%2$s 它们将被%1$s自动禁用。"
 
 #: inc/Engine/License/views/renewal-expired-banner.php:11
-msgid "Your WP Rocket license is expired!"
-msgstr "您的 WP Rocket 许可证已过期！"
+msgid "Your RapydLaunch Booster license is expired!"
+msgstr "您的 RapydLaunch Booster 许可证已过期！"
 
 #. translators: %1$s = <strong>, %2$s = </strong>.
 #: inc/Engine/License/views/renewal-expired-banner.php:18
@@ -2900,9 +2900,9 @@ msgstr "如果能用好我们的%1$s新功能%2$s，您的网站会变得更快�
 #. translators: %1$s = <strong>, %2$s = </strong>.
 #: inc/Engine/License/views/renewal-soon-banner.php:22
 msgid ""
-"Your %1$sWP Rocket license is about to expire%2$s: you will soon lose access"
+"Your %1$sRapydLaunch Booster license is about to expire%2$s: you will soon lose access"
 " to product updates and support."
-msgstr "您的%1$sWP Rocket授权即将到期%2$s: 届时您将无法获得产品更新和售后支持."
+msgstr "您的%1$sRapydLaunch Booster授权即将到期%2$s: 届时您将无法获得产品更新和售后支持."
 
 #: inc/Engine/License/views/upgrade-popin.php:12
 msgid "Speed Up More Websites"
@@ -2911,10 +2911,10 @@ msgstr "加速更多网站"
 #. translators: %1$s = opening strong tag, %2$s = closing strong tag.
 #: inc/Engine/License/views/upgrade-popin.php:19
 msgid ""
-"You can use WP Rocket on more websites by upgrading your license. To "
+"You can use RapydLaunch Booster on more websites by upgrading your license. To "
 "upgrade, simply pay the %1$sprice difference%2$s between your current and "
 "new licenses, as shown below."
-msgstr "如您想升级授权，仅需补齐%1$s差价%2$s 。升级后，即可在多个网站使用 WP Rocket。"
+msgstr "如您想升级授权，仅需补齐%1$s差价%2$s 。升级后，即可在多个网站使用 RapydLaunch Booster。"
 
 #. translators: %1$s = opening strong tag, %2$s = closing strong tag.
 #: inc/Engine/License/views/upgrade-popin.php:25
@@ -2939,9 +2939,9 @@ msgstr "升级到 %s"
 
 #: inc/Engine/License/views/upgrade-section.php:11
 msgid ""
-"You can use WP Rocket on more websites by upgrading your license (you will "
+"You can use RapydLaunch Booster on more websites by upgrading your license (you will "
 "only pay the price difference between your current and new licenses)."
-msgstr "升级授权即可将 WP Rocket 用于多个网站。（仅需补齐%1$s差价%2$s ）"
+msgstr "升级授权即可将 RapydLaunch Booster 用于多个网站。（仅需补齐%1$s差价%2$s ）"
 
 #: inc/Engine/Optimization/DelayJS/Admin/SiteList.php:195
 msgid "Analytics & Ads"
@@ -3000,9 +3000,9 @@ msgstr "%1$s: 请稍等 %2$s 秒. \"移除未使用CSS服务\" 正在处理您�
 #. seconds.
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:274
 msgid ""
-"%1$s: The Used CSS of your homepage has been processed. WP Rocket will "
+"%1$s: The Used CSS of your homepage has been processed. RapydLaunch Booster will "
 "continue to generate Used CSS for up to %2$s URLs per %3$s second(s)."
-msgstr "%1$s: 您首页的已使用CSS已处理. WP Rocket 会持续处理已使用CSS, 当前速度: %2$sURL / %3$s 秒."
+msgstr "%1$s: 您首页的已使用CSS已处理. RapydLaunch Booster 会持续处理已使用CSS, 当前速度: %2$sURL / %3$s 秒."
 
 #. translators: %1$s = opening link tag, %2$s = closing link tag.
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:283
@@ -3017,19 +3017,19 @@ msgstr "更多处理详情, 请查阅我们的 %1$s文档%2$s."
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:491
 msgid ""
 "We couldn't generate the used CSS because you're using a nulled version of "
-"WP Rocket. You need an active license to use the Remove Unused CSS feature "
+"RapydLaunch Booster. You need an active license to use the Remove Unused CSS feature "
 "and further improve your website's performance."
-msgstr "Ummm... 由于您使用的是盗版 WP Rocket，我们无法生成已使用CSS。您需要一个有效授权来使用 移除未使用CSS 功能。"
+msgstr "Ummm... 由于您使用的是盗版 RapydLaunch Booster，我们无法生成已使用CSS。您需要一个有效授权来使用 移除未使用CSS 功能。"
 
 #. translators: %1$s = promo percentage.
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:494
-msgid "Click here to get a WP Rocket single license at %1$s off!"
+msgid "Click here to get a RapydLaunch Booster single license at %1$s off!"
 msgstr "点我购买单用户授权，可享%1$s折立减哦！"
 
 #. translators: %1$s = <a> open tag, %2$s = </a> closing tag.
 #: inc/Engine/Optimization/RUCSS/Admin/Settings.php:547
 msgid ""
-"It seems a security plugin or the server's firewall prevents WP Rocket from "
+"It seems a security plugin or the server's firewall prevents RapydLaunch Booster from "
 "accessing the Remove Unused CSS generator. IPs listed %1$shere in our "
 "documentation%2$s should be added to your allowlists:"
 msgstr "访问 移除未使用CSS生成器 的请求被安全插件或服务器防火墙阻止。请将%1$s参考文档%2$s中的 IP 添加到允许列表："
@@ -3066,12 +3066,12 @@ msgid "Clear Used CSS of this URL"
 msgstr "清除该URL的已使用CSS"
 
 #: inc/Engine/Optimization/RUCSS/Cron/Subscriber.php:160
-msgid "WP Rocket Remove Unused CSS pending jobs"
-msgstr "WP Rocket 移除未使用 CSS 的挂起作业"
+msgid "RapydLaunch Booster Remove Unused CSS pending jobs"
+msgstr "RapydLaunch Booster 移除未使用 CSS 的挂起作业"
 
 #: inc/Engine/Optimization/RUCSS/Cron/Subscriber.php:174
-msgid "WP Rocket clear Remove Unused CSS failed jobs"
-msgstr "WP Rocket 清除 移除未使用CSS功能 的失败作业"
+msgid "RapydLaunch Booster clear Remove Unused CSS failed jobs"
+msgstr "RapydLaunch Booster 清除 移除未使用CSS功能 的失败作业"
 
 #. translators: %1$s = plugin name.
 #: inc/Engine/Preload/Admin/Settings.php:57
@@ -3082,12 +3082,12 @@ msgid ""
 msgstr "%1$s：预缓存服务已启用。初次预缓存后，它会自动缓存被清除的任何页面，无需其他操作"
 
 #: inc/Engine/Preload/Cron/Subscriber.php:138
-msgid "WP Rocket Preload pending jobs"
-msgstr "WP Rocket 预缓存的挂起作业"
+msgid "RapydLaunch Booster Preload pending jobs"
+msgstr "RapydLaunch Booster 预缓存的挂起作业"
 
 #: inc/Engine/Preload/Cron/Subscriber.php:166
-msgid "WP Rocket Preload revert stuck failed jobs"
-msgstr "WP Rocket Preload 的失败作业"
+msgid "RapydLaunch Booster Preload revert stuck failed jobs"
+msgstr "RapydLaunch Booster Preload 的失败作业"
 
 #: inc/functions/admin.php:21
 msgid ""
@@ -3131,12 +3131,12 @@ msgid "Plugin names of all active plugins"
 msgstr "所有已启用的插件名"
 
 #: inc/functions/admin.php:424
-msgid "Anonymized WP Rocket settings:"
-msgstr "WP Rocket设置（匿名）："
+msgid "Anonymized RapydLaunch Booster settings:"
+msgstr "RapydLaunch Booster设置（匿名）："
 
 #: inc/functions/admin.php:427
-msgid "Which WP Rocket settings are active"
-msgstr "WP Rocket中已启用的选项"
+msgid "Which RapydLaunch Booster settings are active"
+msgstr "RapydLaunch Booster中已启用的选项"
 
 #: inc/functions/options.php:429
 msgid "The provided license data are not valid."
@@ -3172,8 +3172,8 @@ msgstr "授权验证失败. 您可能在使用破解版本. 请按以下操作:"
 
 #. Translators: %1$s = opening link tag, %2$s = closing link tag.
 #: inc/functions/options.php:507 inc/functions/options.php:549
-msgid "Login to your WP Rocket %1$saccount%2$s"
-msgstr "登录您的 WP Rocket %1$s账户%2$s"
+msgid "Login to your RapydLaunch Booster %1$saccount%2$s"
+msgstr "登录您的 RapydLaunch Booster %1$s账户%2$s"
 
 #. Translators: %1$s = opening link tag, %2$s = closing link tag.
 #: inc/functions/options.php:507 inc/functions/options.php:549
@@ -3188,8 +3188,8 @@ msgstr "重新安装"
 #. Translators: %1$s = opening link tag, %2$s = closing link tag.
 #: inc/functions/options.php:507
 msgid ""
-"If you do not have a WP Rocket account, please %1$spurchase a license%2$s."
-msgstr "如您没有 WP Rocket 账号, 请%1$s购买授权%2$s."
+"If you do not have a RapydLaunch Booster account, please %1$spurchase a license%2$s."
+msgstr "如您没有 RapydLaunch Booster 账号, 请%1$s购买授权%2$s."
 
 #. Translators: %1$s = opening link tag, %2$s = closing link tag.
 #: inc/functions/options.php:515
@@ -3227,8 +3227,8 @@ msgstr "您的授权无效。"
 
 #. Translators: %1$s = opening link tag, %2$s = closing link tag.
 #: inc/functions/options.php:543
-msgid "Make sure you have an active %1$sWP Rocket license%2$s."
-msgstr "请确保您有已激活的%1$sWP Rocket 授权%2$s。"
+msgid "Make sure you have an active %1$sRapydLaunch Booster license%2$s."
+msgstr "请确保您有已激活的%1$sRapydLaunch Booster 授权%2$s。"
 
 #. Translators: %1$s = opening link tag, %2$s = closing link tag, %3$s =
 #. opening link tag.
@@ -3280,11 +3280,11 @@ msgstr "在您的%s服务器上启用Varnish后，将自动启用Varnish自动�
 #: inc/ThirdParty/Hostings/Kinsta.php:158
 msgid ""
 "Your installation seems to be missing core Kinsta files managing Cache "
-"clearing, which will prevent your Kinsta installation and WP Rocket from "
+"clearing, which will prevent your Kinsta installation and RapydLaunch Booster from "
 "working correctly. Please get in touch with Kinsta support through your "
 "%1$sMyKinsta%2$s account to resolve this issue."
 msgstr ""
-"您安装的Kinsta可能缺失用于清除缓存的核心文件, 这会导致 Kinsta 和 WP Rocket 工作异常. \n"
+"您安装的Kinsta可能缺失用于清除缓存的核心文件, 这会导致 Kinsta 和 RapydLaunch Booster 工作异常. \n"
 "请通过您的%1$sMyKinsta%2$s账户联系 Kinsta 客服来解决问题."
 
 #. translators: %1$s = plugin name.
@@ -3305,16 +3305,16 @@ msgstr ""
 
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:169
 msgid ""
-"Cloudflare cache will be purged each time WP Rocket clears its cache to "
+"Cloudflare cache will be purged each time RapydLaunch Booster clears its cache to "
 "ensure content is always up-to-date."
-msgstr "为确保内容是最新的，当 WP Rocket 清除缓存时，Cloudflare 缓存也将被清空。"
+msgstr "为确保内容是最新的，当 RapydLaunch Booster 清除缓存时，Cloudflare 缓存也将被清空。"
 
 #. Translators: %1$s = strong opening tag, %2$s = strong closing tag.
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:213
 msgid ""
-"%1$sWP Rocket:%2$s You are using \"Dynamic Cookies Cache\". Cloudflare APO "
+"%1$sRapydLaunch Booster:%2$s You are using \"Dynamic Cookies Cache\". Cloudflare APO "
 "is not yet compatible with that feature."
-msgstr "%1$sWP Rocket:%2$s 您正在使用 “动态 Cookies 缓存” 功能。Cloudflare APO 与该功能不再兼容。"
+msgstr "%1$sRapydLaunch Booster:%2$s 您正在使用 “动态 Cookies 缓存” 功能。Cloudflare APO 与该功能不再兼容。"
 
 #. Translators:%1$s = opening <a> tag, %2$s = closing </a> tag.
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:219
@@ -3329,25 +3329,25 @@ msgstr ""
 #. opening <a> tag, %4$s = closing </a> tag, %5$s = opening <a> tag.
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:270
 msgid ""
-"%1$sWP Rocket:%2$s You are using \"Separate cache files for mobile "
+"%1$sRapydLaunch Booster:%2$s You are using \"Separate cache files for mobile "
 "devices\". You need to activate \"Cache by Device Type\" %3$ssetting%5$s on "
 "Cloudflare APO to serve the right version of the cache. %4$sMore info%5$s"
 msgstr ""
-"%1$sWP Rocket:%2$s 您正在使用 “移动端单独缓存” 功能。 为确保缓存正常工作，您需要启用 Cloudflare APO 设置中的 "
+"%1$sRapydLaunch Booster:%2$s 您正在使用 “移动端单独缓存” 功能。 为确保缓存正常工作，您需要启用 Cloudflare APO 设置中的 "
 "“按设备类型缓存” %3$s选项%5$s 。%4$s更多信息%5$s"
 
 #. Translators: %1$s = strong opening tag, %2$s = strong closing tag.
 #: inc/ThirdParty/Plugins/CDN/Cloudflare.php:291
 msgid ""
-"%1$sWP Rocket:%2$s You have \"Cache by Device Type\" enabled on Cloudflare "
+"%1$sRapydLaunch Booster:%2$s You have \"Cache by Device Type\" enabled on Cloudflare "
 "APO. If you judge it necessary for the website to have a different cache on "
 "mobile and desktop, we suggest you enable our “Separate Cache Files for "
 "Mobiles Devices” to ensure the generated cache is accurate."
 msgstr ""
-"%1$sWP Rocket:%2$s 您启用了 Cloudflare APO 中的 “按设备类型缓存” 功能。如果您觉得有必要把电脑端和移动端分别缓存，"
+"%1$sRapydLaunch Booster:%2$s 您启用了 Cloudflare APO 中的 “按设备类型缓存” 功能。如果您觉得有必要把电脑端和移动端分别缓存，"
 " 我们建议您开启 “移动端单独缓存”功能。"
 
-#. translators: %1$s is WP Rocket plugin name, %2$s is opening <a> tag, %3$s
+#. translators: %1$s is RapydLaunch Booster plugin name, %2$s is opening <a> tag, %3$s
 #. is closing </a> tag.
 #: inc/ThirdParty/Plugins/ModPagespeed.php:102
 msgid ""
@@ -3359,12 +3359,12 @@ msgstr "<strong>%1$s</strong>：Mod PageSpeed与本插件不兼容，可能导�
 #. tag
 #: inc/ThirdParty/Plugins/Optimization/Autoptimize.php:75
 msgid ""
-"%1$sWP Rocket: %2$sWe have detected that Autoptimize's JavaScript "
-"Aggregation feature is enabled. WP Rocket's Delay JavaScript Execution will "
+"%1$sRapydLaunch Booster: %2$sWe have detected that Autoptimize's JavaScript "
+"Aggregation feature is enabled. RapydLaunch Booster's Delay JavaScript Execution will "
 "not be applied to the file it creates. We suggest disabling %1$sJavaScript "
 "Aggregation%2$s to take full advantage of Delay JavaScript Execution."
 msgstr ""
-"%1$sWP Rocket: %2$s我们检测到您已启用 Autoptimize 的 \"JavaScript 合并\" 功能. WP Rocket 的"
+"%1$sRapydLaunch Booster: %2$s我们检测到您已启用 Autoptimize 的 \"JavaScript 合并\" 功能. RapydLaunch Booster 的"
 " \"JavaScript 延迟执行\" 功能将不被应用于它所创建的文件. 如您想充分利用  \"JavaScript 延迟执行\" 功能, "
 "我们建议您禁用%1$sJavaScript 合并%2$s."
 
@@ -3372,93 +3372,93 @@ msgstr ""
 #. tag
 #: inc/ThirdParty/Plugins/Optimization/Autoptimize.php:130
 msgid ""
-"%1$sWP Rocket: %2$sWe have detected that Autoptimize's Aggregate Inline CSS "
-"feature is enabled. WP Rocket's Load CSS Asynchronously will not work "
+"%1$sRapydLaunch Booster: %2$sWe have detected that Autoptimize's Aggregate Inline CSS "
+"feature is enabled. RapydLaunch Booster's Load CSS Asynchronously will not work "
 "correctly. We suggest disabling %1$sAggregate Inline CSS%2$s to take full "
 "advantage of Load CSS Asynchronously Execution."
 msgstr ""
-"%1$sWP Rocket: %2$s检测到您已启用 Autoptimize 的 \"合并内联CSS\" 功能. WP Rocket 的 \" "
+"%1$sRapydLaunch Booster: %2$s检测到您已启用 Autoptimize 的 \"合并内联CSS\" 功能. RapydLaunch Booster 的 \" "
 "CSS异步加载\" 可能工作异常. 如您想充分利用 \" CSS异步加载\" 功能, 我们建议您禁用 %1$s合并内联CSS%2$s."
 
 #. translators: %1$s = opening <a> tag, %2$s = closing </a> tag.
 #: inc/ThirdParty/Plugins/Optimization/Ezoic.php:45
 msgid ""
-"This plugin blocks WP Rocket's caching and optimizations. Deactivate it and "
+"This plugin blocks RapydLaunch Booster's caching and optimizations. Deactivate it and "
 "use %1$sEzoic's nameserver integration%2$s instead."
 msgstr ""
-"该插件阻止了 WP Rocket 的缓存和优化. 请禁用并使用%1$sEzoic 的Nameserver Intergration%2$s作为替代."
+"该插件阻止了 RapydLaunch Booster 的缓存和优化. 请禁用并使用%1$sEzoic 的Nameserver Intergration%2$s作为替代."
 
 #. Translators: %s = Plugin name.
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:78
 msgctxt "Hummingbird notice"
 msgid ""
-"Please deactivate the following %s option which conflicts with WP Rocket "
+"Please deactivate the following %s option which conflicts with RapydLaunch Booster "
 "features:"
 msgid_plural ""
-"Please deactivate the following %s options which conflict with WP Rocket "
+"Please deactivate the following %s options which conflict with RapydLaunch Booster "
 "features:"
-msgstr[0] "请禁用与 WP Rocket 功能相冲突的下列%s选项："
+msgstr[0] "请禁用与 RapydLaunch Booster 功能相冲突的下列%s选项："
 
 #. Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:151
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$sdisable emoji%3$s conflicts with WP Rockets %2$sdisable emoji%3$s"
-msgstr "%1$s%2$s禁用Emoji%3$s与 WP Rocket 的 %2$s禁用Emoji%3$s相冲突"
+"%1$s %2$sdisable emoji%3$s conflicts with RapydLaunch Boosters %2$sdisable emoji%3$s"
+msgstr "%1$s%2$s禁用Emoji%3$s与 RapydLaunch Booster 的 %2$s禁用Emoji%3$s相冲突"
 
 #. Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:187
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$sGZIP compression%3$s conflicts with WP Rocket %2$sGZIP "
+"%1$s %2$sGZIP compression%3$s conflicts with RapydLaunch Booster %2$sGZIP "
 "compression%3$s"
-msgstr "%1$s%2$sGZIP压缩%3$s与WP Rocket的%2$sGZIP压缩%3$s冲突"
+msgstr "%1$s%2$sGZIP压缩%3$s与RapydLaunch Booster的%2$sGZIP压缩%3$s冲突"
 
 #. Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:223
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$sbrowser caching%3$s conflicts with WP Rocket %2$sbrowser "
+"%1$s %2$sbrowser caching%3$s conflicts with RapydLaunch Booster %2$sbrowser "
 "caching%3$s"
-msgstr "%1$s%2$s浏览器缓存%3$s与WP Rocket的%2$s浏览器缓存%3$s冲突"
+msgstr "%1$s%2$s浏览器缓存%3$s与RapydLaunch Booster的%2$s浏览器缓存%3$s冲突"
 
 #. Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:255
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$spage caching%3$s conflicts with WP Rocket %2$spage caching%3$s"
-msgstr "%1$s%2$s页面缓存%3$s与WP Rocket的%2$s页面缓存%3$s冲突"
+"%1$s %2$spage caching%3$s conflicts with RapydLaunch Booster %2$spage caching%3$s"
+msgstr "%1$s%2$s页面缓存%3$s与RapydLaunch Booster的%2$s页面缓存%3$s冲突"
 
 #. Translators: %1$s = Plugin name, %2$s = <em>, %3$s = </em>.
 #: inc/ThirdParty/Plugins/Optimization/Hummingbird.php:289
 msgctxt "Hummingbird notice"
 msgid ""
-"%1$s %2$sasset optimization%3$s conflicts with WP Rocket %2$sfile "
+"%1$s %2$sasset optimization%3$s conflicts with RapydLaunch Booster %2$sfile "
 "optimization%3$s"
-msgstr "%1$s%2$s资源优化%3$s与WP Rocket的%2$s文件优化%3$s相冲突"
+msgstr "%1$s%2$s资源优化%3$s与RapydLaunch Booster的%2$s文件优化%3$s相冲突"
 
 #: inc/ThirdParty/Plugins/Optimization/Perfmatters.php:38
 msgid ""
 "Remove Unused CSS is currently activated in Perfmatters. If you want to use "
-"WP Rocket's Remove Unused CSS feature, disable this option in Perfmatters."
+"RapydLaunch Booster's Remove Unused CSS feature, disable this option in Perfmatters."
 msgstr ""
-"您已开启了 Perfmatters 中的 移除未使用CSS 功能， 如果你想换成 WP Rocket， 请先去 Perfmatters 内禁用掉哦。"
+"您已开启了 Perfmatters 中的 移除未使用CSS 功能， 如果你想换成 RapydLaunch Booster， 请先去 Perfmatters 内禁用掉哦。"
 
 #: inc/ThirdParty/Plugins/Optimization/RapidLoad.php:39
 msgid ""
 "Automated unused CSS removal is currently activated in RapidLoad Power-Up "
-"for Autoptimize. If you want to use WP Rocket's Remove Unused CSS feature, "
+"for Autoptimize. If you want to use RapydLaunch Booster's Remove Unused CSS feature, "
 "disable the  RapidLoad Power-Up for Autoptimize plugin."
 msgstr ""
-"您已开启了 RapidLoad Power-Up for Autoptimize 中的 自动移除未使用CSS 功能， 如果你想换成 WP Rocket，"
+"您已开启了 RapidLoad Power-Up for Autoptimize 中的 自动移除未使用CSS 功能， 如果你想换成 RapydLaunch Booster，"
 " 请先去禁用掉哦。"
 
 #. translators: %1$s = plugin name.
 #: inc/ThirdParty/Plugins/Optimization/WPMeteor.php:42
 msgid ""
-"Delay JS is currently activated in %1$s. If you want to use WP Rocket’s "
+"Delay JS is currently activated in %1$s. If you want to use RapydLaunch Booster’s "
 "delay JS, disable %1$s"
-msgstr "JS 延迟加载已在 %1$s 中启用。若您想要使用 WP Rocket 的延迟加载 JS 功能，请先禁用 %1$s 。"
+msgstr "JS 延迟加载已在 %1$s 中启用。若您想要使用 RapydLaunch Booster 的延迟加载 JS 功能，请先禁用 %1$s 。"
 
 #: inc/ThirdParty/Plugins/Smush.php:108 inc/ThirdParty/Plugins/Smush.php:126
 msgid "Smush"
@@ -3530,23 +3530,23 @@ msgstr "遇到问题了吗?"
 
 #: views/deactivation-intent/form.php:24
 msgid ""
-"It is not always necessary to deactivate WP Rocket when facing any issues. "
+"It is not always necessary to deactivate RapydLaunch Booster when facing any issues. "
 "Most of them can be fixed by deactivating only some options."
-msgstr "当遇到问题的时候, 没必要禁用 WP Rocket. 大部分情况下, 只需要禁用某些选项就行."
+msgstr "当遇到问题的时候, 没必要禁用 RapydLaunch Booster. 大部分情况下, 只需要禁用某些选项就行."
 
 #. translators: %1$s = opening strong tag, %2$s = closing strong tag.
 #: views/deactivation-intent/form.php:29
 msgid ""
-"Our advice? Instead of deactivating WP Rocket, use our %1$sSafe Mode%2$s to "
+"Our advice? Instead of deactivating RapydLaunch Booster, use our %1$sSafe Mode%2$s to "
 "quickly disable LazyLoad, File Optimization, and CDN options. Then check to "
 "see if your issue is resolved."
 msgstr ""
-"我们的建议? 其实不用禁用 WP Rocket 啦~ 您可以先通过 %1$s安全模式%2$s 来快速禁用 延迟加载、文件优化和 CDN 选项, "
+"我们的建议? 其实不用禁用 RapydLaunch Booster 啦~ 您可以先通过 %1$s安全模式%2$s 来快速禁用 延迟加载、文件优化和 CDN 选项, "
 "然后再看看问题是否解决."
 
 #: views/deactivation-intent/form.php:35
-msgid "Do you want to use our Safe Mode to troubleshoot WP Rocket?"
-msgstr "是否使用 \"安全模式\" 来排查 WP Rocket 故障?"
+msgid "Do you want to use our Safe Mode to troubleshoot RapydLaunch Booster?"
+msgstr "是否使用 \"安全模式\" 来排查 RapydLaunch Booster 故障?"
 
 #. translators: %1$s = opening strong tag, %2$s = closing strong tag.
 #: views/deactivation-intent/form.php:55
@@ -3556,9 +3556,9 @@ msgstr "是, 应用 \"%1$s安全模式%2$s\""
 #. translators: %1$s = opening strong tag, %2$s = closing strong tag.
 #: views/deactivation-intent/form.php:68
 msgid ""
-"and export WP Rocket settings %1$s(Recommended as current settings will be "
+"and export RapydLaunch Booster settings %1$s(Recommended as current settings will be "
 "deleted)%2$s"
-msgstr "并导出 WP Rocket 设置 %1$s （推荐操作，当前设置将被删除）%2$s"
+msgstr "并导出 RapydLaunch Booster 设置 %1$s （推荐操作，当前设置将被删除）%2$s"
 
 #: views/deactivation-intent/form.php:76
 msgid "No, deactivate and snooze this message for"
@@ -3592,11 +3592,11 @@ msgstr "确认"
 #. = <a>, %5$s = </a>, %6$s = <a>.
 #: views/plugins/update-renewal-expired-notice.php:27
 msgid ""
-" %1$sWP Rocket %2$s%3$s is available. %4$sLearn more%5$s about the updates "
+" %1$sRapydLaunch Booster %2$s%3$s is available. %4$sLearn more%5$s about the updates "
 "and enhancements of this major version. You need an active license to use "
 "them on your website, don’t miss out! %6$sRenew Now%5$s"
 msgstr ""
-"发现 %1$sWP Rocket %2$s%3$s 新版本. %4$s点我了解更多详情%5$s 新版本需要有效授权才能使用哦! %6$s立即续费%5$s"
+"发现 %1$sRapydLaunch Booster %2$s%3$s 新版本. %4$s点我了解更多详情%5$s 新版本需要有效授权才能使用哦! %6$s立即续费%5$s"
 
 #: views/settings/dynamic-lists-update.php:14
 msgid "Update Inclusion and Exclusion Lists"
@@ -3710,8 +3710,8 @@ msgid "Congratulations!"
 msgstr "恭喜！"
 
 #: views/settings/page-sections/dashboard.php:40
-msgid "WP Rocket is now activated and already working for you."
-msgstr "WP Rocket 已激活并开始工作。"
+msgid "RapydLaunch Booster is now activated and already working for you."
+msgstr "RapydLaunch Booster 已激活并开始工作。"
 
 #: views/settings/page-sections/dashboard.php:42
 msgid "Your website should be loading faster now!"
@@ -3719,9 +3719,9 @@ msgstr "您的网站应该变快啦 !"
 
 #: views/settings/page-sections/dashboard.php:44
 msgid ""
-"To guarantee fast websites, WP Rocket automatically applies 80% of web "
+"To guarantee fast websites, RapydLaunch Booster automatically applies 80% of web "
 "performance best practices."
-msgstr "为达到加速效果，WP Rocket 已自动帮您开启了80%的加速最佳操作。"
+msgstr "为达到加速效果，RapydLaunch Booster 已自动帮您开启了80%的加速最佳操作。"
 
 #: views/settings/page-sections/dashboard.php:44
 msgid ""
@@ -3803,9 +3803,9 @@ msgstr "保存并优化"
 #. class="imagify-name">, %4$s = </span>.
 #: views/settings/page-sections/imagify.php:21
 msgid ""
-"%1$sWP ROCKET%2$s created %3$sIMAGIFY%4$s %1$sfor best-in-class image "
+"%1$sRapydLaunch Booster%2$s created %3$sIMAGIFY%4$s %1$sfor best-in-class image "
 "optimization.%2$s"
-msgstr "%1$sWP ROCKET%2$s创建了%1$s图片优化神器%2$s %3$sIMAGIFY %4$s"
+msgstr "%1$sRapydLaunch Booster%2$s创建了%1$s图片优化神器%2$s %3$sIMAGIFY %4$s"
 
 #: views/settings/page-sections/imagify.php:24
 msgid ""
@@ -3834,13 +3834,13 @@ msgid "Install Imagify"
 msgstr "安装 Imagify 插件"
 
 #: views/settings/page-sections/license.php:22
-msgid "WP Rocket was not able to automatically validate your license."
-msgstr "WP Rocket无法自动验证您的授权。"
+msgid "RapydLaunch Booster was not able to automatically validate your license."
+msgstr "RapydLaunch Booster无法自动验证您的授权。"
 
 #. translators: %1$s = tutorial URL, %2$s = support URL.
 #: views/settings/page-sections/license.php:29
 msgid "Follow this %1$s, or contact %2$s to get the engine started."
-msgstr "请参考%1$s，或联系%2$s来开启WP Rocket引擎吧 ~"
+msgstr "请参考%1$s，或联系%2$s来开启RapydLaunch Booster引擎吧 ~"
 
 #. translators: %1$s = <a href=", %2$s =  tutorial href,  %3$s =  "
 #. target="_blank">,  %4$s =  </a>.
@@ -3898,7 +3898,7 @@ msgstr "下载配置"
 msgid "Rollback"
 msgstr "还原"
 
-#. translators: %s = WP Rocket version number.
+#. translators: %s = RapydLaunch Booster version number.
 #: views/settings/page-sections/tools.php:64
 msgid "Has version %s caused an issue on your website?"
 msgstr "%s 版本有问题？"
@@ -3910,7 +3910,7 @@ msgid ""
 " request."
 msgstr "您可在此回滚到上个主流版本。%s然后寻求我们的帮助。"
 
-#. translators: %s = WP Rocket previous version.
+#. translators: %s = RapydLaunch Booster previous version.
 #: views/settings/page-sections/tools.php:80
 msgid "Reinstall version %s"
 msgstr "重新安装 %s 版本"
@@ -3929,8 +3929,8 @@ msgid "Getting Started"
 msgstr "新手指南"
 
 #: views/settings/page-sections/tutorials.php:15
-msgid "Getting Started with WP Rocket"
-msgstr "玩转 WP Rocket"
+msgid "Getting Started with RapydLaunch Booster"
+msgstr "玩转 RapydLaunch Booster"
 
 #: views/settings/page-sections/tutorials.php:16
 #: views/settings/partials/getting-started.php:12
@@ -3939,8 +3939,8 @@ msgstr "找到适用您网站的最佳设置"
 
 #: views/settings/page-sections/tutorials.php:17
 #: views/settings/partials/getting-started.php:13
-msgid "How to Check if WP Rocket is Caching Your Site"
-msgstr "如何确认 WP Rocket 缓存已正常工作"
+msgid "How to Check if RapydLaunch Booster is Caching Your Site"
+msgstr "如何确认 RapydLaunch Booster 缓存已正常工作"
 
 #: views/settings/page-sections/tutorials.php:18
 #: views/settings/partials/getting-started.php:14
@@ -3956,16 +3956,16 @@ msgid "Passing the Core Web vitals"
 msgstr "搞定谷歌核心算法"
 
 #: views/settings/page-sections/tutorials.php:25
-msgid "How to improve LCP with WP Rocket"
-msgstr "如何用 WP Rocket 优化 LCP"
+msgid "How to improve LCP with RapydLaunch Booster"
+msgstr "如何用 RapydLaunch Booster 优化 LCP"
 
 #: views/settings/page-sections/tutorials.php:26
-msgid "How to improve FID with WP Rocket"
-msgstr "如何用 WP Rocket 优化 FID"
+msgid "How to improve FID with RapydLaunch Booster"
+msgstr "如何用 RapydLaunch Booster 优化 FID"
 
 #: views/settings/page-sections/tutorials.php:27
-msgid "How to improve CLS with WP Rocket"
-msgstr "如何用 WP Rocket 优化 CLS"
+msgid "How to improve CLS with RapydLaunch Booster"
+msgstr "如何用 RapydLaunch Booster 优化 CLS"
 
 #: views/settings/page-sections/tutorials.php:31
 msgid "Troubleshooting"
@@ -3988,8 +3988,8 @@ msgid "Set Up the Cloudflare Add-on"
 msgstr "设置 Cloudflare 扩展"
 
 #: views/settings/page.php:16
-msgid "WP Rocket Settings"
-msgstr "WP Rocket设置"
+msgid "RapydLaunch Booster Settings"
+msgstr "RapydLaunch Booster设置"
 
 #. translators: %s = Plugin version number.
 #: views/settings/page.php:30
@@ -4003,15 +4003,15 @@ msgstr "显示侧边栏"
 #. translators: %1$s = <strong>, %2$s = </strong>.
 #: views/settings/page.php:82
 msgid ""
-"Below is a detailed view of all data WP Rocket will collect %1$sif granted "
+"Below is a detailed view of all data RapydLaunch Booster will collect %1$sif granted "
 "permission.%2$s"
-msgstr "以下详细列出了 WP Rocket 在%1$s获得许可后%2$s将收集的所有数据。"
+msgstr "以下详细列出了 RapydLaunch Booster 在%1$s获得许可后%2$s将收集的所有数据。"
 
 #: views/settings/page.php:87
 msgid ""
-"WP Rocket will never transmit any domain names or email addresses (except "
+"RapydLaunch Booster will never transmit any domain names or email addresses (except "
 "for license validation), IP addresses, or third-party API keys."
-msgstr "WP Rocket 绝不会传输任何域名、邮箱（授权验证除外），IP地址或第三方 API key。"
+msgstr "RapydLaunch Booster 绝不会传输任何域名、邮箱（授权验证除外），IP地址或第三方 API key。"
 
 #: views/settings/page.php:89
 msgid "Activate Rocket analytics"
@@ -4026,8 +4026,8 @@ msgid "Read the documentation"
 msgstr "查看文档"
 
 #: views/settings/partials/getting-started.php:11
-msgid "What WP Rocket Does For You By Default"
-msgstr "WP Rocket 默认情况下都为您做了些什么？"
+msgid "What RapydLaunch Booster Does For You By Default"
+msgstr "RapydLaunch Booster 默认情况下都为您做了些什么？"
 
 #: views/settings/partials/sidebar.php:12
 msgid "How to correctly measure your website’s loading time"
@@ -4043,8 +4043,8 @@ msgid "Read our guide"
 msgstr "阅读指南"
 
 #: views/settings/partials/sidebar.php:18
-msgid "Learn about optimal WP Rocket settings for mobile."
-msgstr "学习移动端的 WP Rocket 最佳设置."
+msgid "Learn about optimal RapydLaunch Booster settings for mobile."
+msgstr "学习移动端的 RapydLaunch Booster 最佳设置."
 
 #: views/settings/partials/sidebar.php:27
 msgid "Test and Improve Google Core Web Vitals for WordPress."

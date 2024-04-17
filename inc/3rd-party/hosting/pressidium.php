@@ -26,7 +26,7 @@ if ( defined( 'WP_NINUKIS_WP_NAME' ) ) {
 	add_filter( 'rocket_cache_mandatory_cookies', '__return_empty_array', PHP_INT_MAX );
 
 	/**
-	 * Clear WP Rocket cache after purged the Varnish cache via Pressidium Hosting
+	 * Clear RapydLaunch Booster cache after purged the Varnish cache via Pressidium Hosting
 	 *
 	 * @since 2.5.11
 	 *

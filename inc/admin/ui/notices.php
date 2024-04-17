@@ -26,7 +26,7 @@ function rocket_bad_deactivations() {
 			switch ( $msg ) {
 				case 'wpconfig':
 					$errors['wpconfig'] = '<p>' . sprintf(
-						// translators: %1$s WP Rocket plugin name; %2$s = file name.
+						// translators: %1$s RapydLaunch Booster plugin name; %2$s = file name.
 						__(
 							'<strong>%1$s</strong> has not been deactivated due to missing writing permissions.<br>
 Make <strong>%2$s</strong> writeable and retry deactivation, or force deactivation now:',
@@ -39,7 +39,7 @@ Make <strong>%2$s</strong> writeable and retry deactivation, or force deactivati
 
 				case 'htaccess':
 					$errors['htaccess'] = '<p>' . sprintf(
-						// translators: %1$s WP Rocket plugin name; %2$s = file name.
+						// translators: %1$s RapydLaunch Booster plugin name; %2$s = file name.
 						__(
 							'<strong>%1$s</strong> has not been deactivated due to missing writing permissions.<br>
 Make <strong>%2$s</strong> writeable and retry deactivation, or force deactivation now:',
@@ -93,7 +93,7 @@ function rocket_warning_plugin_modification() {
 			[
 				'status'         => 'warning',
 				'dismissible'    => '',
-				// translators: %s is WP Rocket plugin name.
+				// translators: %s is RapydLaunch Booster plugin name.
 				'message'        => sprintf( __( '<strong>%s</strong>: One or more plugins have been enabled or disabled, clear the cache if they affect the front end of your site.', 'rocket' ), WP_ROCKET_PLUGIN_NAME ),
 				'action'         => 'clear_cache',
 				'dismiss_button' => __FUNCTION__,
@@ -104,7 +104,7 @@ function rocket_warning_plugin_modification() {
 add_action( 'admin_notices', 'rocket_warning_plugin_modification' );
 
 /**
- * This warning is displayed when some plugins may conflict with WP Rocket
+ * This warning is displayed when some plugins may conflict with RapydLaunch Booster
  *
  * @since 1.3.0
  */
@@ -137,7 +137,7 @@ function rocket_plugins_to_deactivate() {
 		&& rocket_valid_key()
 	) {
 
-		// translators: %s is WP Rocket plugin name.
+		// translators: %s is RapydLaunch Booster plugin name.
 		$warning = '<p>' . sprintf( __( '<strong>%s</strong>: The following plugins are not compatible with this plugin and may cause unexpected results:', 'rocket' ), WP_ROCKET_PLUGIN_NAME ) . '</p>';
 
 		$warning .= '<ul class="rocket-plugins-error">';
@@ -186,7 +186,7 @@ function rocket_warning_footer_js_plugin() {
 	rocket_notice_html(
 		[
 			'status'         => 'warning',
-			'message'        => __( 'WP Rocket Footer JS is not an official add-on. It prevents some options in WP Rocket from working correctly. Please deactivate it if you have problems.', 'rocket' ),
+			'message'        => __( 'RapydLaunch Booster Footer JS is not an official add-on. It prevents some options in RapydLaunch Booster from working correctly. Please deactivate it if you have problems.', 'rocket' ),
 			'dismiss_button' => true,
 		]
 	);
@@ -226,7 +226,7 @@ function rocket_warning_endurance_cache() {
 			'status'  => 'error',
 			'message' => sprintf(
 				// translators: %1$s = opening link tag, %2$s = closing link tag.
-				__( 'Endurance Cache is currently enabled, which will conflict with WP Rocket Cache. Please set the Endurance Cache cache level to Off (Level 0) on the %1$sSettings > General%2$s page to prevent any issues.', 'rocket' ),
+				__( 'Endurance Cache is currently enabled, which will conflict with RapydLaunch Booster Cache. Please set the Endurance Cache cache level to Off (Level 0) on the %1$sSettings > General%2$s page to prevent any issues.', 'rocket' ),
 				'<a href="' . admin_url( 'options-general.php#epc_settings' ) . '">',
 				'</a>'
 			),
@@ -246,7 +246,7 @@ function rocket_warning_using_permalinks() {
 		&& rocket_valid_key()
 	) {
 		$message = sprintf(
-			/* translators: %1$s WP Rocket plugin name; %2$s = opening link; %3$s = closing link */
+			/* translators: %1$s RapydLaunch Booster plugin name; %2$s = opening link; %3$s = closing link */
 			__( '%1$s: A custom permalink structure is required for the plugin to work properly. %2$sGo to permalinks settings%3$s', 'rocket' ),
 			'<strong>' . WP_ROCKET_PLUGIN_NAME . '</strong>',
 			'<a href="' . admin_url( 'options-permalink.php' ) . '">',
@@ -308,7 +308,7 @@ function rocket_warning_htaccess_permissions() {
 
 	add_filter( 'rocket_htaccess_mod_rewrite', '__return_false', 42 );
 
-	$message .= '<p>' . __( 'Don’t worry, WP Rocket’s page caching and settings will still function correctly.', 'rocket' ) . '<br>' . __( 'For optimal performance, adding the following lines into your .htaccess is recommended (not required):', 'rocket' ) . '<br><textarea readonly="readonly" id="rocket_htaccess_rules" name="rocket_htaccess_rules" class="large-text readonly" rows="6">' . esc_textarea( get_rocket_htaccess_marker() ) . '</textarea></p>';
+	$message .= '<p>' . __( 'Don’t worry, RapydLaunch Booster’s page caching and settings will still function correctly.', 'rocket' ) . '<br>' . __( 'For optimal performance, adding the following lines into your .htaccess is recommended (not required):', 'rocket' ) . '<br><textarea readonly="readonly" id="rocket_htaccess_rules" name="rocket_htaccess_rules" class="large-text readonly" rows="6">' . esc_textarea( get_rocket_htaccess_marker() ) . '</textarea></p>';
 
 	remove_filter( 'rocket_htaccess_mod_rewrite', '__return_false', 42 );
 
@@ -496,8 +496,8 @@ function rocket_analytics_optin_notice() {
 	$analytics_notice = sprintf(
 		// Opening <p> provided by rocket_notice_html().
 		'<strong>%1$s</strong><br>%2$s</p>',
-		__( 'Would you allow WP Rocket to collect non-sensitive diagnostic data from this website?', 'rocket' ),
-		__( 'This would help us to improve WP Rocket for you in the future.', 'rocket' )
+		__( 'Would you allow RapydLaunch Booster to collect non-sensitive diagnostic data from this website?', 'rocket' ),
+		__( 'This would help us to improve RapydLaunch Booster for you in the future.', 'rocket' )
 	);
 
 	$analytics_notice .= sprintf(
@@ -508,7 +508,7 @@ function rocket_analytics_optin_notice() {
 
 	$analytics_notice .= sprintf(
 		'<div class="rocket-analytics-data-container"><p class="description">%1$s</p>%2$s</div>',
-		__( 'Below is a detailed view of all data WP Rocket will collect if granted permission. WP Rocket will never transmit any domain names or email addresses (except for license validation), IP addresses, or third-party API keys.', 'rocket' ),
+		__( 'Below is a detailed view of all data RapydLaunch Booster will collect if granted permission. RapydLaunch Booster will never transmit any domain names or email addresses (except for license validation), IP addresses, or third-party API keys.', 'rocket' ),
 		rocket_data_collection_preview_table()
 	);
 
@@ -564,7 +564,7 @@ function rocket_analytics_optin_thankyou_notice() {
 
 	$thankyou_message .= sprintf(
 		'<p>%1$s</p><div>%2$s</div>',
-		__( 'WP Rocket now collects these metrics from your website:', 'rocket' ),
+		__( 'RapydLaunch Booster now collects these metrics from your website:', 'rocket' ),
 		rocket_data_collection_preview_table()
 	);
 

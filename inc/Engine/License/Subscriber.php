@@ -134,7 +134,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds the current time and promotion end time to WP Rocket localize script data
+	 * Adds the current time and promotion end time to RapydLaunch Booster localize script data
 	 *
 	 * @since 3.7.5 Add the renewal localize data
 	 * @since 3.7.4
@@ -210,7 +210,7 @@ class Subscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds the notification bubble to WP Rocket menu item when expired
+	 * Adds the notification bubble to RapydLaunch Booster menu item when expired
 	 *
 	 * @param string $menu_title Menu title.
 	 *

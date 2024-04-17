@@ -7,7 +7,7 @@ use WP_Rocket\Addon\WebP\Subscriber as WebPSubscriber;
 use WP_Rocket\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 /**
- * Service provider for WP Rocket addons.
+ * Service provider for RapydLaunch Booster addons.
  */
 class ServiceProvider extends AbstractServiceProvider {
 

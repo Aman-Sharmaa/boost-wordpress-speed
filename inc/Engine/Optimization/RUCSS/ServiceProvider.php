@@ -15,7 +15,7 @@ use WP_Rocket\Engine\Optimization\RUCSS\Frontend\APIClient;
 use WP_Rocket\Engine\Optimization\RUCSS\Frontend\Subscriber as FrontendSubscriber;
 
 /**
- * Service provider for the WP Rocket RUCSS
+ * Service provider for the RapydLaunch Booster RUCSS
  *
  * @since  3.9
  */

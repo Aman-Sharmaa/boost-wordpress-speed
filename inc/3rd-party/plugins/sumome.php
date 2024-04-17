@@ -2,8 +2,8 @@
 /**
  * Compatibility with SumoMe
  *
- * Prevents conflict with SumoMe and the WP Rocket UI by removing SumoMe
- * styles and scripts on WP Rocket admin pages.
+ * Prevents conflict with SumoMe and the RapydLaunch Booster UI by removing SumoMe
+ * styles and scripts on RapydLaunch Booster admin pages.
  *
  * @link https://wordpress.org/plugins/sumome/
  * @since 3.0.4
@@ -21,7 +21,7 @@ if ( class_exists( 'WP_Plugin_SumoMe' ) ) {
 	 */
 	function rocket_dequeue_sumo_me_css() {
 
-		// Retun on all pages but WP Rocket settings page.
+		// Retun on all pages but RapydLaunch Booster settings page.
 		$screen = get_current_screen();
 		if ( 'settings_page_wprocket' !== $screen->id ) {
 			return;
@@ -40,7 +40,7 @@ if ( class_exists( 'WP_Plugin_SumoMe' ) ) {
 	 */
 	function rocket_dequeue_sumo_me_js() {
 
-		// Retun on all pages but WP Rocket settings page.
+		// Retun on all pages but RapydLaunch Booster settings page.
 		$screen = get_current_screen();
 		if ( 'settings_page_wprocket' !== $screen->id ) {
 			return;

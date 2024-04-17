@@ -42,14 +42,14 @@ class Bridge extends ThirdpartyTheme {
 	/**
 	 * Constructor
 	 *
-	 * @param Options_Data $options WP Rocket options instance.
+	 * @param Options_Data $options RapydLaunch Booster options instance.
 	 */
 	public function __construct( Options_Data $options ) {
 		$this->options = $options;
 	}
 
 	/**
-	 * Maybe clear WP Rocket cache when Bridge custom CSS/JS is updated
+	 * Maybe clear RapydLaunch Booster cache when Bridge custom CSS/JS is updated
 	 *
 	 * @since 3.3.7
 	 *

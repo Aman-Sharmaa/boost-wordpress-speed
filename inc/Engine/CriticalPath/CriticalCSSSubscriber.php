@@ -63,7 +63,7 @@ class CriticalCSSSubscriber implements Subscriber_Interface {
 	 *
 	 * @param CriticalCSS          $critical_css Critical CSS instance.
 	 * @param ProcessorService     $cpcss_service Has the logic for cpcss generation and deletion.
-	 * @param Options_Data         $options WP Rocket options.
+	 * @param Options_Data         $options RapydLaunch Booster options.
 	 * @param Options              $options_api WordPress options.
 	 * @param User                 $user User instance.
 	 * @param WP_Filesystem_Direct $filesystem Instance of the filesystem handler.
@@ -148,7 +148,7 @@ class CriticalCSSSubscriber implements Subscriber_Interface {
 
 	/**
 	 * This notice is displayed when the Critical CSS Generation is triggered from a different page than
-	 * WP Rocket settings page.
+	 * RapydLaunch Booster settings page.
 	 *
 	 * @since 3.4.1
 	 */
@@ -178,7 +178,7 @@ class CriticalCSSSubscriber implements Subscriber_Interface {
 		if ( current_user_can( 'rocket_manage_options' ) ) {
 			$message .= ' ' . sprintf(
 					// Translators: %1$s = opening link tag, %2$s = closing link tag.
-					__( 'Go to the %1$sWP Rocket settings%2$s page to track progress.', 'rocket' ),
+					__( 'Go to the %1$sRapydLaunch Booster settings%2$s page to track progress.', 'rocket' ),
 					'<a href="' . esc_url( admin_url( 'options-general.php?page=' . WP_ROCKET_PLUGIN_SLUG ) ) . '">',
 					'</a>'
 				);
@@ -233,8 +233,8 @@ class CriticalCSSSubscriber implements Subscriber_Interface {
 	 *
 	 * @since 2.11
 	 *
-	 * @param array $old_value Previous values for WP Rocket settings.
-	 * @param array $value     New values for WP Rocket settings.
+	 * @param array $old_value Previous values for RapydLaunch Booster settings.
+	 * @param array $value     New values for RapydLaunch Booster settings.
 	 *
 	 * @see   CriticalCSS::process_handler()
 	 */
@@ -316,8 +316,8 @@ class CriticalCSSSubscriber implements Subscriber_Interface {
 	 *
 	 * @since 2.11
 	 *
-	 * @param array $old_value Previous values for WP Rocket settings.
-	 * @param array $value     New values for WP Rocket settings.
+	 * @param array $old_value Previous values for RapydLaunch Booster settings.
+	 * @param array $value     New values for RapydLaunch Booster settings.
 	 */
 	public function stop_process_on_deactivation( $old_value, $value ) {
 		if (

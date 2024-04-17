@@ -10,7 +10,7 @@ class CrawlHomepage {
 	 * @return array|false
 	 */
 	public function crawl() {
-		$user_agent = 'WP Rocket/Preload';
+		$user_agent = 'RapydLaunch Booster/Preload';
 
 		/**
 		 * Filters the arguments for the partial preload request.

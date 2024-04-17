@@ -270,7 +270,7 @@ class UpdaterSubscriber implements Event_Manager_Aware_Subscriber_Interface {
 	}
 
 	/**
-	 * Disable auto-updates for WP Rocket
+	 * Disable auto-updates for RapydLaunch Booster
 	 *
 	 * @param bool|null $update Whether to update. The value of null is internally used to detect whether nothing has hooked into this filter.
 	 * @param object    $item The update offer.
@@ -435,7 +435,7 @@ class UpdaterSubscriber implements Event_Manager_Aware_Subscriber_Interface {
 	}
 
 	/**
-	 * Delete WP Rocket update data cache.
+	 * Delete RapydLaunch Booster update data cache.
 	 */
 	public function delete_rocket_update_data_cache() {
 		delete_site_transient( $this->cache_transient_name );
@@ -502,7 +502,7 @@ class UpdaterSubscriber implements Event_Manager_Aware_Subscriber_Interface {
 	}
 
 	/**
-	 * After a rollback has been done, replace the "return to" link by a link pointing to WP Rocket's tools page.
+	 * After a rollback has been done, replace the "return to" link by a link pointing to RapydLaunch Booster's tools page.
 	 * A link to the plugins page is kept in case the plugin is not reactivated correctly.
 	 *
 	 * @since  3.2.4
@@ -517,7 +517,7 @@ class UpdaterSubscriber implements Event_Manager_Aware_Subscriber_Interface {
 
 		$update_actions['plugins_page'] = sprintf(
 			/* translators: 1 and 3 are link openings, 2 is a link closing. */
-			__( '%1$sReturn to WP Rocket%2$s or %3$sgo to Plugins page%2$s', 'rocket' ),
+			__( '%1$sReturn to RapydLaunch Booster%2$s or %3$sgo to Plugins page%2$s', 'rocket' ),
 			'<a href="' . esc_url( admin_url( 'options-general.php?page=' . WP_ROCKET_PLUGIN_SLUG ) . '#tools' ) . '" target="_parent">',
 			'</a>',
 			'<a href="' . esc_url( admin_url( 'plugins.php' ) ) . '" target="_parent">'

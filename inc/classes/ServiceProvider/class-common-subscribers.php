@@ -4,7 +4,7 @@ namespace WP_Rocket\ServiceProvider;
 use WP_Rocket\Dependencies\League\Container\ServiceProvider\AbstractServiceProvider;
 
 /**
- * Service provider for WP Rocket features common for admin and front
+ * Service provider for RapydLaunch Booster features common for admin and front
  *
  * @since 3.3
  */

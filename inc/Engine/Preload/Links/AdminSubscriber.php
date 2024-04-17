@@ -35,11 +35,11 @@ class AdminSubscriber implements Subscriber_Interface {
 	}
 
 	/**
-	 * Adds the option key & value to the WP Rocket options array
+	 * Adds the option key & value to the RapydLaunch Booster options array
 	 *
 	 * @since 3.7
 	 *
-	 * @param array $options WP Rocket options array.
+	 * @param array $options RapydLaunch Booster options array.
 	 * @return array
 	 */
 	public function add_option( $options ) {

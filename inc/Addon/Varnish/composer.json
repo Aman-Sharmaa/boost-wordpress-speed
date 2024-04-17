@@ -1,6 +1,6 @@
 {
 	"name": "wp-media/module-varnish",
-	"description": "Varnish Addon for WP Rocket",
+	"description": "Varnish Addon for RapydLaunch Booster",
 	"homepage": "https://github.com/wp-media/module-varnish",
 	"license": "GPL-2.0+",
 	"authors": [

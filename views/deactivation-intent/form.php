@@ -21,18 +21,18 @@ defined( 'ABSPATH' ) || exit;
 				<h2 class="wpr-modal-title" id="wpr-deactivation-modal-title"><?php esc_html_e( 'Facing an issue?', 'rocket' ); ?></h2>
 			</header>
 			<div>
-				<p><?php esc_html_e( 'It is not always necessary to deactivate WP Rocket when facing any issues. Most of them can be fixed by deactivating only some options.', 'rocket' ); ?></p>
+				<p><?php esc_html_e( 'It is not always necessary to deactivate RapydLaunch Booster when facing any issues. Most of them can be fixed by deactivating only some options.', 'rocket' ); ?></p>
 				<p>
 					<?php
 					printf(
 						// translators: %1$s = opening strong tag, %2$s = closing strong tag.
-						esc_html__( 'Our advice? Instead of deactivating WP Rocket, use our %1$sSafe Mode%2$s to quickly disable LazyLoad, File Optimization, and CDN options. Then check to see if your issue is resolved.', 'rocket' ),
+						esc_html__( 'Our advice? Instead of deactivating RapydLaunch Booster, use our %1$sSafe Mode%2$s to quickly disable LazyLoad, File Optimization, and CDN options. Then check to see if your issue is resolved.', 'rocket' ),
 						'<strong>',
 						'</strong>'
 					);
 					?>
 				</p>
-				<p><strong><?php esc_html_e( 'Do you want to use our Safe Mode to troubleshoot WP Rocket?', 'rocket' ); ?></strong></p>
+				<p><strong><?php esc_html_e( 'Do you want to use our Safe Mode to troubleshoot RapydLaunch Booster?', 'rocket' ); ?></strong></p>
 				<form id="wpr-deactivation-intent-form" method="post" action="
 				<?php
 					echo esc_attr( $data['form_action'] );
@@ -65,7 +65,7 @@ defined( 'ABSPATH' ) || exit;
 								<?php
 								printf(
 										// translators: %1$s = opening strong tag, %2$s = closing strong tag.
-										esc_html__( 'and export WP Rocket settings %1$s(Recommended as current settings will be deleted)%2$s', 'rocket' ),
+										esc_html__( 'and export RapydLaunch Booster settings %1$s(Recommended as current settings will be deleted)%2$s', 'rocket' ),
 								'<strong>',
 									'</strong>'
 								);

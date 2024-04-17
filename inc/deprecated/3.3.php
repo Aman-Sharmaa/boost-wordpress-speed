@@ -4,7 +4,7 @@ defined( 'ABSPATH' ) || exit;
 
 if ( ! function_exists( 'get_rocket_footprint' ) ) :
 	/**
-	 * Get WP Rocket footprint
+	 * Get RapydLaunch Booster footprint
 	 *
 	 * @deprecated 3.3
 	 * @since 3.0.5 White label footprint if WP_ROCKET_WHITE_LABEL_FOOTPRINT is defined.
@@ -623,7 +623,7 @@ if ( ! function_exists( 'rocket_user_agent' ) ) :
 	 * @deprecated 3.3.6
 	 *
 	 * @param string $user_agent User Agent value.
-	 * @return string WP Rocket user agent
+	 * @return string RapydLaunch Booster user agent
 	 */
 	function rocket_user_agent( $user_agent ) {
 		_deprecated_function( __FUNCTION__ . '()', '3.3.6', '\WP_Rocket\Subscriber\Plugin\Updater_Api_Common_Subscriber->get_rocket_user_agent()' );
@@ -677,7 +677,7 @@ endif;
 
 if ( ! function_exists( 'rocket_updates_exclude' ) ) :
 	/**
-	 * Excludes WP Rocket from WP updates
+	 * Excludes RapydLaunch Booster from WP updates
 	 *
 	 * @since 1.0
 	 * @deprecated 3.3.6
@@ -719,7 +719,7 @@ if ( ! function_exists( 'rocket_force_info' ) ) :
 	 * @param false|object|array $bool The result object or array. Default false.
 	 * @param string             $action The type of information being requested from the Plugin Install API.
 	 * @param object             $args Plugin API arguments.
-	 * @return false|object|array Empty object if slug is WP Rocket, default value otherwise
+	 * @return false|object|array Empty object if slug is RapydLaunch Booster, default value otherwise
 	 */
 	function rocket_force_info( $bool, $action, $args ) {
 		_deprecated_function( __FUNCTION__ . '()', '3.3.6', '\WP_Rocket\Subscriber\Plugin\Information_Subscriber->exclude_rocket_from_wp_info()' );

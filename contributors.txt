@@ -1,4 +1,4 @@
-This file contains a list of people who have made large contributions to WP Rocket.
+This file contains a list of people who have made large contributions to RapydLaunch Booster.
 
 Developers:
 	Jonathan Buttigieg <jonathan@wp-media.me>

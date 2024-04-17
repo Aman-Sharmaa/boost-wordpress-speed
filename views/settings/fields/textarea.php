@@ -39,7 +39,7 @@ defined( 'ABSPATH' ) || exit;
 	<?php endif; ?>
 	<?php
 		/**
-		 * Fires after the display of a textarea field on WP Rocket settings page
+		 * Fires after the display of a textarea field on RapydLaunch Booster settings page
 		 *
 		 * The dynamic portion of the name corresponds to the field ID
 		 *

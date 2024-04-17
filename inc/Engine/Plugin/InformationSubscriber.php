@@ -69,7 +69,7 @@ class InformationSubscriber implements Subscriber_Interface {
 	 * @param  false|object|array $bool   The result object or array. Default false.
 	 * @param  string             $action The type of information being requested from the Plugin Install API.
 	 * @param  object             $args   Plugin API arguments.
-	 * @return false|object|array         Empty object if slug is WP Rocket, default value otherwise.
+	 * @return false|object|array         Empty object if slug is RapydLaunch Booster, default value otherwise.
 	 */
 	public function exclude_rocket_from_wp_info( $bool, $action, $args ) {
 		if ( ! $this->is_requesting_rocket_info( $action, $args ) ) {

@@ -53,7 +53,7 @@ function rocket_after_save_options( $oldvalue, $value ) {
 		rocket_clean_domain();
 
 		/**
-		 * Fires after WP Rocket options that require a cache purge have changed
+		 * Fires after RapydLaunch Booster options that require a cache purge have changed
 		 *
 		 * @since 3.11
 		 *
@@ -141,12 +141,12 @@ function rocket_pre_main_option( $newvalue, $oldvalue ) {
 		$rocket_settings_errors[] = [
 			'setting' => 'general',
 			'code'    => 'invalid_patterns',
-			'message' => __( 'WP Rocket: ', 'rocket' ) . $error_message,
+			'message' => __( 'RapydLaunch Booster: ', 'rocket' ) . $error_message,
 			'type'    => 'error',
 		];
 	}
 
-	// Clear WP Rocket database optimize cron if the setting has been modified.
+	// Clear RapydLaunch Booster database optimize cron if the setting has been modified.
 	if ( ( isset( $newvalue['schedule_automatic_cleanup'], $oldvalue['schedule_automatic_cleanup'] ) && $newvalue['schedule_automatic_cleanup'] !== $oldvalue['schedule_automatic_cleanup'] ) || ( ( isset( $newvalue['automatic_cleanup_frequency'], $oldvalue['automatic_cleanup_frequency'] ) && $newvalue['automatic_cleanup_frequency'] !== $oldvalue['automatic_cleanup_frequency'] ) ) ) {
 		if ( wp_next_scheduled( 'rocket_database_optimization_time_event' ) ) {
 			wp_clear_scheduled_hook( 'rocket_database_optimization_time_event' );

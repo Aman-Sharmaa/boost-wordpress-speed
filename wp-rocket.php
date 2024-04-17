@@ -124,7 +124,7 @@ require WP_ROCKET_INC_PATH . 'compat.php';
 require WP_ROCKET_INC_PATH . 'classes/class-wp-rocket-requirements-check.php';
 
 /**
- * Loads WP Rocket translations
+ * Loads RapydLaunch Booster translations
  *
  * @since 3.0
  * @author Remy Perona
@@ -145,7 +145,7 @@ add_action( 'plugins_loaded', 'rocket_load_textdomain' );
 
 $wp_rocket_requirement_checks = new WP_Rocket_Requirements_Check(
 	[
-		'plugin_name'         => 'WP Rocket',
+		'plugin_name'         => 'RapydLaunch Booster',
 		'plugin_file'         => WP_ROCKET_FILE,
 		'plugin_version'      => WP_ROCKET_VERSION,
 		'plugin_last_version' => WP_ROCKET_LASTVERSION,

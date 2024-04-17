@@ -8,7 +8,7 @@ class UserClient {
 	const USER_ENDPOINT = 'https://wp-rocket.me/stat/1.0/wp-rocket/user.php';
 
 	/**
-	 * WP Rocket options instance
+	 * RapydLaunch Booster options instance
 	 *
 	 * @var Options_Data
 	 */
@@ -17,7 +17,7 @@ class UserClient {
 	/**
 	 * Instantiate the class
 	 *
-	 * @param Options_Data $options WP Rocket options instance.
+	 * @param Options_Data $options RapydLaunch Booster options instance.
 	 */
 	public function __construct( Options_Data $options ) {
 		$this->options = $options;

@@ -71,7 +71,7 @@ class Deactivation {
 		$sites_number = count( _rocket_get_php_files_in_dir( rocket_get_constant( 'WP_ROCKET_CONFIG_PATH' ) ) );
 
 		if ( ! $sites_number ) {
-			// Delete All WP Rocket rules of the .htaccess file.
+			// Delete All RapydLaunch Booster rules of the .htaccess file.
 			flush_rocket_htaccess( true );
 		}
 
@@ -97,12 +97,12 @@ class Deactivation {
 		wp_clear_scheduled_hook( 'rocket_cache_dir_size_check' );
 
 		/**
-		 * WP Rocket deactivation.
+		 * RapydLaunch Booster deactivation.
 		 *
 		 * @since 3.6.3 add $sites_count parameter.
 		 * @since  3.1.5
 		 *
-		 * @param int $sites_number Number of WP Rocket config files found.
+		 * @param int $sites_number Number of RapydLaunch Booster config files found.
 		 */
 		do_action( 'rocket_deactivation', $sites_number );
 	}

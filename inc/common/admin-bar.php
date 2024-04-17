@@ -210,7 +210,7 @@ function rocket_admin_bar( $wp_admin_bar ) {
 	}
 
 	/**
-	 * Fires when adding WP Rocket admin bar items
+	 * Fires when adding RapydLaunch Booster admin bar items
 	 *
 	 * @since 3.6
 	 *
@@ -233,7 +233,7 @@ function rocket_admin_bar( $wp_admin_bar ) {
 		}
 
 		/**
-		 * Go to WP Rocket Documentation.
+		 * Go to RapydLaunch Booster Documentation.
 		 */
 		$wp_admin_bar->add_menu(
 			[
@@ -245,7 +245,7 @@ function rocket_admin_bar( $wp_admin_bar ) {
 		);
 
 		/**
-		 * Go to WP Rocket FAQ.
+		 * Go to RapydLaunch Booster FAQ.
 		 */
 		$wp_admin_bar->add_menu(
 			[
@@ -257,7 +257,7 @@ function rocket_admin_bar( $wp_admin_bar ) {
 		);
 
 		/**
-		 * Go to WP Rocket Support.
+		 * Go to RapydLaunch Booster Support.
 		 */
 		$wp_admin_bar->add_menu(
 			[

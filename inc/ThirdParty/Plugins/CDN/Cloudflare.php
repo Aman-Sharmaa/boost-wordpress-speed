@@ -123,7 +123,7 @@ class Cloudflare implements Subscriber_Interface {
 		$message = sprintf(
 			// translators: %1$s = plugin name.
 			__( '%1$s: Cloudflare\'s HTTP/2 Server Push is incompatible with the features of Remove Unused CSS and Combine CSS files. We strongly recommend disabling it.', 'rocket' ),
-			'<strong>WP Rocket</strong>'
+			'<strong>RapydLaunch Booster</strong>'
 		);
 
 		rocket_notice_html(
@@ -139,7 +139,7 @@ class Cloudflare implements Subscriber_Interface {
 	}
 
 	/**
-	 * Hide WP Rocket CF Addon activation button if the official CF plugin is enabled
+	 * Hide RapydLaunch Booster CF Addon activation button if the official CF plugin is enabled
 	 *
 	 * @param bool $enable True to display, False otherwise.
 	 *
@@ -154,7 +154,7 @@ class Cloudflare implements Subscriber_Interface {
 	}
 
 	/**
-	 * Updates WP Rocket CF Addon field when the official CF plugin is enabled
+	 * Updates RapydLaunch Booster CF Addon field when the official CF plugin is enabled
 	 *
 	 * @param array $settings Array of values to populate the field.
 	 *
@@ -166,7 +166,7 @@ class Cloudflare implements Subscriber_Interface {
 		}
 
 		$settings['do_cloudflare']['title']         = __( 'Your site is using the official Cloudflare plugin. We have enabled Cloudflare auto-purge for compatibility. If you have APO activated, it is also compatible.', 'rocket' );
-		$settings['do_cloudflare']['description']   = __( 'Cloudflare cache will be purged each time WP Rocket clears its cache to ensure content is always up-to-date.', 'rocket' );
+		$settings['do_cloudflare']['description']   = __( 'Cloudflare cache will be purged each time RapydLaunch Booster clears its cache to ensure content is always up-to-date.', 'rocket' );
 		$settings['do_cloudflare']['helper']        = '';
 		$settings['do_cloudflare']['settings_page'] = '';
 
@@ -174,7 +174,7 @@ class Cloudflare implements Subscriber_Interface {
 	}
 
 	/**
-	 * Disable WP Rocket CF option when Cloudflare plugin is enabled
+	 * Disable RapydLaunch Booster CF option when Cloudflare plugin is enabled
 	 *
 	 * @param mixed $value Pre option value.
 	 *
@@ -210,7 +210,7 @@ class Cloudflare implements Subscriber_Interface {
 
 		$message = sprintf(
 		// Translators: %1$s = strong opening tag, %2$s = strong closing tag.
-		__( '%1$sWP Rocket:%2$s You are using "Dynamic Cookies Cache". Cloudflare APO is not yet compatible with that feature.', 'rocket' ) . '<br>',
+		__( '%1$sRapydLaunch Booster:%2$s You are using "Dynamic Cookies Cache". Cloudflare APO is not yet compatible with that feature.', 'rocket' ) . '<br>',
 		'<strong>',
 			'</strong>'
 		);
@@ -231,7 +231,7 @@ class Cloudflare implements Subscriber_Interface {
 	}
 
 	/**
-	 * Display a notice when there is a mismatch between WP Rocket separate cache by mobile value and APO cache by device type
+	 * Display a notice when there is a mismatch between RapydLaunch Booster separate cache by mobile value and APO cache by device type
 	 *
 	 * @return void
 	 */
@@ -267,7 +267,7 @@ class Cloudflare implements Subscriber_Interface {
 					'dismissible' => '',
 					'message'     => sprintf(
 						// Translators: %1$s = strong opening tag, %2$s = strong closing tag, %3$s = opening <a> tag, %4$s = closing </a> tag, %5$s = opening <a> tag.
-						__( '%1$sWP Rocket:%2$s You are using "Separate cache files for mobile devices". You need to activate "Cache by Device Type" %3$ssetting%5$s on Cloudflare APO to serve the right version of the cache. %4$sMore info%5$s', 'rocket' ),
+						__( '%1$sRapydLaunch Booster:%2$s You are using "Separate cache files for mobile devices". You need to activate "Cache by Device Type" %3$ssetting%5$s on Cloudflare APO to serve the right version of the cache. %4$sMore info%5$s', 'rocket' ),
 						'<strong>',
 						'</strong>',
 						'<a href="' . esc_url( admin_url( 'options-general.php?page=cloudflare' ) ) . '">',
@@ -288,7 +288,7 @@ class Cloudflare implements Subscriber_Interface {
 					'status'         => 'warning',
 					'message'        => sprintf(
 					// Translators: %1$s = strong opening tag, %2$s = strong closing tag.
-						__( '%1$sWP Rocket:%2$s You have "Cache by Device Type" enabled on Cloudflare APO. If you judge it necessary for the website to have a different cache on mobile and desktop, we suggest you enable our “Separate Cache Files for Mobiles Devices” to ensure the generated cache is accurate.', 'rocket' ),
+						__( '%1$sRapydLaunch Booster:%2$s You have "Cache by Device Type" enabled on Cloudflare APO. If you judge it necessary for the website to have a different cache on mobile and desktop, we suggest you enable our “Separate Cache Files for Mobiles Devices” to ensure the generated cache is accurate.', 'rocket' ),
 						'<strong>',
 						'</strong>'
 					),

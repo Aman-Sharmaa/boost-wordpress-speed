@@ -40,13 +40,13 @@ function rocket_add_uk_cookie_consent_dynamic_cookie() {
 	// Create cache version based on value set in cookie_consent_accepted cookie.
 	add_filter( 'rocket_cache_dynamic_cookies', 'rocket_get_cookie_uk_consent_cookie' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.
 	rocket_generate_config_file();
 
-	// Clear WP Rocket cache.
+	// Clear RapydLaunch Booster cache.
 	rocket_clean_domain();
 }
 add_action( 'activate_uk-cookie-consent/uk-cookie-consent.php', 'rocket_add_uk_cookie_consent_dynamic_cookie', 11 );
@@ -61,13 +61,13 @@ function rocket_remove_uk_cookie_consent_dynamic_cookie() {
 	remove_filter( 'rocket_htaccess_mod_rewrite', '__return_false', 62 );
 	remove_filter( 'rocket_cache_dynamic_cookies', 'rocket_get_cookie_uk_consent_cookie' );
 
-	// Update the WP Rocket rules on the .htaccess file.
+	// Update the RapydLaunch Booster rules on the .htaccess file.
 	flush_rocket_htaccess();
 
 	// Regenerate the config file.
 	rocket_generate_config_file();
 
-	// Clear WP Rocket cache.
+	// Clear RapydLaunch Booster cache.
 	rocket_clean_domain();
 }
 add_action( 'deactivate_uk-cookie-consent/uk-cookie-consent.php', 'rocket_remove_uk_cookie_consent_dynamic_cookie', 11 );

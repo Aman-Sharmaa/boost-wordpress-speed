@@ -235,7 +235,7 @@ function rocket_delete_config_file() {
 		rocket_direct_filesystem()->delete( $config_file );
 	}
 
-	// Bail out if WP Rocket is multisite.
+	// Bail out if RapydLaunch Booster is multisite.
 	if ( is_multisite() ) {
 		return;
 	}

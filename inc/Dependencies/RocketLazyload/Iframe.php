@@ -8,7 +8,7 @@
 namespace WP_Rocket\Dependencies\RocketLazyload;
 
 /**
- * A class to provide the methods needed to lazyload iframes in WP Rocket and Lazyload by WP Rocket
+ * A class to provide the methods needed to lazyload iframes in RapydLaunch Booster and Lazyload by RapydLaunch Booster
  */
 class Iframe {
 
